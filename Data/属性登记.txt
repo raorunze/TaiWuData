@@ -1,0 +1,12 @@
+Ability_Date 特性消耗
+ActorFeature_Date 两个突破
+Age_Date 年龄时长
+Event_Date 同道,蛐蛐事件
+GongFa_Date 沛然,两飞剑,格子
+HomePlace_Date 资源产出
+Item_Date 工作服,读书mod
+ReadBook_Date 读书难度
+ScoreBooty_Date 传承
+StoryBuff_Date 奇遇属性
+StoryShop_Date 一品商店
+StudyDisk_Date 突破难度
