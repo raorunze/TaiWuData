@@ -1,0 +1,75 @@
+功能原作者：kingdjh
+拓展开发：pjy612
+
+复制到游戏根目录，执行SlayTheSpire.bat文件即可。
+
+插件功能说明：
+1.common.btm   原功能+全局拓展功能
+在进入游戏后 开始菜单 按LCTRL+↑（左边的Ctrl和方向键上） 激活。
+原作者基础功能插件，里面好像能换奖励牌和设置获取遗物的顺序。
+除此之外基本都是新增的 囧。
+需要新增脚本接口就其基础上加了特殊几个接口给脚本用。
+
+新增功能：
+增强遗物御守 不限数量移除诅咒牌
+获取金钱加倍 数量 可以在脚本中自己改。
+金钱只加不减 默认关闭，想开启 移除 脚本 DO 下面每行开头的 # 即可。
+商店无限删卡
+商店无限遗物
+商店无限卡牌
+营火无限弃牌
+营火无限升级
+关闭作弊检测
+快速解锁每次爬塔均破纪录
+
+2.Ironclad.btm 战士 角色相关功能呢
+设置初始生命和金钱
+初始遗物追加
+给初始遗物追加特殊效果
+
+3.TheSilent.btm 猎人 角色相关功能呢
+设置初始生命和金钱
+初始遗物追加
+给初始遗物追加特殊效果
+
+4.Defect.btm 机器人 角色相关功能呢
+设置初始生命和金钱
+初始遗物追加
+给初始遗物追加特殊效果
+
+PS：所有功能都可在脚本中自行新增和修改（如果不想用 可以 在 DO 之后 每行开头加一个 # 进行注释）
+例如
+RULE 多倍金钱 5 倍
+CLASS com.megacrit.cardcrawl.characters.AbstractPlayer
+METHOD gainGold(int)
+AT ENTRY
+BIND
+#倍数设置
+mult=5;	   <----这里修改倍数
+IF true
+DO 
+#$1=$1*mult;   <----在这之前 加上 # 就会失效，想启用 就 移掉开头的 # 改成 $1=$1*mult; 即可。
+ENDRULE
+
+PS：
+btm 文件 不想加载的可以在 启动参数中移除掉。
+-javaagent:byteman.jar=script:common.btm,script:Ironclad.btm,script:TheSilent.btm,script:Defect.btm
+需要几个就加载几个。。。
+比如只需要加载基础功能和战士加强
+-javaagent:byteman.jar=script:common.btm,script:Ironclad.btm
+
+PS：
+如果想直接用原版的 SlayTheSpire.exe 程序 进行游戏 的话 可以修改 config.json 内容为
+{
+  "classPath": [
+    "desktop-1.0.jar",
+    "simple.jar"
+  ],
+  "mainClass": "com.megacrit.cardcrawl.desktop.DesktopLauncher",
+  "vmArgs": [
+    "-Xmx1G",
+    "-Dsun.java2d.dpiaware=true",
+    "-javaagent:byteman.jar=script:common.btm,script:Ironclad.btm,script:TheSilent.btm,script:Defect.btm"
+  ]
+}
+然后进行游戏。
