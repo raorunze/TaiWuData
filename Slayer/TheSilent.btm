@@ -4,7 +4,7 @@ METHOD com.megacrit.cardcrawl.screens.CharSelectInfo getLoadout()
 AT EXIT
 BIND
 #设置初始金钱
-baseGold=200;
+baseGold=100;
 #设置初始生命 默认不设置 
 baseHP=80;
 IF true
@@ -25,7 +25,11 @@ retVal = $!;
 IF true
 DO 
 #retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
-#retVal.add("卡牌名字"); #在牌组追加卡牌 注意颜色
+retVal.add("Backflip"); #在牌组追加卡牌 注意颜色
+retVal.add("Blur");
+retVal.add("Escape Plan");
+retVal.add("Adrenaline");
+retVal.add("Tools of the Trade");
 ENDRULE
 
 RULE 猎人 初始遗物追加
@@ -40,16 +44,24 @@ $!.add("Ginger");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ginger");
 $!.add("Turnip");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Turnip");
-$!.add("Unceasing Top");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Unceasing Top");
+#$!.add("Unceasing Top");
+#com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Unceasing Top");
 $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
-$!.add("Ice Cream");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ice Cream");
-$!.add("The Specimen");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("The Specimen");
-$!.add("The Courier");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("The Courier");
+#$!.add("The Specimen");
+#com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
+$!.add("Medical Kit");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Medical Kit");
+$!.add("Paper Crane");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Crane");
+$!.add("Gambling Chip");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Gambling Chip");
+$!.add("Girya");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("GiryaS");
+$!.add("FaceOfCleric");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("FaceOfCleric");
+$!.add("Singing Bowl");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
 ENDRULE
 
 

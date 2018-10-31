@@ -35,7 +35,7 @@ AT ENTRY
 IF TRUE
 DO
 #Beta开关 true:开启,false:关闭.默认开启 
-com.megacrit.cardcrawl.core.Settings.isBeta=false;
+com.megacrit.cardcrawl.core.Settings.isBeta=true;
 #总有开局奖励
 com.megacrit.cardcrawl.core.Settings.isTestingNeow=true;
 ENDRULE
@@ -68,7 +68,9 @@ actionManager=com.megacrit.cardcrawl.dungeons.AbstractDungeon.actionManager;
 player=com.megacrit.cardcrawl.dungeons.AbstractDungeon.player;
 IF true
 DO 
+#actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 #每多一行 多随机一次
+#actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 #actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 ENDRULE
 
@@ -126,7 +128,7 @@ AT ENTRY
 IF 0#true
 DO 
 #$this.gainGold($1);
-#$1=0;
+$1=0;
 ENDRULE
 
 RULE 商店无限删卡

@@ -4,7 +4,7 @@ METHOD com.megacrit.cardcrawl.screens.CharSelectInfo getLoadout()
 AT EXIT
 BIND
 #设置初始金钱
-baseGold=2000;
+baseGold=200;
 #设置初始生命 默认不设置
 baseHP=100;
 IF true
@@ -24,8 +24,14 @@ BIND
 retVal = $!;
 IF true
 DO 
-#retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
-#retVal.add("卡牌名字"); #在牌组追加卡牌 注意颜色
+retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
+retVal.add("Heatsinks"); #在牌组追加卡牌 注意颜色
+retVal.add("Buffer");
+retVal.add("Self Repair");
+retVal.add("Chrysalis");
+retVal.add("Echo Form");
+retVal.add("Metamorphosis");
+#retVal.add("EchoForm");
 ENDRULE
 
 RULE 机器人 初始遗物追加
@@ -40,14 +46,22 @@ $!.add("Ginger");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ginger");
 $!.add("Turnip");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Turnip");
-$!.add("Unceasing Top");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Unceasing Top");
+$!.add("Dodecahedron");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Dodecahedron");
 $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
-$!.add("Ice Cream");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ice Cream");
-$!.add("The Courier");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("The Courier");
+$!.add("Frozen Egg 2");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Frozen Egg 2");
+$!.add("DataDisk");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("DataDisk");
+#$!.add("Runic Capacitor");
+#com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Runic Capacitor");
+$!.add("Membership Card");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Membership Card");
+$!.add("Cables");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Cables");
+$!.add("Singing Bowl");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
 ENDRULE
 
 
@@ -61,26 +75,26 @@ player=com.megacrit.cardcrawl.dungeons.AbstractDungeon.player;
 #神话效果
 ApotheosisAction=new com.megacrit.cardcrawl.actions.unique.ApotheosisAction();
 #能量球槽 自带3个 增加 7 个 最大 10 个
-IncreaseMaxOrb_EffectCount = 7;
+IncreaseMaxOrb_EffectCount = 2;
 IncreaseMaxOrbAction=new com.megacrit.cardcrawl.actions.defect.IncreaseMaxOrbAction(IncreaseMaxOrb_EffectCount);
 #格挡 20 点
 GainBlock_EffectCount = 20;
-GainBlockAction=new com.megacrit.cardcrawl.actions.common.GainBlockAction(player, player, GainBlock_EffectCount);
+GainBlockAction=new com.megacrit.cardcrawl.actions.common.GainBlockAction(player, player, #GainBlock_EffectCount);
 #能量 5 点
-GainEnergy_EffectCount = 5;
+GainEnergy_EffectCount = 3;
 GainEnergyAction=new com.megacrit.cardcrawl.actions.common.GainEnergyAction(GainEnergy_EffectCount);
 #多重护甲效果 5 层
-PlatedArmorPower_EffectCount=5;
+PlatedArmorPower_EffectCount=10;
 PlatedArmorPower=new com.megacrit.cardcrawl.powers.PlatedArmorPower(player,PlatedArmorPower_EffectCount);
 PlatedArmorPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, PlatedArmorPower,PlatedArmorPower_EffectCount);
 #反伤效果效果 5 层
-ThornsPower_EffectCount=5;
-ThornsPower=new com.megacrit.cardcrawl.powers.ThornsPower(player,ThornsPower_EffectCount);
-ThornsPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, ThornsPower,ThornsPower_EffectCount);
+#ThornsPower_EffectCount=5;
+#ThornsPower=new com.megacrit.cardcrawl.powers.ThornsPower(player,ThornsPower_EffectCount);
+#ThornsPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, #ThornsPower,ThornsPower_EffectCount);
 #人工制品效果 10 层
-ArtifactPower_EffectCount=10;
-ArtifactPower=new com.megacrit.cardcrawl.powers.ArtifactPower(player,ArtifactPower_EffectCount);
-ArtifactPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, ArtifactPower,ArtifactPower_EffectCount);
+#ArtifactPower_EffectCount=10;
+#ArtifactPower=new com.megacrit.cardcrawl.powers.ArtifactPower(player,ArtifactPower_EffectCount);
+#ArtifactPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, #ArtifactPower,ArtifactPower_EffectCount);
 #专注效果 1 层 加多了可能没意思
 FocusPower_EffectCount=1;
 FocusPower=new com.megacrit.cardcrawl.powers.FocusPower(player,FocusPower_EffectCount);
@@ -90,7 +104,7 @@ LoopPower_EffectCount=1;
 LoopPower=new com.megacrit.cardcrawl.powers.LoopPower(player,LoopPower_EffectCount);
 LoopPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, LoopPower,LoopPower_EffectCount);
 
-IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
+IF player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
 
 DO 
 #全部怪物降低力量 5 层 默认关闭 加了没意思
@@ -99,13 +113,13 @@ DO
 abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
 abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
 #附加效果
-actionManager.addToTop(ApotheosisAction);
+#actionManager.addToTop(ApotheosisAction);
 actionManager.addToTop(IncreaseMaxOrbAction);
 actionManager.addToTop(GainBlockAction);
 actionManager.addToTop(GainEnergyAction);
 actionManager.addToBottom(PlatedArmorPower_Action);
-actionManager.addToBottom(ThornsPower_Action);
-actionManager.addToBottom(ArtifactPower_Action);
+#actionManager.addToBottom(ThornsPower_Action);
+#actionManager.addToBottom(ArtifactPower_Action);
 actionManager.addToBottom(FocusPower_Action);
 actionManager.addToBottom(LoopPower_Action);
 ENDRULE
