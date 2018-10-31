@@ -4,14 +4,14 @@ METHOD com.megacrit.cardcrawl.screens.CharSelectInfo getLoadout()
 AT EXIT
 BIND
 #设置初始金钱
-baseGold=2000;
+baseGold=200;
 #设置初始生命 默认不设置 
-baseHP=100;
+baseHP=80;
 IF true
 DO 
 $!.gold = baseGold;
 #移除下方 # 则开启 初始生命值修改
-#$!.maxHp = baseHP;
+$!.maxHp = baseHP;
 $!.currentHp = $!.maxHp;
 $!.hp = (Integer.toString($!.currentHp) + "/" + Integer.toString($!.maxHp));
 ENDRULE

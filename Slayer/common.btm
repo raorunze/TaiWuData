@@ -35,7 +35,7 @@ AT ENTRY
 IF TRUE
 DO
 #Beta开关 true:开启,false:关闭.默认开启 
-com.megacrit.cardcrawl.core.Settings.isBeta=true;
+com.megacrit.cardcrawl.core.Settings.isBeta=false;
 #总有开局奖励
 com.megacrit.cardcrawl.core.Settings.isTestingNeow=true;
 ENDRULE
@@ -46,8 +46,8 @@ METHOD create()
 AT EXIT
 IF TRUE
 DO 
-com.megacrit.cardcrawl.helpers.CardLibrary.unlockAndSeeAllCards();
-com.megacrit.cardcrawl.helpers.RelicLibrary.unlockAndSeeAllRelics();
+#com.megacrit.cardcrawl.helpers.CardLibrary.unlockAndSeeAllCards();
+#com.megacrit.cardcrawl.helpers.RelicLibrary.unlockAndSeeAllRelics();
 ENDRULE
 
 RULE 遗物 御守 加强 无限移除诅咒牌
@@ -68,9 +68,7 @@ actionManager=com.megacrit.cardcrawl.dungeons.AbstractDungeon.actionManager;
 player=com.megacrit.cardcrawl.dungeons.AbstractDungeon.player;
 IF true
 DO 
-#actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 #每多一行 多随机一次
-#actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 #actionManager.addToBottom(new com.megacrit.cardcrawl.actions.unique.MadnessAction());
 ENDRULE
 
@@ -80,7 +78,7 @@ METHOD setEnergy(int)
 AT ENTRY
 IF true
 DO 
-#com.megacrit.cardcrawl.ui.panels.EnergyPanel.addEnergy($1);
+com.megacrit.cardcrawl.ui.panels.EnergyPanel.addEnergy($1);
 return;
 ENDRULE
 
@@ -92,8 +90,8 @@ BIND
 card = $1;
 IF true
 DO 
-#link("MummifiedHand_cardType",card.type);
-#card.type=com.megacrit.cardcrawl.cards.AbstractCard$CardType.POWER;
+link("MummifiedHand_cardType",card.type);
+card.type=com.megacrit.cardcrawl.cards.AbstractCard$CardType.POWER;
 ENDRULE
 
 RULE 遗物 干瘪之手 加强 任意牌都生效2
@@ -105,8 +103,8 @@ card = $1;
 ctype:com.megacrit.cardcrawl.cards.AbstractCard$CardType = linked("MummifiedHand_cardType");
 IF true
 DO 
-#card.type=ctype;
-#unlink("MummifiedHand_cardType");
+card.type=ctype;
+unlink("MummifiedHand_cardType");
 ENDRULE
 
 RULE 多倍金钱 5 倍
@@ -115,10 +113,10 @@ METHOD gainGold(int)
 AT ENTRY
 BIND
 #倍数设置
-mult=1;
+mult=2;
 IF true
 DO 
-#$1=$1*mult;
+$1=$1*mult;
 ENDRULE
 
 RULE 金钱 只加不减
@@ -128,7 +126,7 @@ AT ENTRY
 IF 0#true
 DO 
 #$this.gainGold($1);
-$1=0;
+#$1=0;
 ENDRULE
 
 RULE 商店无限删卡
