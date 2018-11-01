@@ -4,14 +4,14 @@ METHOD com.megacrit.cardcrawl.screens.CharSelectInfo getLoadout()
 AT EXIT
 BIND
 #设置初始金钱
-baseGold=2000;
+baseGold=500;
 #设置初始生命 默认不设置
-baseHP=100;
+baseHP=90;
 IF true
 DO 
 $!.gold = baseGold;
 #移除下方 # 则开启 初始生命值修改
-#$!.maxHp = baseHP;
+$!.maxHp = baseHP;
 $!.currentHp = $!.maxHp;
 $!.hp = (Integer.toString($!.currentHp) + "/" + Integer.toString($!.maxHp));
 ENDRULE
@@ -28,14 +28,18 @@ $!.add("Ginger");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ginger");
 $!.add("Turnip");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Turnip");
-$!.add("Unceasing Top");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Unceasing Top");
 $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
-$!.add("Ice Cream");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ice Cream");
-$!.add("The Courier");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("The Courier");
+$!.add("Medical Kit");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Medical Kit");
+$!.add("Dodecahedron");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Dodecahedron");
+$!.add("Singing Bowl");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
+$!.add("Paper Frog");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Frog");
+$!.add("Calipers");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Calipers");
 ENDRULE
 
 RULE 战士 初始 牌库调整
@@ -47,7 +51,12 @@ retVal = $!;
 IF true
 DO 
 #retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
-#retVal.add("卡牌名字"); #在牌组追加卡牌 注意颜色
+retVal.add("Metallicize");
+retVal.add("Shrug It Off");
+retVal.add("Seeing Red");
+retVal.add("Pommel Strike");
+retVal.add("Warcry");
+#retVal.add("卡牌名字");
 ENDRULE
 
 RULE 战士 加强 开局时

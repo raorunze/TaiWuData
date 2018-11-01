@@ -35,7 +35,7 @@ AT ENTRY
 IF TRUE
 DO
 #Beta开关 true:开启,false:关闭.默认开启 
-com.megacrit.cardcrawl.core.Settings.isBeta=true;
+com.megacrit.cardcrawl.core.Settings.isBeta=false;
 #总有开局奖励
 com.megacrit.cardcrawl.core.Settings.isTestingNeow=true;
 ENDRULE
@@ -118,7 +118,7 @@ BIND
 mult=2;
 IF true
 DO 
-$1=$1*mult;
+#$1=$1*mult;
 ENDRULE
 
 RULE 金钱 只加不减

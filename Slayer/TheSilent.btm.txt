@@ -1,5 +1,0 @@
-#添加遗物
-$!.add("FaceOfCleric");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("FaceOfCleric");
-$!.add("Singing Bowl");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");

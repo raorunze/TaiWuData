@@ -4,7 +4,7 @@ METHOD com.megacrit.cardcrawl.screens.CharSelectInfo getLoadout()
 AT EXIT
 BIND
 #设置初始金钱
-baseGold=100;
+baseGold=500;
 #设置初始生命 默认不设置 
 baseHP=80;
 IF true
@@ -44,22 +44,16 @@ $!.add("Ginger");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Ginger");
 $!.add("Turnip");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Turnip");
-#$!.add("Unceasing Top");
-#com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Unceasing Top");
 $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
-#$!.add("The Specimen");
-#com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
 $!.add("Medical Kit");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Medical Kit");
 $!.add("Paper Crane");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Crane");
 $!.add("Gambling Chip");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Gambling Chip");
-$!.add("Girya");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("GiryaS");
-$!.add("FaceOfCleric");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("FaceOfCleric");
+$!.add("Dodecahedron");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Dodecahedron");
 $!.add("Singing Bowl");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
 ENDRULE
