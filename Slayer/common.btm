@@ -115,10 +115,10 @@ METHOD gainGold(int)
 AT ENTRY
 BIND
 #倍数设置
-mult=2;
+mult=1.5;
 IF true
 DO 
-#$1=$1*mult;
+$1=$1*mult;
 ENDRULE
 
 RULE 金钱 只加不减
@@ -158,7 +158,7 @@ AT EXIT
 BIND 
 coloredCards = new java.util.ArrayList();
 colorlessCards = new java.util.ArrayList();
-IF $this.coloredCards.isEmpty() && $this.colorlessCards.isEmpty()
+IF $this.coloredCards.isEmpty() || $this.colorlessCards.isEmpty()
 DO 
 $this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.ATTACK, true).makeCopy());
 $this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.ATTACK, true).makeCopy());
