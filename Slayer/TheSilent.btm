@@ -38,6 +38,10 @@ METHOD getStartingRelics()
 AT EXIT
 IF true
 DO 
+$!.add("Paper Crane");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Crane");
+$!.add("Gambling Chip");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Gambling Chip");
 $!.add("Peace Pipe");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Peace Pipe");
 $!.add("Ginger");
@@ -48,10 +52,6 @@ $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
 $!.add("Medical Kit");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Medical Kit");
-$!.add("Paper Crane");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Crane");
-$!.add("Gambling Chip");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Gambling Chip");
 $!.add("Dodecahedron");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Dodecahedron");
 $!.add("Singing Bowl");

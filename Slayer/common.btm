@@ -115,7 +115,7 @@ METHOD gainGold(int)
 AT ENTRY
 BIND
 #倍数设置
-mult=1.5;
+mult=2;
 IF true
 DO 
 $1=$1*mult;
@@ -160,11 +160,6 @@ coloredCards = new java.util.ArrayList();
 colorlessCards = new java.util.ArrayList();
 IF $this.coloredCards.isEmpty() || $this.colorlessCards.isEmpty()
 DO 
-$this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.ATTACK, true).makeCopy());
-$this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.ATTACK, true).makeCopy());
-$this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.SKILL, true).makeCopy());
-$this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.SKILL, true).makeCopy());
-$this.coloredCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getCardFromPool(com.megacrit.cardcrawl.dungeons.AbstractDungeon.rollRarity(), com.megacrit.cardcrawl.cards.AbstractCard$CardType.POWER, true).makeCopy());
 $this.colorlessCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getColorlessCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard$CardRarity.UNCOMMON).makeCopy());
 $this.colorlessCards.add(com.megacrit.cardcrawl.dungeons.AbstractDungeon.getColorlessCardFromPool(com.megacrit.cardcrawl.cards.AbstractCard$CardRarity.RARE).makeCopy());
 $this.initCards();
@@ -286,7 +281,7 @@ METHOD <init>(com.megacrit.cardcrawl.monsters.MonsterGroup)
 AFTER WRITE isVictory ALL
 IF $this.isVictory==false
 DO 
-$this.isVictory=true;
+#$this.isVictory=true;
 ENDRULE
 
 RULE 总是升级
@@ -295,7 +290,7 @@ METHOD calculateUnlockProgress()
 AFTER WRITE score ALL
 IF 0#$this.score < 10000
 DO 
-$this.score=10000;
+#$this.score=10000;
 ENDRULE
 
 RULE 移除多余的头环

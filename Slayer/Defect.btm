@@ -39,6 +39,10 @@ METHOD getStartingRelics()
 AT EXIT
 IF true
 DO 
+$!.add("Symbiotic Virus");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Symbiotic Virus");
+$!.add("Chemical X");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Chemical X");
 $!.add("Peace Pipe");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Peace Pipe");
 $!.add("Ginger");
@@ -51,10 +55,6 @@ $!.add("Medical Kit");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Medical Kit");
 $!.add("Omamori");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Omamori");
-$!.add("FossilizedHelix");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Thread and Needle");
-$!.add("Chemical X");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Chemical X");
 $!.add("Singing Bowl");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
 ENDRULE

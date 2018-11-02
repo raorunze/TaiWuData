@@ -22,6 +22,10 @@ METHOD getStartingRelics()
 AT EXIT
 IF true
 DO 
+$!.add("Paper Frog");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Frog");
+$!.add("Magic Flower");
+com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Calipers");
 $!.add("Peace Pipe");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Peace Pipe");
 $!.add("Ginger");
@@ -36,10 +40,6 @@ $!.add("Dodecahedron");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Dodecahedron");
 $!.add("Singing Bowl");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Singing Bowl");
-$!.add("Paper Frog");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Frog");
-$!.add("Calipers");
-com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Calipers");
 ENDRULE
 
 RULE 战士 初始 牌库调整
