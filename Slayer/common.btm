@@ -35,7 +35,7 @@ AT ENTRY
 IF TRUE
 DO
 #Beta开关 true:开启,false:关闭.默认开启 
-com.megacrit.cardcrawl.core.Settings.isBeta=false;
+com.megacrit.cardcrawl.core.Settings.isBeta=true;
 #总有开局奖励
 com.megacrit.cardcrawl.core.Settings.isTestingNeow=true;
 ENDRULE
@@ -115,7 +115,7 @@ METHOD gainGold(int)
 AT ENTRY
 BIND
 #倍数设置
-mult=2;
+mult=1;
 IF true
 DO 
 $1=$1*mult;

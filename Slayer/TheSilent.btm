@@ -69,7 +69,7 @@ player=com.megacrit.cardcrawl.dungeons.AbstractDungeon.player;
 #神话效果
 ApotheosisAction=new com.megacrit.cardcrawl.actions.unique.ApotheosisAction();
 #格挡 20 点
-GainBlock_EffectCount = 20;
+GainBlock_EffectCount = 15;
 GainBlockAction=new com.megacrit.cardcrawl.actions.common.GainBlockAction(player, player, GainBlock_EffectCount);
 #能量 5 点
 GainEnergy_EffectCount = 5;
@@ -93,15 +93,15 @@ DO
 #全部怪物降低力量 5 层
 #abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(5);
 #全部怪物DeBuff 5 层
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
 #附加效果
-actionManager.addToTop(ApotheosisAction);
+#actionManager.addToTop(ApotheosisAction);
 actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
-actionManager.addToBottom(PlatedArmorPower_Action);
+#actionManager.addToTop(GainEnergyAction);
+#actionManager.addToBottom(PlatedArmorPower_Action);
 actionManager.addToBottom(ThornsPower_Action);
-actionManager.addToBottom(ArtifactPower_Action);
+#actionManager.addToBottom(ArtifactPower_Action);
 ENDRULE
 
 RULE 猎人 加强 每回合结束后
@@ -129,12 +129,12 @@ ThornsPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(pl
 IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.THE_SILENT
 
 DO 
-abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
 #移除下方 # 则开启 每回合格挡值修改
-#actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
-actionManager.addToBottom(PlatedArmorPower_Action);
+actionManager.addToTop(GainBlockAction);
+#actionManager.addToTop(GainEnergyAction);
+#actionManager.addToBottom(PlatedArmorPower_Action);
 actionManager.addToBottom(ThornsPower_Action);
 ENDRULE

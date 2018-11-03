@@ -24,7 +24,7 @@ IF true
 DO 
 $!.add("Paper Frog");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Paper Frog");
-$!.add("Magic Flower");
+$!.add("Calipers");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Calipers");
 $!.add("Peace Pipe");
 com.megacrit.cardcrawl.unlock.UnlockTracker.markRelicAsSeen("Peace Pipe");
@@ -51,8 +51,8 @@ retVal = $!;
 IF true
 DO 
 #retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
-retVal.add("Metallicize");
-retVal.add("Shrug It Off");
+retVal.add("Inflame");
+retVal.add("Power Through");
 retVal.add("Seeing Red");
 retVal.add("Pommel Strike");
 retVal.add("Warcry");
@@ -78,7 +78,7 @@ GainEnergyAction=new com.megacrit.cardcrawl.actions.common.GainEnergyAction(Gain
 BarricadePower=new com.megacrit.cardcrawl.powers.BarricadePower(player);
 BarricadePower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, BarricadePower);
 #恶魔力量效果 2 层
-DemonFormPower_EffectCount=2;
+DemonFormPower_EffectCount=3;
 DemonFormPower=new com.megacrit.cardcrawl.powers.DemonFormPower(player,DemonFormPower_EffectCount);
 DemonFormPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, DemonFormPower,DemonFormPower_EffectCount);
 #多重护甲效果 5 层
@@ -94,23 +94,23 @@ ArtifactPower_EffectCount=10;
 ArtifactPower=new com.megacrit.cardcrawl.powers.ArtifactPower(player,ArtifactPower_EffectCount);
 ArtifactPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, ArtifactPower,ArtifactPower_EffectCount);
 
-IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.IRONCLAD
+IF player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.IRONCLAD
 
 DO 
 #全部怪物降低力量 5 层 默认关闭 自行移除 下方 # 开启
 #abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(5);
 #全部怪物DeBuff 5 层
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
-#附加效果
-actionManager.addToTop(ApotheosisAction);
-actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
+#附加效果 只开多层和恶魔
+#actionManager.addToTop(ApotheosisAction);
+#actionManager.addToTop(GainBlockAction);
+#actionManager.addToTop(GainEnergyAction);
 actionManager.addToBottom(DemonFormPower_Action);
-actionManager.addToBottom(BarricadePower_Action);
+#actionManager.addToBottom(BarricadePower_Action);
 actionManager.addToBottom(PlatedArmorPower_Action);
-actionManager.addToBottom(ThornsPower_Action);
-actionManager.addToBottom(ArtifactPower_Action);
+#actionManager.addToBottom(ThornsPower_Action);
+#actionManager.addToBottom(ArtifactPower_Action);
 ENDRULE
 
 RULE 战士 加强 每回合结束后
@@ -135,15 +135,15 @@ ThornsPower_EffectCount=1;
 ThornsPower=new com.megacrit.cardcrawl.powers.ThornsPower(player,ThornsPower_EffectCount);
 ThornsPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, ThornsPower,ThornsPower_EffectCount);
 
-IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.IRONCLAD
+IF player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.IRONCLAD
 
 DO 
-abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
 #移除下方 # 则开启 每回合格挡值修改
 #actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
+#actionManager.addToTop(GainEnergyAction);
 actionManager.addToBottom(PlatedArmorPower_Action);
-actionManager.addToBottom(ThornsPower_Action);
+#actionManager.addToBottom(ThornsPower_Action);
 ENDRULE

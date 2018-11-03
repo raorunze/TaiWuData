@@ -25,11 +25,11 @@ retVal = $!;
 IF true
 DO 
 #retVal.clear(); #清空原始牌组 （可以不清空，直接追加额外卡牌）
-retVal.add("Skim");
-retVal.add("Double Energy");
+retVal.add("Overclock");
+retVal.add("Turbo");
 retVal.add("Reinforced Body");
 retVal.add("Machine Learning");
-retVal.add("Sunder");
+retVal.add("Glacier");
 #retVal.add("EchoForm");
 ENDRULE
 
@@ -99,22 +99,22 @@ LoopPower_EffectCount=1;
 LoopPower=new com.megacrit.cardcrawl.powers.LoopPower(player,LoopPower_EffectCount);
 LoopPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, LoopPower,LoopPower_EffectCount);
 
-IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
+IF player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
 
 DO 
 #全部怪物降低力量 5 层 默认关闭 加了没意思
 #abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(5);
 #全部怪物DeBuff 5 层
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(5);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(5);
 #附加效果
-actionManager.addToTop(ApotheosisAction);
+#actionManager.addToTop(ApotheosisAction);
 actionManager.addToTop(IncreaseMaxOrbAction);
-actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
+#actionManager.addToTop(GainBlockAction);
+#actionManager.addToTop(GainEnergyAction);
 actionManager.addToBottom(PlatedArmorPower_Action);
-actionManager.addToBottom(ThornsPower_Action);
-actionManager.addToBottom(ArtifactPower_Action);
+#actionManager.addToBottom(ThornsPower_Action);
+#actionManager.addToBottom(ArtifactPower_Action);
 actionManager.addToBottom(FocusPower_Action);
 actionManager.addToBottom(LoopPower_Action);
 ENDRULE
@@ -141,17 +141,17 @@ LoopPower_EffectCount=1;
 LoopPower=new com.megacrit.cardcrawl.powers.LoopPower(player,LoopPower_EffectCount);
 LoopPower_Action=new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(player, player, LoopPower,LoopPower_EffectCount);
 
-IF 0#player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
+IF player.chosenClass==com.megacrit.cardcrawl.characters.AbstractPlayer$PlayerClass.DEFECT
 
 DO 
 #全部怪物降低力量 1 层
-abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
+#abc.def.SimpleHelper.SetAllMonsterStrengthDebuff(1);
 #全部怪物DeBuff 2 层
-abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
-abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterVulnerableDebuff(2);
+#abc.def.SimpleHelper.SetAllMonsterWeakDebuff(2);
 #移除下方 # 则开启 每回合格挡值修改
 #actionManager.addToTop(GainBlockAction);
-actionManager.addToTop(GainEnergyAction);
+#actionManager.addToTop(GainEnergyAction);
 actionManager.addToTop(FocusPower_Action);
 #循环效果 默认关闭 移除 # 开启
 #actionManager.addToTop(LoopPower_Action);
