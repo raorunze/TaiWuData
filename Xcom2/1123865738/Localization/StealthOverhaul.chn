@@ -1,0 +1,4 @@
+[Musashi_SuspicionLevelUI]
+m_strSuspicionLevelLabel="警戒等级"
+m_strDetectionModifierLabel="侦查系数"
+m_strBreakSuspicionChanceLabel="暴露几率"

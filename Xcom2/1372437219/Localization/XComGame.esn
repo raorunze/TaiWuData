@@ -1,0 +1,76 @@
+; Spanish translation by Chu Nana Go
+
+; ###### Techs ######
+
+; ### Grenades and Rounds ###
+[IncendiaryBlast X2TechTemplate]
+DisplayName="Explosión infernal"
+Summary="Con el número de \"Perdidos\" aumentando en el campo de batalla, se ha vuelto imperativo que desarrollemos equipos capaces de neutralizarlos. Tygan propuso que basemos nuestros diseños en las armas de fuego utilizadas por los purificadores de ADVENT."
+
+[ToxicDelivery X2TechTemplate]
+DisplayName="Entrega tóxica"
+Summary="Con nuestra nueva comprensión de la anatomía de la \"Víbora\", podemos sintetizar la toxina mortal que tiene para usarla en nuestro armamento. Podría hacer que nuestras municiones sean especialmente efectivas contra unidades orgánicas."
+
+[CorrosiveTouch X2TechTemplate]
+DisplayName="Toque corrosivo"
+Summary="Al incorporar la sustancia corrosiva que tienen los trajes de \"Andromedón\" en nuestras propias armas, podemos crear municiones efectivas para destruir blindaje enemigo, ya sea biológico o mecánico."
+
+; ### Rounds ###
+[APRounds X2TechTemplate]
+DisplayName="Munición perforante"
+Summary="Elaborada a mano a partir de aleaciones alienígenas ultraligeras y ultrafuertes, esta letal munición atraviesa todo el blindaje enemigo para infligir graves daños."
+
+[TalonRounds X2TechTemplate]
+DisplayName="Munición Garra"
+Summary="Estas balas se fracturan en endiablados microfragmentos de aleación alienígena al impactar, concediendo mayor probabilidad de crítico y más daño en los impactos críticos."
+
+[TracerRounds X2TechTemplate]
+DisplayName="Balas trazadoras"
+Summary="Son \"balas inteligentes\" que transmiten datos de seguimiento detallados al tirador cuando las dispara. Esta munición especializada aumenta la puntería del tirador que la equipa."
+
+; ### Heavy Weapons ###
+[Flamethrower X2TechTemplate]
+DisplayName="Lanzallamas"
+Summary="Este lanzallamas montado en la muñeca funciona con un bote de combustible superpresurizado y una boquilla muy concentrada para desatar un mortífero cono de fuego sobre múltiples enemigos."
+
+[ShredderGun X2TechTemplate]
+DisplayName="Arma trituradora"
+Summary="Este lanzaproyectiles montado en la muñeca esparce un cono de partículas afiladas que dañan a múltiples enemigos y trituran su blindaje."
+
+; ### Powered Weapons ###
+[BlasterLauncher X2TechTemplate]
+DisplayName="Lanzador bláster"
+Summary="Este lanzador de proyectiles explosivos de alta potencia asistido por IA puede guiar su proyectil explosivo alrededor de los obstáculos para asegurar el máximo impacto en el objetivo."
+
+[HellfireProjector X2TechTemplate]
+DisplayName="Proyector de fuego infernal"
+Summary="Este lanzallamas mejorado inflige un daño masivo en un pequeño cono, dañando entorno y objetivos enemigos por igual."
+
+[PlasmaBlaster X2TechTemplate]
+DisplayName="Bláster de plasma"
+Summary="Utilizando tecnología adaptada del propio armamento de plasma de los alienígenas, hemos diseñado un medio de liberar un pulso enorme y concentrado de energía de plasma que devasta a todos los objetivos que encuentre en la trayectoria fijada."
+
+[ShredstormCannon X2TechTemplate]
+DisplayName="Cañón de tormenta trituradora"
+Summary="El cañón de tormenta trituradora, una variante más agresiva del arma trituradora, dispara un cono de partículas afiladas que destrozan objetivos a corta distancia."
+
+; ### Vests ###
+[HazmatVest X2TechTemplate]
+DisplayName="Chaleco ambiental"
+Summary="Al reforzar el chaleco de nanoescamas con materiales especializados, los soldados ganan una mejora adicional de salud y se vuelven totalmente resistentes a los peligros del entorno como el fuego, el ácido o el veneno."
+
+[Hellweave X2TechTemplate]
+DisplayName="Tejido infernal"
+Summary="El tejido infernal no solo concede una bonificación a la salud del soldado, sino que devuelve el daño a los enemigos que atacan cuerpo a cuerpo y puede prenderles fuego."
+
+[PlatedVest X2TechTemplate]
+DisplayName="Chaleco de placas"
+Summary="Shen ha dotado de placas blindadas al tradicional chaleco de nanoescamas, lo cual aumenta más la salud y confiere protección adicional de blindaje contra los ataques enemigos."
+
+[StasisVest X2TechTemplate]
+DisplayName="Chaleco de estasis"
+Summary="Este chaleco de nanoescamas mejorado da salud adicional a un soldado, y su botiquín integrado restaurará automáticamente la salud de los soldados heridos."
+
+; ###### Vanilla Override ######
+[Firebomb X2GrenadeTemplate]
+BriefSummary="La granada incendiaria es una mejora técnica para las armas de fuego usadas por los purificadores de ADVENT. Tras el estallido inicial, prende fuego a la mayoría de objetivos, que sufrirán un daño persistente por quemaduras."

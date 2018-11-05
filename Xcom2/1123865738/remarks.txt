@@ -1,0 +1,46 @@
+MaterialInstanceTimeVarying'FX_Mimic_Beacon_Hologram.M_Mimic_Activate_MITV'
+MaterialInstanceTimeVarying'FX_Mimic_Beacon_Hologram.M_Mimic_Deactivate_MITV'
+ParticleSystem'FX_Mimic_Beacon_Hologram.P_Mimic_Persistent'
+
+ShownUnitPawn.CleanUpMITV();
+
+
+MaterialInstanceTimeVarying'FX_Wraith_Armor.M_Wraith_Armor_Overlay_On_MITV'
+Material'FX_Wraith_Armor.M_Wraith_Armor_Overlay'
+
+
+MITV = MaterialInstanceTimeVarying(DynamicLoadObject("FX_Wraith_Armor.M_Wraith_Armor_Overlay_On_MITV", class'MaterialInstanceTimeVarying'));
+UnitState = XComGameState_Unit(History.GetGameStateForObjectID(InteractingUnitRef.ObjectID));
+UnitActor = XGUnit(UnitState.GetVisualizer());
+UnitPawn = UnitActor.GetPawn();
+UnitPawn.ApplyMITV(MITV);
+
+-----------------------------------------
+
+	local XComGameStateHistory			History;
+	local XComGameStateContext_Ability	Context;
+	local StateObjectReference			InteractingUnitRef;
+	local XComGameState_Unit			UnitState;
+	local XGUnit						UnitActor;
+	local XComUnitPawn					UnitPawn;
+	local MaterialInstanceTimeVarying	MITV;
+	local XComWeapon					SecondaryWeapon;
+	local SkeletalMeshComponent SkelMesh;
+
+	History = `XCOMHISTORY;
+
+	Context = XComGameStateContext_Ability(VisualizeGameState.GetContext());
+	InteractingUnitRef = Context.InputContext.SourceObject;
+
+	MITV = MaterialInstanceTimeVarying(DynamicLoadObject("FX_Wraith_Armor.M_Wraith_Armor_Overlay_On_MITV", class'MaterialInstanceTimeVarying'));
+
+	UnitState = XComGameState_Unit(History.GetGameStateForObjectID(InteractingUnitRef.ObjectID));
+
+	UnitActor = XGUnit(UnitState.GetVisualizer());
+	UnitPawn = UnitActor.GetPawn();
+	//UnitPawn.ApplyMITV(MITV);
+	SecondaryWeapon = XComWeapon(UnitActor.GetInventory().m_kSecondaryWeapon.m_kEntity);
+	if (SecondaryWeapon != none) {
+		SkelMesh = SkeletalMeshComponent(SecondaryWeapon.Mesh);
+		UnitPawn.ApplyMITVToSkeletalMeshComponent(SkelMesh, MITV);
+	}

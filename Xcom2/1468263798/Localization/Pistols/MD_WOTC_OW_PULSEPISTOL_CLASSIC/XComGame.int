@@ -1,0 +1,35 @@
+;===============================================================================================
+;=                                     PULSE PISTOL                                            =
+;===============================================================================================
+[MD_WOTC_OW_PULSEPISTOL_CLASSIC_T2 X2WeaponTemplate]
+FriendlyName="OW/AM P-114 Pulse Pistol"
+AbilityDescName="pulse pistol"
+BriefSummary="Documents indicate this weapon, the P-114, was engineered for a paramilitary group known as 'Overwatch.' What Overwatch was, their objectives, and capabilities are as of yet unknown. This 'Pulse Pistol' design appears to use a microfusion breeder cell along with a series of chemical substances that heretofore have been entirely theoretical. The end result is a powerful, accurate sidearm capable of long term use during combat operations. This particular model appears to have been customized for use by an Overwatch operative and has several useful improvements, as such it will be our standard production model."
+TacticalText="<Bullet/>Type: Machine Pistol\n<Bullet/>Firing Profile: Full-Auto\n<Bullet/>Action: Sidewinder Fusion Oscillator\n<Bullet/>Cartridge: 720Mhz Microfusion Breeder Cell\n<Bullet/>Origin: European Union\n<Bullet/>Tier: Magnetic"
+
+[MD_WOTC_OW_PULSEPISTOL_CLASSIC_T3 X2WeaponTemplate]
+FriendlyName="OW/AM P-115 MCP Pulse Blaster"
+AbilityDescName="pulse pistol"
+BriefSummary="Documents indicate this weapon, the P-114 'Cadet', was engineered for a paramilitary group known as 'Overwatch.' What Overwatch was, their objectives, and capabilities are as of yet unknown. This 'Pulse Pistol' design appears to use a microfusion breeder cell along with a series of chemical substances that heretofore have been entirely theoretical. The end result is a powerful, accurate sidearm capable of long term use during combat operations.\nThe P-115 MCP uses a modified microfusion breeder cell battery to fire more powerful shots while draining less energy from the battery."
+TacticalText="<Bullet/>Type: Machine Pistol\n<Bullet/>Firing Profile: Full-Auto\n<Bullet/>Action: Sidewinder Fusion Oscillator\n<Bullet/>Cartridge: 810Mhz Microfusion Breeder Cell\n<Bullet/>Origin: European Union\n<Bullet/>Tier: Beam"
+
+[MD_WOTC_OW_PULSEPISTOL_CLASSIC_T4 X2WeaponTemplate]
+FriendlyName="OW/AM P-115 XMCP Pulse Blaster"
+AbilityDescName="pulse pistol"
+BriefSummary="Documents indicate this weapon, the P-114 'Cadet', was engineered for a paramilitary group known as 'Overwatch.' What Overwatch was, their objectives, and capabilities are as of yet unknown. This 'Pulse Pistol' design appears to use a microfusion breeder cell along with a series of chemical substances that heretofore have been entirely theoretical. The end result is a powerful, accurate sidearm capable of long term use during combat operations.\nThe XMCP uses an experimental microfusion breeder cell that produces more power. This breeder cell's energy causes projectiles emitted from this weapon to hit much harder than any beam weapon."
+TacticalText="<Bullet/>Type: Machine Pistol\n<Bullet/>Firing Profile: Full-Auto\n<Bullet/>Action: Sidewinder Fusion Oscillator\n<Bullet/>Cartridge: 900Mhz Microfusion Breeder Cell\n<Bullet/>Origin: European Union\n<Bullet/>Tier: Forged"
+
+;===============================================================================================
+;=                                     War of the Chosen                                       =
+;===============================================================================================
+[MD_WOTC_TMP_OW_PULSEPISTOL_CLASSIC_T2 X2WeaponTemplate]
+FriendlyName="OW/AM P-114 Pulse Pistol"
+AbilityDescName="pulse pistol"
+BriefSummary="Documents indicate this weapon, the P-114, was engineered for a paramilitary group known as 'Overwatch.' What Overwatch was, their objectives, and capabilities are as of yet unknown. This 'Pulse Pistol' design appears to use a microfusion breeder cell along with a series of chemical substances that heretofore have been entirely theoretical. The end result is a powerful, accurate sidearm capable of long term use during combat operations. This particular model appears to have been customized for use by an Overwatch operative and has several useful improvements, as such it will be our standard production model."
+TacticalText="<Bullet/>Type: Machine Pistol\n<Bullet/>Firing Profile: Full-Auto\n<Bullet/>Action: Sidewinder Fusion Oscillator\n<Bullet/>Cartridge: 720Mhz Microfusion Breeder Cell\n<Bullet/>Origin: European Union\n<Bullet/>Tier: Magnetic"
+
+[MD_WOTC_TMP_OW_PULSEPISTOL_CLASSIC_T3 X2WeaponTemplate]
+FriendlyName="OW/AM P-115 MCP Pulse Blaster"
+AbilityDescName="pulse pistol"
+BriefSummary="Documents indicate this weapon, the P-114 'Cadet', was engineered for a paramilitary group known as 'Overwatch.' What Overwatch was, their objectives, and capabilities are as of yet unknown. This 'Pulse Pistol' design appears to use a microfusion breeder cell along with a series of chemical substances that heretofore have been entirely theoretical. The end result is a powerful, accurate sidearm capable of long term use during combat operations.\nThe P-115 MCP uses a modified microfusion breeder cell battery to fire more powerful shots while draining less energy from the battery."
+TacticalText="<Bullet/>Type: Machine Pistol\n<Bullet/>Firing Profile: Full-Auto\n<Bullet/>Action: Sidewinder Fusion Oscillator\n<Bullet/>Cartridge: 810Mhz Microfusion Breeder Cell\n<Bullet/>Origin: European Union\n<Bullet/>Tier: Beam"

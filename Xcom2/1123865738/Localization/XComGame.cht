@@ -1,0 +1,131 @@
+; wakizishi本來是指脇差，但是因為XCOM2遊戲內部無法顯示「脇」，故改稱小太刀。
+
+[Katana_CV X2WeaponTemplate]
+FriendlyName="武士刀"
+FriendlyNamePlural="武士刀"
+BriefSummary="武士刀"
+TacticalText="<Bullet/> 這種源自於東方的刀較其他刀劍輕，雖然能夠穿過護甲但是傷害較低。\n穿透護甲3，粉碎護甲0"
+AbilityDescName="武士刀"
+
+[Katana_MG X2WeaponTemplate]
+FriendlyName="電熱武士刀"
+FriendlyNamePlural="電熱武士刀"
+BriefSummary="電熱武士刀"
+TacticalText="<Bullet/> 這把實驗性刀劍的刀鋒附加了電能高熱，足以對抗那些更強大的外星人。\n穿透護甲4，粉碎護甲1"
+AbilityDescName="電熱武士刀"
+
+[Katana_BM X2WeaponTemplate]
+FriendlyName="電漿武士刀"
+FriendlyNamePlural="電漿武士刀"
+BriefSummary="電漿武士刀"
+TacticalText="<Bullet/> 經過無數的試驗，這把終極的能量武器能夠像切奶油一樣切開外星人的裝甲。\n穿透護甲5，粉碎護甲2"
+AbilityDescName="電漿武士刀"
+
+[Wakizashi_CV X2WeaponTemplate]
+FriendlyName="小太刀"
+FriendlyNamePlural="小太刀"
+BriefSummary="小太刀"
+TacticalText="<Bullet/> 這種小型的武士刀雖失去原本命中要害的能力，卻有著更好的機動性。"
+AbilityDescName="小太刀"
+
+[Wakizashi_MG X2WeaponTemplate]
+FriendlyName="電熱小太刀"
+FriendlyNamePlural="電熱小太刀"
+BriefSummary="電熱小太刀"
+TacticalText="<Bullet/> 這種輕量化的電熱武士刀犧牲破壞力來換取更高的機動性。\n穿透護甲1，粉碎護甲1"
+AbilityDescName="電熱小太刀"
+
+[Wakizashi_BM X2WeaponTemplate]
+FriendlyName="電漿小太刀"
+FriendlyNamePlural="電漿小太刀"
+BriefSummary="電漿小太刀"
+TacticalText="<Bullet/> 這把終極的小型電漿武士刀，有著極高的機動性與不錯的破壞力。\n穿透護甲2，粉碎護甲2"
+AbilityDescName="電漿小太刀"
+
+[Ninjato_CV X2WeaponTemplate]
+FriendlyName="忍刀"
+FriendlyNamePlural="忍刀"
+BriefSummary="忍刀"
+TacticalText="<Bullet/>忍刀是為了方便古代忍者攜帶的直刃小型刀劍，能夠從暗處偷襲敵人。\n穿透護甲1"
+AbilityDescName="忍刀"
+
+[Ninjato_MG X2WeaponTemplate]
+FriendlyName="劇毒忍刀"
+FriendlyNamePlural="劇毒忍刀"
+BriefSummary="劇毒忍刀"
+TacticalText="<Bullet/>這種武器在握把內充滿著合成蛇毒，當砍中目標時毒液會隨著刀上的溝槽流入敵人體內。\n穿透護甲2"
+AbilityDescName="劇毒忍刀"
+
+[Ninjato_BM X2WeaponTemplate]
+FriendlyName="末日忍刀"
+FriendlyNamePlural="末日忍刀"
+BriefSummary="末日忍刀"
+TacticalText="<Bullet/>末日忍刀是為了讓敵人從心底感到絕望而設計的，能在刀刃劃過肉體的時候將精神物質注入敵人體內並讓他們陷入無比的恐懼。\n穿透護甲3"
+AbilityDescName="末日忍刀"
+
+[VortexNinjato_BM X2WeaponTemplate]
+FriendlyName="風暴忍刀"
+FriendlyNamePlural="風暴忍刀"
+BriefSummary="風暴忍刀"
+TacticalText="在研究過原典腦後，我們以末日忍刀為基礎設計了能夠讓使用者瞬間移動的最強武器。\n穿透護甲3"
+AbilityDescName="風暴忍刀"
+
+[VortexKatana_BM X2WeaponTemplate]
+FriendlyName="風暴武士刀"
+FriendlyNamePlural="風暴武士刀"
+BriefSummary="風暴武士刀"
+TacticalText="在研究過原典腦後，我們以電漿武士刀為基礎設計了能夠讓使用者瞬間移動的最強武器。\n穿透護甲5，粉碎護甲2"
+AbilityDescName="風暴武士刀"
+
+[VortexWakizashi_BM X2WeaponTemplate]
+FriendlyName="風暴小太刀"
+FriendlyNamePlural="風暴小太刀"
+BriefSummary="風暴小太刀"
+TacticalText="在研究過原典腦後，我們以電漿小太刀為基礎設計了能夠讓使用者瞬間移動的最強武器。\n穿透護甲2，粉碎護甲2"
+AbilityDescName="風暴小太刀"
+
+[MusashiLightningStrikeT1 X2AbilityTemplate]
+LocFriendlyName="電光一閃"
+LocLongDescription="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocHelpText="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocPromotionPopupText="<Bullet/>使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。<br/>"
+
+[MusashiLightningStrikeT2 X2AbilityTemplate]
+LocFriendlyName="電光一閃"
+LocLongDescription="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocHelpText="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocPromotionPopupText="<Bullet/>使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。<br/>"
+
+[MusashiLightningStrikeT3 X2AbilityTemplate]
+LocFriendlyName="電光一閃"
+LocLongDescription="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocHelpText="使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。"
+LocPromotionPopupText="<Bullet/>使用 <Ability:SecondaryWeaponName/> 對藍色移動距離內的敵人進行一次斬擊，本行動不消耗行動點數。<br/>"
+
+[MusashiNinjatoSilentTakedownT1 X2AbilityTemplate]
+LocFriendlyName="暗殺"
+LocLongDescription="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外20暴擊機率與3暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+LocHelpText="<Bullet/>一回合內的移動並不會被偵測到（含我方與敵方回合）。\n<Bullet\>近戰擊殺將不會破除隱身。\n<Bullet\>獲得額外20暴擊機率與3暴擊傷害（僅限近戰）。\n<Bullet\>僅能在隱身狀態下啟動。\n<Bullet\><Ability:SelfCooldown> 回合冷卻。"
+LocFlyOverText="暗殺" 
+LocPromotionPopupText="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外20暴擊機率與3暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+
+[MusashiNinjatoSilentTakedownT2 X2AbilityTemplate]
+LocFriendlyName="暗殺"
+LocLongDescription="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外30暴擊機率與4暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+LocHelpText="<Bullet/>一回合內的移動並不會被偵測到（含我方與敵方回合）。\n<Bullet\>近戰擊殺將不會破除隱身。\n<Bullet\>獲得額外30暴擊機率與4暴擊傷害（僅限近戰）。\n<Bullet\>僅能在隱身狀態下啟動。\n<Bullet\><Ability:SelfCooldown> 回合冷卻。"
+LocFlyOverText="暗殺" 
+LocPromotionPopupText="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外30暴擊機率與4暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+
+[MusashiNinjatoSilentTakedownT3 X2AbilityTemplate]
+LocFriendlyName="暗殺"
+LocLongDescription="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外40暴擊機率與5暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+LocHelpText="<Bullet/>一回合內的移動並不會被偵測到（含我方與敵方回合）。\n<Bullet\>近戰擊殺將不會破除隱身。\n<Bullet\>獲得額外40暴擊機率與5暴擊傷害（僅限近戰）。\n<Bullet\>僅能在隱身狀態下啟動。\n<Bullet\><Ability:SelfCooldown> 回合冷卻。"
+LocFlyOverText="暗殺" 
+LocPromotionPopupText="你能夠悄悄的接近敵人並給予致命一擊。啟動本技能將會使你一回合的移動不會被偵測到，近戰擊殺敵人將不會破除隱身並得到額外40暴擊機率與5暴擊傷害（僅限近戰），僅能在隱身狀態下啟動。"
+
+[MusashiVoidStrike X2AbilityTemplate]
+LocFriendlyName="虛空突擊"
+LocLongDescription="傳送到你的敵人身邊給予他們毀滅性的一擊，無視護甲與護盾。如果你處於暗殺狀態，本技能將不會提昇警戒等級。"
+LocHelpText="<Bullet/>無視護甲與護盾。\n<Bullet\>不會提昇警戒等級\n<Bullet\>結合死神技能並成功擊殺敵人將會回復兩點行動點。\n<Bullet\>啟動死神技能中或成功暴擊將不會進入冷卻時間。\n<Bullet\>虛空突擊不會觸發監視或反應射擊。\n<Bullet\><Ability:SelfCooldown> 回合冷卻。"
+LocFlyOverText="虛空突擊" 
+LocPromotionPopupText="傳送到你的敵人身邊給予他們毀滅性的一擊，無視護甲與護盾。如果你處於暗殺狀態，本技能將不會提昇警戒等級。"

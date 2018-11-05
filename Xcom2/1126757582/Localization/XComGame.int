@@ -1,0 +1,5 @@
+[Laboratory X2EncyclopediaTemplate]
+DescriptionEntry="Laboratory facilities provide space to staff additional scientists, doubling their contribution to the current research project.  These facilities also increase research efficiency, providing rebates for materials used in research, and increased intel yield for captured datapads." 
+
+[Laboratory X2FacilityTemplate]
+Summary="Each laboratory increases the chance that a research breakthrough will occur.  Scientists can be staffed in laboratories to provide additional assistance to Dr. Tygan, further decreasing the time of all research projects.  Staffed scientists also increase research efficiency, providing rebates for materials used in research, and increased intel yield for captured datapads."

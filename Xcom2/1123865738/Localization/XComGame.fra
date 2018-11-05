@@ -1,0 +1,94 @@
+[Katana_CV X2WeaponTemplate]
+FriendlyName="Katana"
+FriendlyNamePlural="Katanas"
+BriefSummary="Katana"
+TacticalText="<Bullet/> Cette lame alternative d'origine asiatique est plus légère que le sabre. Elle coupe à travers l'armure, mais sont poids réduit inflige moins de dégâts.\n<Bullet/> Transperce 3 points d'armure\n<Bullet/> Détruit 0 points d'armure"
+AbilityDescName="Katana"
+
+[Katana_MG X2WeaponTemplate]
+FriendlyName="Katana énergétique"
+FriendlyNamePlural="Katanas énergétique"
+BriefSummary="Katana énergétique"
+TacticalText="<Bullet/> Un katana d'acier n'est pas suffisant contre les extra-terrestre, cette lame expérimentale est infusé avec de l'énergie.\n<Bullet/> Transperce 4 points d'armure\n<Bullet/> Détruit 1 points d'armure""
+AbilityDescName="Katana énergétique"
+
+[Katana_BM X2WeaponTemplate]
+FriendlyName="Katana plasmatique"
+FriendlyNamePlural="Katanas plasmatique"
+BriefSummary="Katana plasmatique"
+TacticalText="<Bullet/> La dernière itération de lame infusé d'énergie, ce katana peut couper à travers l'armure comme dans du beurre.\n<Bullet/> Transperce 5 points d'armure\n<Bullet/> Détruit 2 points d'armure"
+AbilityDescName="Katana plasmatique"
+
+[Wakizashi_CV X2WeaponTemplate]
+FriendlyName="Wakizashi"
+FriendlyNamePlural="Wakizashi"
+BriefSummary="Wakizashi"
+TacticalText="<Bullet/> Le petit cousin du katana, a un taux de critiques inférieures au katana, mais ajoute la mobilité"
+AbilityDescName="Wakizashi"
+
+[Wakizashi_MG X2WeaponTemplate]
+FriendlyName="Wakizashi énergétique"
+FriendlyNamePlural="Wakizashi énergétique"
+BriefSummary="Wakizashi énergétique"
+TacticalText="<Bullet/> Cette variation plus petite du Katana énergétique échange un peu de dégâts contre de la mobilité"
+AbilityDescName="Wakizashi énergétique"
+
+[Wakizashi_BM X2WeaponTemplate]
+FriendlyName="Wakizashi plasmatique"
+FriendlyNamePlural="Wakizashi plasmatique"
+BriefSummary="Wakizashi plasmatique"
+TacticalText="<Bullet/> La petite arme ultime, échange un peu de dégâts contre de la mobilité"
+AbilityDescName="Wakizashi plasmatique"
+
+[Ninjato_CV X2WeaponTemplate]
+FriendlyName="Ninjato"
+FriendlyNamePlural="Ninjato"
+BriefSummary="Ninjato"
+TacticalText="<Bullet/> Les Ninjato sont des armes blanches à lame droite que le ninja du Japon féodal auraient porté."
+AbilityDescName="Ninjato"
+
+[Ninjato_MG X2WeaponTemplate]
+FriendlyName="Ninjato toxiques"
+FriendlyNamePlural="Ninjato toxiques"
+BriefSummary="Ninjato toxiques"
+TacticalText="<Bullet/> Le Ninjato toxiques arbore un petit réservoir de toxine de vipère synthétisée dans la poignée qui est transférée à la victime lors d'un coup réussi."
+AbilityDescName="Ninjato toxiques"
+
+[MusashiLightningStrikeT1 X2AbilityTemplate]
+LocFriendlyName="Lacération éclair"
+LocLongDescription="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocHelpText="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocPromotionPopupText="<Bullet/> Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action.<br/>"
+
+[MusashiLightningStrikeT2 X2AbilityTemplate]
+LocFriendlyName="Lacération éclair"
+LocLongDescription="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocHelpText="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocPromotionPopupText="<Bullet/> Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action.<br/>"
+
+[MusashiLightningStrikeT3 X2AbilityTemplate]
+LocFriendlyName="Lacération éclair"
+LocLongDescription="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocHelpText="Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action."
+LocPromotionPopupText="<Bullet/> Attaque un ennemi dans la zone de mouvement bleu avec votre <Ability:SecondaryWeaponName/>. Cette attaque ne coûte pas un point d'action.<br/>"
+
+[MusashiNinjatoSilentTakedownT1 X2AbilityTemplate]
+LocFriendlyName="Élimination silencieuse"
+LocLongDescription="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +20 chances de coup critique et +3 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché."
+LocHelpText="<Bullet/> Vous avez pas de rayon de détection pour un tour (tour xcom et alien).\n<Bullet\> Tué en mêlée ne supprime pas la dissimulation.\n<Bullet\> +20 chances de coup critique et +3 dégâts critiques (mêlée uniquement).\n<Bullet\> Ne peut être activé que lorsque vous êtes caché.\n<Bullet\> Accorde 1 charge.\n<Bullet\> Temps de rechargement : <Ability:SelfCooldown> tours."
+LocFlyOverText="Élimination silencieuse" 
+LocPromotionPopupText="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +20 chances de coup critique et +3 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché.
+
+[MusashiNinjatoSilentTakedownT2 X2AbilityTemplate]
+LocFriendlyName="Élimination silencieuse"
+LocLongDescription="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +30 chances de coup critique et +4 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché."
+LocHelpText="<Bullet/> Vous avez pas de rayon de détection pour un tour (tour xcom et alien).\n<Bullet\> Tué en mêlée ne supprime pas la dissimulation.\n<Bullet\> +30 chances de coup critique et +4 dégâts critiques (mêlée uniquement).\n<Bullet\> Ne peut être activé que lorsque vous êtes caché.\n<Bullet\> Accorde 2 charges.\n<Bullet\> Temps de rechargement : <Ability:SelfCooldown> tours."
+LocFlyOverText="Élimination silencieuse" 
+LocPromotionPopupText="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +30 chances de coup critique et +4 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché."
+
+[MusashiNinjatoSilentTakedownT3 X2AbilityTemplate]
+LocFriendlyName="Élimination silencieuse"
+LocLongDescription="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +40 chances de coup critique et +5 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché."
+LocHelpText="<Bullet/> Vous avez pas de rayon de détection pour un tour (tour xcom et alien).\n<Bullet\> Tué en mêlée ne supprime pas la dissimulation.\n<Bullet\> +40 chances de coup critique et +5 dégâts critiques (mêlée uniquement).\n<Bullet\> Ne peut être activé que lorsque vous êtes caché.\n<Bullet\> Temps de rechargement : <Ability:SelfCooldown> tours."
+LocFlyOverText="Élimination silencieuse" 
+LocPromotionPopupText="Vous pouvez éliminer discrètement vos ennemis. Lorsqu'elle est activée, vous n'avez pas de rayon de détection pour un tour. Tué en mêlée ne supprime pas la dissimulation et vous avez +40 chances de coup critique et +5 dégâts critiques (mêlée uniquement). Ne peut être activé que lorsque vous êtes caché."
