@@ -1,0 +1,5 @@
+[KillCounter_UI]
+strKilled="已击杀:"
+strActive="已唤醒:"
+strTotal="总计:"
+strRemaining="剩余:"
