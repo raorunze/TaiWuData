@@ -814,7 +814,7 @@ static function X2AbilityTemplate ShakeItOffRS()
 }
 
 //#############################################################
-// Scout GTS - Incognito (-20% Detection Range)
+// Scout GTS - Incognito (-30% Detection Range)
 //#############################################################
 
 // GTS Handle
@@ -873,7 +873,7 @@ static function X2AbilityTemplate IncognitoRS()
 	//Stealth Effect
 	PersistentEffect = new class'X2Effect_PersistentStatChange';
 	PersistentEffect.BuildPersistentEffect(1, true, false);
-	PersistentEffect.AddPersistentStatChange(eStat_DetectionModifier, 0.20f);
+	PersistentEffect.AddPersistentStatChange(eStat_DetectionModifier, 0.30f);
 	PersistentEffect.SetDisplayInfo(ePerkBuff_Passive, Template.LocFriendlyName, Template.GetMyLongDescription(), Template.IconImage,,,Template.AbilitySourceName);
 	Template.AddTargetEffect(PersistentEffect);
 

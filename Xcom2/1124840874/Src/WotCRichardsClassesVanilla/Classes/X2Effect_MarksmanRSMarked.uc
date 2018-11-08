@@ -21,7 +21,7 @@ function GetToHitAsTargetModifiers(XComGameState_Effect EffectState, XComGameSta
 	local ShotModifierInfo AccuracyInfo, CritInfo;
 
 	AccuracyInfo.ModType = eHit_Success;
-	AccuracyInfo.Value = 15; //HIT BONUS FROM MARK TARGET
+	AccuracyInfo.Value = 25; //HIT BONUS FROM MARK TARGET
 	AccuracyInfo.Reason = FriendlyName;
 	ShotModifiers.AddItem(AccuracyInfo);
 

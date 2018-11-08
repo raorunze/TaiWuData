@@ -547,7 +547,7 @@ static function X2DataTemplate CreateTemplate_Katana()
 
 	if(default.bKatanaIsCosmetic)
 	{
-		Template.NumUpgradeSlots = 1;
+		Template.NumUpgradeSlots = 0;
 		Template.BaseDamage = class'X2Item_DefaultWeapons'.default.RANGERSWORD_CONVENTIONAL_BASEDAMAGE;
 		Template.Aim = class'X2Item_DefaultWeapons'.default.RANGERSWORD_CONVENTIONAL_AIM;
 		Template.CritChance = class'X2Item_DefaultWeapons'.default.RANGERSWORD_CONVENTIONAL_CRITCHANCE;
@@ -643,7 +643,7 @@ static function X2DataTemplate CreateTemplate_Katana_Stun()
 
 	if(default.bKatanaIsCosmetic)
 	{
-		Template.NumUpgradeSlots = 1;
+		Template.NumUpgradeSlots = 0;
 		Template.BaseDamage = class'X2Item_DefaultWeapons'.default.RANGERSWORD_MAGNETIC_BASEDAMAGE;
 		Template.Aim = class'X2Item_DefaultWeapons'.default.RANGERSWORD_MAGNETIC_AIM;
 		Template.CritChance = class'X2Item_DefaultWeapons'.default.RANGERSWORD_MAGNETIC_CRITCHANCE;
@@ -741,7 +741,7 @@ static function X2DataTemplate CreateTemplate_Katana_Plasma()
 
 	if(default.bKatanaIsCosmetic)
 	{
-		Template.NumUpgradeSlots = 1;
+		Template.NumUpgradeSlots = 0;
 		Template.BaseDamage = class'X2Item_DefaultWeapons'.default.RANGERSWORD_BEAM_BASEDAMAGE;
 		Template.Aim = class'X2Item_DefaultWeapons'.default.RANGERSWORD_BEAM_AIM;
 		Template.CritChance = class'X2Item_DefaultWeapons'.default.RANGERSWORD_BEAM_CRITCHANCE;
