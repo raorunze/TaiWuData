@@ -2348,7 +2348,7 @@ static function X2AbilityTemplate ConcealandCarryRS()
 	//Stealth Effect
 	PersistentEffect = new class'X2Effect_PersistentStatChange';
 	PersistentEffect.BuildPersistentEffect(1, true, false);
-	PersistentEffect.AddPersistentStatChange(eStat_DetectionModifier, 0.40f);
+	PersistentEffect.AddPersistentStatChange(eStat_DetectionModifier, 0.50f);
 	PersistentEffect.SetDisplayInfo(ePerkBuff_Passive, Template.LocFriendlyName, Template.GetMyLongDescription(), Template.IconImage,,,Template.AbilitySourceName);
 	Template.AddTargetEffect(PersistentEffect);
 
@@ -4511,7 +4511,7 @@ static function X2DataTemplate CapacitorDischargeRS()
 
 	ActionPointCost = new class'X2AbilityCost_ActionPoints';
 	ActionPointCost.iNumPoints = 1;
-	ActionPointCost.bConsumeAllPoints = true;
+	ActionPointCost.bConsumeAllPoints = false;
 	Template.AbilityCosts.AddItem(ActionPointCost);
 
 	Charges = new class'X2AbilityCharges';
@@ -4534,11 +4534,11 @@ static function X2DataTemplate CapacitorDischargeRS()
 	Template.AbilityMultiTargetConditions.AddItem(UnitPropertyCondition);	
 
 	CursorTarget = new class'X2AbilityTarget_Cursor';
-	CursorTarget.FixedAbilityRange = 24;            //  meters
+	CursorTarget.FixedAbilityRange = 30;            //  meters
 	Template.AbilityTargetStyle = CursorTarget;
 
 	RadiusMultiTarget = new class'X2AbilityMultiTarget_Radius';
-	RadiusMultiTarget.fTargetRadius = 5;
+	RadiusMultiTarget.fTargetRadius = 7;
 	Template.AbilityMultiTargetStyle = RadiusMultiTarget;
 
 	DamageEffect = new class'X2Effect_ApplyWeaponDamage';
@@ -6461,7 +6461,7 @@ static function X2AbilityTemplate RestoreRS()
 
 	ActionPointCost = new class'X2AbilityCost_ActionPoints';
 	ActionPointCost.iNumPoints = 1;
-	ActionPointCost.bConsumeAllPoints = true;
+	ActionPointCost.bConsumeAllPoints = false;
 	Template.AbilityCosts.AddItem(ActionPointCost);
 
 	Cooldown = new class'X2AbilityCooldown';
