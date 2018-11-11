@@ -3510,7 +3510,7 @@ static function X2AbilityTemplate WarningShotRS()
 
 	// Ammo
 	AmmoCost = new class'X2AbilityCost_Ammo';
-	AmmoCost.iAmmo = 0;
+	AmmoCost.iAmmo = 1;
 	Template.AbilityCosts.AddItem(AmmoCost);
 	//Template.bAllowAmmoEffects = true; // 	
 	Template.AddTargetEffect(class'X2Ability_GrenadierAbilitySet'.static.HoloTargetEffect());
@@ -3519,7 +3519,7 @@ static function X2AbilityTemplate WarningShotRS()
 
 	ActionPointCost = new class'X2AbilityCost_ActionPoints';
 	ActionPointCost.iNumPoints = 1;
-	ActionPointCost.bConsumeAllPoints = true;
+	ActionPointCost.bConsumeAllPoints = false;
 	Template.AbilityCosts.AddItem(ActionPointCost);
 
 		// Weapon Upgrade Compatibility
