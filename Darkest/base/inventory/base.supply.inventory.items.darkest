@@ -1,0 +1,12 @@
+inventory_item:	.type "provision"	.id ""						    .base_stack_limit 12	.purchase_gold_value 75			.sell_gold_value 5
+
+inventory_item:	.type "supply"		.id "shovel"					.base_stack_limit 4		.purchase_gold_value 250		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "firewood"					.base_stack_limit 1		.purchase_gold_value 0			.sell_gold_value 0
+inventory_item:	.type "supply"		.id "bandage"					.base_stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15     .act_out_consume_priority 1 .replace_buffs true
+inventory_item:	.type "supply"		.id "antivenom"					.base_stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15     .act_out_consume_priority 1 .replace_buffs true
+inventory_item:	.type "supply"		.id "skeleton_key"				.base_stack_limit 6		.purchase_gold_value 200		.sell_gold_value 20 
+inventory_item:	.type "supply"		.id "medicinal_herbs"			.base_stack_limit 6		.purchase_gold_value 200		.sell_gold_value 20     .act_out_consume_priority 1 .replace_buffs true
+inventory_item:	.type "supply"		.id "torch"						.base_stack_limit 8		.purchase_gold_value 75			.sell_gold_value 5      .act_out_consume_priority 1
+inventory_item:	.type "supply"		.id "holy_water"				.base_stack_limit 6		.purchase_gold_value 150		.sell_gold_value 15     .act_out_consume_priority 1
+inventory_item: .type "supply"		.id "dog_treats"				.base_stack_limit 2		.purchase_gold_value 0			.sell_gold_value 0      .act_out_consume_priority 1
+inventory_item: .type "supply"		.id "laudanum"				    .base_stack_limit 6		.purchase_gold_value 100		.sell_gold_value 20     .act_out_consume_priority 1 .replace_buffs true

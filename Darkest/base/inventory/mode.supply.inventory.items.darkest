@@ -1,0 +1,1 @@
+inventory_item:	.type "provision"	.id ""						    .base_stack_limit 12	.purchase_gold_value 75			.sell_gold_value 5

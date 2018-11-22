@@ -1,0 +1,2 @@
+inventory_system_config:	.type "provision"					.max_slots 14				.use_stack_limits false
+inventory_system_config:	.type "estate"				        .max_slots 999		        .use_stack_limits false
