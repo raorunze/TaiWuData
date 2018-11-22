@@ -1,0 +1,24 @@
+//Grave Robber
+//-------------------------
+//Pick to the Face
+effect: .name "UcdGRCritBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .crit_chance_add 1% .on_hit true .on_miss false .queue true
+
+//Lunge
+effect: .name "UcdGRSpeedBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .speed_rating_add 1 .on_hit true .on_miss true .queue true
+
+//Flashing Daggers
+effect: .name "UcdGRDmgBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .on_hit true .on_miss false .apply_once true .queue true
+
+//Shadow Fade
+
+//Thrown Dagger
+effect: .name "UcdGRAccBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .attack_rating_add 5%  .on_hit true .on_miss true .apply_once true
+
+//Poison Darts
+effect: .name "UcdGRBlight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 3 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRBlight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRBlight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRBlight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 4 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRBlight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 5 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
+
+//Toxin Trickery

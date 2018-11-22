@@ -1,0 +1,786 @@
+{
+   "entries":
+   [
+      {
+         "id" : "cc_quicksilver_salve",
+         "buffs" : 
+         [
+            "cc_trinket_dmgL_vs_vamps",
+            "cc_trinket_dmgH_vs_vamps"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_dazzling_mirror",
+         "buffs" : 
+         [
+            "cc_trinket_speed_vs_vamps",
+            "cc_trinket_stun_vs_vamps"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_pagan_talisman",
+         "buffs" : 
+         [
+            "cc_trinket_dmgL_vs_fanatic",
+            "cc_trinket_dmgH_vs_fanatic"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_crystal_snifter",
+         "buffs" : 
+         [
+            "cc_trinket_blood_lust_crit_buff",
+            "cc_trinket_blood_lust_def_buff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_mantra_of_fasting",
+         "buffs" : 
+         [
+            "cc_trinket_wasting_hp_buff",
+            "cc_trinket_wasting_spd_buff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_rat_carcass",
+         "buffs" : 
+         [
+            "cc_trinket_wasting_immune"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_coven_signet",
+         "buffs" : 
+         [
+            "cc_trinket_stress_resist_while_vamp"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_crimson_tincture",
+         "buffs" : 
+         [
+            "cc_trinket_delayed_craving"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_sculptors_tools",
+         "buffs" : 
+         [
+            "cc_trinket_dmgL_vs_stonework",
+            "cc_trinket_dmgH_vs_stonework"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "very_rare",
+         "price" : 25000,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_boss_baron",
+         "buffs" : 
+         [
+            "cc_trinket_baron_debuff_resist_buff",
+            "cc_trinket_baron_spd_buff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_boss_viscount",
+         "buffs" : 
+         [
+            "cc_trinket_viscount_crit_buff",
+            "cc_trinket_viscount_gluttony_buff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_boss_countess",
+         "buffs" : 
+         [
+            "cc_trinket_countess_healrecvd_buff"
+         ],
+         "hero_class_requirements":
+         [
+         ],
+         "rarity" : "trophy",
+         "price" : 0,
+         "limit" : 1,
+         "origin_dungeon" : ""
+      },
+      {
+         "id" : "cc_set_abom_shameful_shroud",
+         "buffs" : 
+         [
+            "TRINKET_stress25_BSets",
+            "TRINKET_transformStress_BSets",
+			"TRINKET_dodge10_BSets",
+			"TRINKET_acc10_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "set_id" : "cc_abom",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_abom_wrought_osmond_chains",
+         "buffs" : 
+         [
+            "TRINKET_rangeddamagel45_BSets",
+            "TRINKET_rangeddamageh45_BSets",
+            "TRINKET_rangedcrit8_BSets",
+            "TRINKET_moveresist30_BSets",
+			"TRINKET_stunresist30_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "abomination"
+         ],
+         "set_id" : "cc_abom",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_anti_two_of_the_three",
+         "buffs" : 
+         [
+            "TRINKET_dmgvsblightl25_BSets",
+            "TRINKET_dmgvsblighth25_BSets",
+            "TRINKET_dmgvsbleedl25_BSets",
+			"TRINKET_dmgvsbleedh25_BSets",
+			"TRINKET_dmgvsmarkl25_BSets",
+			"TRINKET_dmgvsmarkh25_BSets",
+			"TRINKET_dmgvsstunnedl25_BSets",
+			"TRINKET_dmgvsstunnedh25_BSets",
+			"TRINKET_critvsblight3_BSets",
+			"TRINKET_critvsbleed3_BSets",
+			"TRINKET_critvsmark3_BSets",
+			"TRINKET_critvsstunned3_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "set_id" : "cc_anti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_anti_the_masters_essence",
+         "buffs" : 
+         [
+            "TRINKET_healing75_BSets",
+            "TRINKET_bleedchance35_BSets",
+			"TRINKET_debuffchance35_BSets",
+			"TRINKET_festeringblightchance35_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "antiquarian"
+         ],
+         "set_id" : "cc_anti",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_arb_sharpshooters_string_wax",
+         "buffs" : 
+         [
+            "TRINKET_acc15_BSets",
+            "TRINKET_dmgvsmarkl20_BSets",
+            "TRINKET_dmgvsmarkh20_BSets",
+            "TRINKET_critvsmark5_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "arbalest"
+         ],
+         "set_id" : "cc_arb",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_arb_childhood_treasure",
+         "buffs" : 
+         [
+            "TRINKET_healing40_BSets",
+            "TRINKET_stress25_BSets",
+            "TRINKET_speed3_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "arbalest"
+         ],
+         "set_id" : "cc_arb",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_bh_crime_lords_molars",
+         "buffs" : 
+         [
+            "TRINKET_meleedamagel30_BSets",
+            "TRINKET_meleedamageh30_BSets",
+            "TRINKET_speed3_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "bounty_hunter"
+         ],
+         "set_id" : "cc_bh",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_bh_vow_of_revenge",
+         "buffs" : 
+         [
+            "TRINKET_bleedchance50_BSets",
+            "TRINKET_stunchance50_BSets",
+            "TRINKET_movechance50_BSets",
+			"TRINKET_acc12_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "bounty_hunter"
+         ],
+         "set_id" : "cc_bh",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_cru_glittering_spaulders",
+         "buffs" : 
+         [
+            "TRINKET_cru_glittering_spaulders_PROT_B1",
+            "TRINKET_cru_glittering_spaulders_MOVERESIST_B1",
+            "TRINKET_stress25_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "crusader"
+         ],
+         "set_id" : "cc_cru",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_cru_signed_conscription",
+         "buffs" : 
+         [
+            "TRINKET_healing50_BSets",
+            "TRINKET_stressheal25_BSets",
+			"TRINKET_acc12_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "crusader"
+         ],
+         "set_id" : "cc_cru",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_gr_absinthe",
+         "buffs" : 
+         [
+            "TRINKET_diseaseresist50_BSets",
+            "TRINKET_bleedresist50_BSets",
+            "TRINKET_blightresist50_BSets",
+            "TRINKET_blightchance60_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "set_id" : "cc_gr",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_gr_sharpened_letter_opener",
+         "buffs" : 
+         [
+            "TRINKET_meleedamagel30_BSets",
+            "TRINKET_dodge8_BSets",
+            "TRINKET_rangedcrit14_BSets",
+            "TRINKET_acc10_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "grave_robber"
+         ],
+         "set_id" : "cc_gr",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_hel_lioness_warpaint",
+         "buffs" : 
+         [
+			"TRINKET_flatdmgl15_BSets",
+			"TRINKET_flatdmgh15_BSets",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B1",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B1",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B2",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B2",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGL_B3",
+            "TRINKET_hel_lioness_warpaint_hp_below_DMGH_B3"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "set_id" : "cc_hel",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_hel_mark_of_the_outcast",
+         "buffs" : 
+         [
+            "TRINKET_bleedchance50_BSets",
+            "TRINKET_dmgvsbleedl15_BSets",
+            "TRINKET_dmgvsbleedh15_BSets",
+            "TRINKET_deathblowresist15_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "hellion"
+         ],
+         "set_id" : "cc_hel",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_high_shameful_locket",
+         "buffs" : 
+         [
+            "TRINKET_acc15_BSets",
+            "TRINKET_crit4_BSets",
+            "TRINKET_virtuechance25_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "highwayman"
+         ],
+         "set_id" : "cc_high",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_high_bloodied_neckerchief",
+         "buffs" : 
+         [
+            "TRINKET_speed4_BSets",
+            "TRINKET_dodge10_BSets",
+			"TRINKET_bleedchance35_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "highwayman"
+         ],
+         "set_id" : "cc_high",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_hm_lawmans_badge",
+         "buffs" : 
+         [
+            "TRINKET_acc12_BSets",
+            "TRINKET_stressheal25_BSets",
+            "TRINKET_healing25_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "houndmaster"
+         ],
+         "set_id" : "cc_hm",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_hm_damning_evidence",
+         "buffs" : 
+         [
+            "TRINKET_scout30_BSets",
+            "TRINKET_partysurprise30_BSets",
+			"TRINKET_trapchance30_BSets",
+            "TRINKET_speed5_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "houndmaster"
+         ],
+         "set_id" : "cc_hm",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_jest_tasting_cup",
+         "buffs" : 
+         [
+            "TRINKET_stressheal33_BSets",
+			"TRINKET_stresshealincamp33_BSets",
+            "TRINKET_stress25_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "jester"
+         ],
+         "set_id" : "cc_jest",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_jest_tyrants_fingerbone",
+         "buffs" : 
+         [
+            "TRINKET_debuffchance45_BSets",
+            "TRINKET_dodge12_BSets",
+            "TRINKET_acc12_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "jester"
+         ],
+         "set_id" : "cc_jest",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_lep_tin_flute",
+         "buffs" : 
+         [
+            "TRINKET_stress25_BSets",
+            "TRINKET_healrec20_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "leper"
+         ],
+         "set_id" : "cc_lep",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_lep_last_will_and_testament",
+         "buffs" : 
+         [
+            "TRINKET_lep_last_will_and_testament_PROT_B1",
+            "TRINKET_lep_last_will_and_testament_MAXHP_B1",
+            "TRINKET_moveresist40_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "leper"
+         ],
+         "set_id" : "cc_lep",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_maa_old_unit_banner",
+         "buffs" : 
+         [
+            "TRINKET_stunresist35_BSets",
+            "TRINKET_stunchance35_BSets",
+            "TRINKET_debuffchance35_BSets",
+            "TRINKET_deathblowresist15_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "man_at_arms"
+         ],
+         "set_id" : "cc_maa",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_maa_toy_soldier",
+         "buffs" : 
+         [
+            "TRINKET_maa_toy_soldier_PROT_B1",
+            "TRINKET_maa_toy_soldier_CRIT_B1",
+			"TRINKET_protunder50_10_BSets",
+			"TRINKET_critunder50_3_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "man_at_arms"
+         ],
+         "set_id" : "cc_maa",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_occ_vial_of_sand",
+         "buffs" : 
+         [
+            "TRINKET_movechance40_BSets",
+            "TRINKET_debuffchance40_BSets",
+			"TRINKET_acc12_BSets",
+            "TRINKET_speed4_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "set_id" : "cc_occ",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_occ_blood_pact",
+         "buffs" : 
+         [
+            "TRINKET_dodge20_BSets",
+            "TRINKET_bleedresist30_BSets",
+            "TRINKET_blightresist30_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "occultist"
+         ],
+         "set_id" : "cc_occ",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_pd_codex_of_plagues",
+         "buffs" : 
+         [
+            "TRINKET_blightresist100_BSets",
+            "TRINKET_diseaseresist100_BSets",
+			"TRINKET_acc15_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "set_id" : "cc_pd",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_pd_dissection_kit",
+         "buffs" : 
+         [
+            "TRINKET_bleedchance40_BSets",
+            "TRINKET_flatdmgl25_BSets",
+            "TRINKET_flatdmgh25_BSets",
+			"TRINKET_dmgvsblightl25_BSets",
+			"TRINKET_dmgvsblighth25_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "plague_doctor"
+         ],
+         "set_id" : "cc_pd",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_vest_atonement_beads",
+         "buffs" : 
+         [
+            "TRINKET_meleedamagel40_BSets",
+            "TRINKET_meleedamageh40_BSets",
+            "TRINKET_meleecrit10_BSets",
+            "TRINKET_acc15_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "vestal"
+         ],
+         "set_id" : "cc_vest",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_vest_salacious_diary",
+         "buffs" : 
+         [
+            "TRINKET_healing45_BSets",
+            "TRINKET_healinginrank2_15_BSets",
+            "TRINKET_stress15_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "vestal"
+         ],
+         "set_id" : "cc_vest",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_flag_chipped_tooth",
+         "buffs" : 
+         [
+            "TRINKET_maxhp30_BSets",
+            "TRINKET_moveresist50_BSets",
+			"TRINKET_deathblowresist10_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "flagellant"
+         ],
+         "set_id" : "cc_flag",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      },
+      {
+         "id" : "cc_set_flag_shard_of_glass",
+         "buffs" : 
+         [
+            "TRINKET_bleedchance60_BSets",
+            "TRINKET_crit6_BSets",
+			"TRINKET_acc12_BSets"
+         ],
+         "hero_class_requirements":
+         [
+            "flagellant"
+         ],
+         "set_id" : "cc_flag",
+         "rarity" : "crimson_court",
+         "price" : 50000,
+         "limit" : 1,
+         "origin_dungeon" : "courtyard"
+      }
+   ]
+}

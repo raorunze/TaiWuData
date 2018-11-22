@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Program Files/Steam/steamapps/common/DarkestDungeon/supakmod/inventory_unlimited_stacks/</ModDataPath>
+	<Title>Inventory Unlimited Stacks</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Overhauls</Tags>
+	</Tags>
+	<ItemDescription>[h1][b]COMPATIBLE WITH &quot;CRIMSON COURT&quot;[/b][/h1]
+
+[h1][b]Update to patch 21142[/b][/h1]
+	
+Implemented the item of the Shieldbreaker &quot;Aegis Scale&quot; and I have changed the profit of the money from the provisions to its normality (by topics that I do not get to see if it works or not and not to make the game so easy if it really works).</ItemDescription>
+	<PublishedFileId>964183745</PublishedFileId>
+</project>
+

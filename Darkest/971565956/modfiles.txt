@@ -1,0 +1,16 @@
+dlc/580100_crimson_court/features/crimson_court/trinkets/crimson_court.entries.trinkets.json 20986
+shared/buffs/bettersets_overrides.buffs.json 64061
+localization/971565956_brazilian.loc 4176
+localization/971565956_czech.loc 4176
+localization/971565956_english.loc 4176
+localization/971565956_french.loc 4176
+localization/971565956_german.loc 4176
+localization/971565956_italian.loc 4176
+localization/971565956_polish.loc 4176
+localization/971565956_russian.loc 4176
+localization/971565956_spanish.loc 4176
+localization/BetterSets.string_table.xml 1991
+trinkets/bettersets.sets.trinkets.json 4343
+modfiles.txt 653
+preview_icon.png 52846
+project.xml 6882

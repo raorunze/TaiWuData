@@ -1,0 +1,158 @@
+
+
+//LBslayer
+//------------------------
+
+//Crit Effect
+
+effect: .name "on_crit_LORDBLADE"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "CRIT_LORDBLADE1" "CRIT_LORDBLADE2" "CRIT_LORDBLADE3"  .on_hit true .on_miss false .apply_once true
+
+//Mutilate
+
+effect: .name "Envenom 1"	.target "performer" .chance 100% .skill_instant true .buff_ids "Envenom1" "Envenom11" "CRITPLS1" .on_hit true .on_miss false
+effect: .name "Envenom 2"	.target "performer" .chance 100% .skill_instant true .buff_ids "Envenom2" "Envenom22" "CRITPLS2" .on_hit true .on_miss false
+effect: .name "Envenom 3"	.target "performer" .chance 100% .skill_instant true .buff_ids "Envenom3" "Envenom33" "CRITPLS3" .on_hit true .on_miss false
+effect: .name "Envenom 4"	.target "performer" .chance 100% .skill_instant true .buff_ids "Envenom4" "Envenom44" "CRITPLS4" .on_hit true .on_miss false
+effect: .name "Envenom 5"	.target "performer" .chance 100% .skill_instant true .buff_ids "Envenom5" "Envenom55" "CRITPLS5" .on_hit true .on_miss false
+
+effect: .name "Rupture 1"	.target "performer" .chance 100% .skill_instant true .buff_ids "Rupture1" "Rupture11" "ACCPLS1" .on_hit true .on_miss false
+effect: .name "Rupture 2"	.target "performer" .chance 100% .skill_instant true .buff_ids "Rupture2" "Rupture22" "ACCPLS2" .on_hit true .on_miss false
+effect: .name "Rupture 3"	.target "performer" .chance 100% .skill_instant true .buff_ids "Rupture3" "Rupture33" "ACCPLS3" .on_hit true .on_miss false
+effect: .name "Rupture 4"	.target "performer" .chance 100% .skill_instant true .buff_ids "Rupture4" "Rupture44" "ACCPLS4" .on_hit true .on_miss false
+effect: .name "Rupture 5"	.target "performer" .chance 100% .skill_instant true .buff_ids "Rupture5" "Rupture55" "ACCPLS5"  .on_hit true .on_miss false
+
+effect: .name "LB Poison 1" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 1 .duration 4		.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Poison 2" .target "target" .curio_result_type "negative" .chance 10%  .dotPoison 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Poison 3" .target "target" .curio_result_type "negative" .chance 20%  .dotPoison 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Poison 4" .target "target" .curio_result_type "negative" .chance 30%  .dotPoison 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Poison 5" .target "target" .curio_result_type "negative" .chance 40%  .dotPoison 1 .duration 6	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+
+effect: .name "LB Wound 1" .target "target" .curio_result_type "negative" .chance 0%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Wound 2" .target "target" .curio_result_type "negative" .chance 10%  .dotBleed 1 .duration 4	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Wound 3" .target "target" .curio_result_type "negative" .chance 20%  .dotBleed 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Wound 4" .target "target" .curio_result_type "negative" .chance 30%  .dotBleed 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+effect: .name "LB Wound 5" .target "target" .curio_result_type "negative" .chance 40%  .dotBleed 1 .duration 6	.on_hit true .on_miss false .can_apply_on_death true .has_description false
+
+effect: .name "LB Skill" .target "performer" .chance 100% .skill_instant true .buff_ids "BLEED_LORDBLADE" "POISON_LORDBLADE" .on_hit true .on_miss false .has_description false
+
+
+effect: .name "LB Tooltip 1" .target "performer" .chance 100% .skill_instant true .buff_ids "TOOLTIPSONE" .on_hit true .on_miss false
+
+//Backstab
+
+effect: .name "LBPen 1" .target "performer" .chance 100% .skill_instant true .buff_ids "LBpen1" .on_hit true .on_miss false
+effect: .name "LBPen 2" .target "performer" .chance 100% .skill_instant true .buff_ids "LBpen2" .on_hit true .on_miss false
+effect: .name "LBPen 3" .target "performer" .chance 100% .skill_instant true .buff_ids "LBpen3" .on_hit true .on_miss false
+effect: .name "LBPen 4" .target "performer" .chance 100% .skill_instant true .buff_ids "LBpen4" .on_hit true .on_miss false
+effect: .name "LBPen 5" .target "performer" .chance 100% .skill_instant true .buff_ids "LBpen5" .on_hit true .on_miss false
+
+effect: .name "Info1" .target "performer" .chance 100% .skill_instant true .buff_ids "tooltips1" .on_hit true .on_miss false
+
+effect: .name "TRINKET_LLOYD_DAMAGE" .target "target" .chance 100% .skill_instant true .buff_ids "TRINKET_LLOYD_DAMAGE1" .on_hit true .on_miss false
+
+effect: .name "TRINKET_LLOYD_DEBUFF" .target "target" .chance 250% .buff_ids "TRINKET_LLOYD" .duration 4 .on_hit true .on_miss false
+
+
+//Golden Strike
+effect: .name "LB Bleed Debuff 1" .target "target" .chance 100% .buff_ids "lb_bleed_debuff_1" .duration 5 .on_hit true .on_miss false
+effect: .name "LB Bleed Debuff 2" .target "target" .chance 110% .buff_ids "lb_bleed_debuff_2" .duration 5 .on_hit true .on_miss false
+effect: .name "LB Bleed Debuff 3" .target "target" .chance 120% .buff_ids "lb_bleed_debuff_3" .duration 5 .on_hit true .on_miss false
+effect: .name "LB Bleed Debuff 4" .target "target" .chance 130% .buff_ids "lb_bleed_debuff_4" .duration 5 .on_hit true .on_miss false
+effect: .name "LB Bleed Debuff 5" .target "target" .chance 140% .buff_ids "lb_bleed_debuff_5" .duration 5 .on_hit true .on_miss false
+
+effect: .name "LB Bleed 1" .target "target" .curio_result_type "negative" .chance 100%  .dotBleed 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Bleed 2" .target "target" .curio_result_type "negative" .chance 110%  .dotBleed 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Bleed 3" .target "target" .curio_result_type "negative" .chance 120%  .dotBleed 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Bleed 4" .target "target" .curio_result_type "negative" .chance 130%  .dotBleed 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Bleed 5" .target "target" .curio_result_type "negative" .chance 140%  .dotBleed 2 .duration 7	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "Cripple Bleed 1" .target "target" .chance 100% .curio_result_type "negative" .defense_rating_add -3% .on_hit true .on_miss false .queue false
+effect: .name "Cripple Bleed 2" .target "target" .chance 110% .curio_result_type "negative" .defense_rating_add -6% .on_hit true .on_miss false .queue false
+effect: .name "Cripple Bleed 3" .target "target" .chance 120% .curio_result_type "negative" .defense_rating_add -9% .on_hit true .on_miss false .queue false
+effect: .name "Cripple Bleed 4" .target "target" .chance 130% .curio_result_type "negative" .defense_rating_add -12% .on_hit true .on_miss false .queue false
+effect: .name "Cripple Bleed 5" .target "target" .chance 140% .curio_result_type "negative" .defense_rating_add -15% .on_hit true .on_miss false .queue false
+
+//Fast Roll
+
+effect: .name "stealth_self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+
+effect: .name "LB Dodge 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 12.5%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 17.5%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 20%	.on_hit true .on_miss true .queue true
+
+
+
+//Thrown Tracer
+
+
+effect: .name "LB Dmg Marked 1" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 30%	.damage_high_multiply 30%	.on_hit true .on_miss false
+effect: .name "LB Dmg Marked 2" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 40%	.damage_high_multiply 40%	.on_hit true .on_miss false
+effect: .name "LB Dmg Marked 3" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 50%	.damage_high_multiply 50%	.on_hit true .on_miss false
+effect: .name "LB Dmg Marked 4" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 60%	.damage_high_multiply 60%	.on_hit true .on_miss false
+effect: .name "LB Dmg Marked 5" .target "performer" .chance 100% .curio_result_type "positive" .keyStatus "tagged" .combat_stat_buff 1 .damage_low_multiply 70%	.damage_high_multiply 70%	.on_hit true .on_miss false
+
+
+
+//Silver Strike
+effect: .name "LB Blight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Blight 2" .target "target" .curio_result_type "negative" .chance 110%  .dotPoison 1 .duration 5	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Blight 3" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Blight 4" .target "target" .curio_result_type "negative" .chance 130%  .dotPoison 2 .duration 6	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "LB Blight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 2 .duration 7	.on_hit true .on_miss false .can_apply_on_death true
+
+effect: .name "LB Blight Debuff 1" .target "target" .chance 100% .duration 5 .buff_ids "lb_blight_debuff_1" .on_hit true .on_miss false
+effect: .name "LB Blight Debuff 2" .target "target" .chance 110% .duration 5 .buff_ids "lb_blight_debuff_2" .on_hit true .on_miss false
+effect: .name "LB Blight Debuff 3" .target "target" .chance 120% .duration 5 .buff_ids "lb_blight_debuff_3" .on_hit true .on_miss false
+effect: .name "LB Blight Debuff 4" .target "target" .chance 130% .duration 5 .buff_ids "lb_blight_debuff_4" .on_hit true .on_miss false
+effect: .name "LB Blight Debuff 5" .target "target" .chance 140% .duration 5 .buff_ids "lb_blight_debuff_5" .on_hit true .on_miss false
+
+effect: .name "Cripple Poison 1" .target "target" .curio_result_type "negative" .chance 100% .duration 4 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .queue true
+effect: .name "Cripple Poison 2" .target "target" .curio_result_type "negative" .chance 110% .duration 4 .combat_stat_buff 1 .speed_rating_add -3 .on_hit true .on_miss false .queue true
+effect: .name "Cripple Poison 3" .target "target" .curio_result_type "negative" .chance 120% .duration 4 .combat_stat_buff 1 .speed_rating_add -4 .on_hit true .on_miss false .queue true
+effect: .name "Cripple Poison 4" .target "target" .curio_result_type "negative" .chance 130% .duration 4 .combat_stat_buff 1 .speed_rating_add -4 .on_hit true .on_miss false .queue true
+effect: .name "Cripple Poison 5" .target "target" .curio_result_type "negative" .chance 140% .duration 4 .combat_stat_buff 1 .speed_rating_add -5 .on_hit true .on_miss false .queue true
+
+//Estus Chug
+effect: .name "shadow_dance" .target "performer" .duration 1 .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true .queue true
+
+effect: .name "Estus Recovery 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 9 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 12 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 15 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+
+
+effect: .name "Powder1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false
+effect: .name "Powder2" .target "target" .curio_result_type "negative" .chance 110%  .combat_stat_buff 1 .attack_rating_add -14% .on_hit true .on_miss false
+effect: .name "Powder3" .target "target" .curio_result_type "negative" .chance 120%  .combat_stat_buff 1 .attack_rating_add -18% .on_hit true .on_miss false
+effect: .name "Powder4" .target "target" .curio_result_type "negative" .chance 130%  .combat_stat_buff 1 .attack_rating_add -22% .on_hit true .on_miss false
+effect: .name "Powder5" .target "target" .curio_result_type "negative" .chance 140%  .combat_stat_buff 1 .attack_rating_add -25% .on_hit true .on_miss false
+
+effect: .name "LB Tooltip 2" .target "performer" .chance 100% .skill_instant true .buff_ids "TOOLTIPSTWO" .on_hit true .on_miss false
+
+
+//Miscellaneous
+
+effect: .name "Adrenaline Crash" .target "performer" .curio_result_type "negative" .chance 200% .duration 4 .combat_stat_buff 1 .speed_rating_add -5 .defense_rating_add -35% .on_hit true .on_miss false .queue true
+
+effect: .name "OHGODMYNOSE" .target "performer" .curio_result_type "negative" .chance 200% .tag 1 .duration 3  .on_hit true .on_miss false .queue true
+
+effect: .name "Lord's Blade Mark" .target "target" .curio_result_type "positive" .chance 200% .tag 1 .duration 4  .on_hit true .on_miss false .queue true
+
+effect: .name "Stunpowder 1" .target "target" .curio_result_type "negative" .chance 100% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Stunpowder 2" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Stunpowder 3" .target "target" .curio_result_type "negative" .chance 120% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Stunpowder 4" .target "target" .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true
+effect: .name "Stunpowder 5" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
+
+
+effect: .name "Corrosive Poison" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1  .protection_rating_add -30% 	.on_hit true .on_miss false
+
+effect: .name "Lloyd's Crit" .target "target" .curio_result_type "negative" .chance 140% .duration 3 .buff_type crit_received_chance .buff_amount 10% .on_hit true .on_miss false .queue true
+effect: .name "Lloyd's Antiheal" .target "target" .curio_result_type "negative" .chance 140% .buff_type hp_heal_received_percent .buff_amount -100%  .on_hit true .on_miss false	.queue true
+
+
+effect: .name "Barbed Wound" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -25% .on_hit true .on_miss false

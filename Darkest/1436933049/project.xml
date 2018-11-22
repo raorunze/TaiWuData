@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>D:/CoM Outlander Trinkets/</ModDataPath>
+	<Title> Slayer/Cataphract/OS CoM Trinkets </Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>friends</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Trinkets</Tags>
+		<Tags>Color of Madness</Tags>
+		<Tags>Spurple</Tags>
+	</Tags>
+	<ItemDescription>This is the test build for the Outlander Colour of Madness trinkets.</ItemDescription>
+	<PublishedFileId>1436933049</PublishedFileId>
+</project>
+

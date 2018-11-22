@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Better_Sets/data/</ModDataPath>
+	<Title>Better Sets</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>0</VersionMajor>
+	<VersionMinor>0</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>trinkets</Tags>
+		<Tags>overhauls</Tags>
+	</Tags>
+	<ItemDescription>[b]IMPORTANT:[/b] Load this mod before other mods that edit Crimson Court sets or trinkets, such as Better Trinkets.
+
+[b]Note:[/b] This mod was &quot;balanced&quot; with 3 other mods in mind: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=884767042]Three Trinkets by Oks[/url], [url=https://steamcommunity.com/sharedfiles/filedetails/?id=884738151&amp;searchtext=better+trinkets]Better Trinkets by Oks[/url], and the [url=https://steamcommunity.com/workshop/filedetails/?id=927360681]Heroes Unchained series of mods by Loklin[/url]. Because of this, there are some changes that won&apos;t have an impact on the base game, such as bleed chance on the antiquarian. Apart from that, this mod is completely usable on its own. Also, as a small disclaimer, the new set trinkets and their effects are pretty strong, a lot stronger than most if not all trinkets in the base game. If you don&apos;t like mods that add powerful content, this might not be for you.
+
+---
+
+Do you wish the set trinkets in Crimson Court were better? Do you want them to be close to the best possible trinkets you can have for each class? Well, I did, and that&apos;s why I made this mod. With Better Sets, all of the set trinkets and their set effects are made top tier, with stats and effects that embody what I think each class should be.
+
+[b]SPOILERS[/b] - Full list of changes below:
+
+[b]Abomination:[/b] 
+[b]Shameful Shroud:[/b] -25% stress, -20% stress damage dealt to allies from transform, +10 dodge, +10 ACC
+[b]Osmond Chains:[/b] +45% DMG ranged, +8% CRT ranged, +30% stun/move resist
+[b]Set Bonus:[/b] +50% blight chance while human, +50% stun chance while human, +3 speed while human, +20% damage while beast, +15% PROT while beast, +30% stress damage recieved while beast
+	  
+[b]Antiquarian:[/b] 
+[b]The Master&apos;s Essence:[/b] +75% healing, +35% bleed/debuff chance, +35% blight chance on festering vapours
+[b]Two of Three:[/b] +25% DMG vs blight/bleed/stun/mark, +3% CRT vs blight/bleed/stun/mark
+[b]Set Bonus:[/b] +4 SPD, +10 dodge, +10 ACC, +10% DMG, +4% CRT, +10% PROT, +10% to surprise enemies, -10% chance party surprised, +10% scout chance
+	  
+[b]Arbalest:[/b] 
+[b]Childhood Treasure:[/b] -25% stress, +40% healing skills, +3 SPD
+[b]Bedtime Story:[/b] +15 ACC, +20% DMG vs marked, +5% CRT vs marked
+[b]Set Bonus:[/b] +25% PROT, +50% move resist
+	  
+[b]Bounty Hunter:[/b]
+[b]Crime Lords&apos; Molars:[/b] +30% melee DMG, +3 SPD
+[b]Vengeful Kill List:[/b] +50% move/bleed/stun chance, +12 ACC
+[b]Set Bonus:[/b] +25% DMG vs marked, +5% CRT vs marked
+	  
+[b]Crusader:[/b] 
+[b]Glittering Spaulders:[/b] -25% stress, rest unchanged
+[b]Signed Conscription:[/b] +50% healing skills, +25% stress healed, +12 ACC
+[b]Set Bonus:[/b] +20% MAX HP, +30% DMG in rank 1
+	  
+[b]Flagellent:[/b]
+[b]Chipped Tooth:[/b] +30% MAX HP, +50% move resist, +10% death blow resist
+[b]Shard of Glass:[/b] +60% bleed chance, +6% CRT, +12 ACC
+[b]Set Bonus:[/b] +15% PROT under 50% HP, +8 dodge under 50% HP, +5 SPD under 50% HP
+	  
+[b]Grave Robber:[/b]
+[b]Absinthe:[/b] +50% bleed/blight/disease resist, +60% blight chance
+[b]Sharpened Letter Opener:[/b] +35% DMG melee skills, +14% CRT ranged skills, +15 ACC, +8 dodge
+[b]Set Bonus:[/b] +20% scouting chance, +15% chance to surprise enemies, -15% chance to be surprised, +20% chance to disarm traps
+	  
+[b]Hellion:[/b] 
+[b]Lioness Warpaint:[/b] +15% DMG, rest unchanged
+[b]Mark of the Outcast:[/b] +50% bleed chance, +15% DMG vs bleeding, +15% deathblow resist
+[b]Set Bonus:[/b] +15 ACC, +10 dodge, +10 dodge under 25% HP
+	  
+[b]Highwayman:[/b] 
+[b]Bloodied Neckerchief:[/b] +35% bleed chance, +4 speed, rest unchanged
+[b]Shameful Locket:[/b] +15 ACC, +4% CRT, +25% virtue chance
+[b]Set Bonus:[/b] +25% DMG on round 1, +25% DMG, +30% surprise chance
+	  
+[b]Houndmaster:[/b]
+[b]Evidence of Corruption:[/b] +30% scouting chance, -25% chance party surprised, +30% chance to disarm traps, +5 speed
+[b]Battered Lawman&apos;s Badge:[/b] +12 ACC, +25% stress healed, +25% healing done
+[b]Set Bonus:[/b] +35% bleed chance, +5% CRT vs bleeding, +30% DMG vs bleeding
+	  
+[b]Jester:[/b] 
+[b]Tyrant&apos;s Tasting Cup:[/b] +33% stress healed, +33% stress healed while camping, -25% stress
+[b]Tyrant&apos;s Fingerbone:[/b] +45% debuff chance, +12 dodge, +12 ACC
+[b]Set Bonus:[/b] +4 SPD in pos 4, +45% DMG in pos 4, +50% bleed chance in pos 3, +30% DMG in pos 3, +10% CRT in pos 2, +30% DMG in pos 2, +4 SPD in pos 1, +15% DMG in pos 1
+	  
+[b]Leper:[/b]
+[b]Last Will and Testament:[/b] +15% PROT, +15% MAX HP, +40% move resist
+[b]Tin Flute:[/b] -25% stress, +20% healing done
+[b]Set Bonus:[/b] +15 ACC if HP above 50%, +5% CRT if HP above 65%, +35% DMG if HP above 80%
+	  
+[b]Man-at-Arms:[/b]
+[b]Old Unit Standard:[/b] +35% stun resist, +35% stun skill chance, +35% debuff skill chance, +15% death blow resist
+[b]Toy Soldier:[/b] +10% PROT, +3% CRT, +10% PROT if HP under 50%, +3% CRT if HP under 50%
+[b]Set Bonus:[/b] +30% DMG when riposte, +12 ACC
+	  
+[b]Occultist:[/b]  
+[b]Blood Pact:[/b] +20 dodge, +30% bleed/blight resist
+[b]Vial of Sand:[/b] +40% debuff/move chance, +12 ACC, +4 SPD
+[b]Set Bonus:[/b] +35% DMG if torch below 51, %8 CRT if torch below 51, +50% healing if torch above 50, -35% bleed chance if torch above 50, +35% stun resist if torch above 50
+	  
+[b]Plague Doctor:[/b]
+[b]Subject #40 Notes:[/b] +100% blight resist, +100% disease resist, +15 ACC
+[b]Dissection Kit:[/b] +40% bleed chance, +25% DMG, +25% DMG vs blight
+[b]Set Bonus:[/b] +45% blight chance, +40% stun chance, +5% CRT
+	  
+[b]Vestal[/b]: 
+[b]Atonement Beads:[/b] +40% melee DMG, +10% melee CRT, +15 ACC
+[b]Salacious Diary:[/b] +45% healing skills, +15% healing skills if in pos 2, -15% stress
+[b]Set Bonus:[/b] +50% stun/debuff chance, +30% move resist
+
+---
+
+Special thanks to Exaelus for his massive help making the mod and fixing all the errors! You can check out his mods [url=https://steamcommunity.com/id/Exaelus/myworkshopfiles/?appid=262060]here.[/url]
+
+---
+
+&quot;Better Sets&quot; is not an official Red Hook Studios product or product modification, and Red Hook Studios Inc. is not responsible in any way for changes or damages that may result from using the mod. Furthermore, &quot;Darkest Dungeon&quot; and the Darkest Dungeon logo are trademarks of Red Hook Studios Inc., all rights reserved.</ItemDescription>
+	<PublishedFileId>971565956</PublishedFileId>
+</project>
+

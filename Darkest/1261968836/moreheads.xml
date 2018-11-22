@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<PreviewIconFile>preview_icon.png</PreviewIconFile>
+	<ItemDescriptionShort/>
+	<ModDataPath>C:/Users/Vatf&apos;/Documents/Mods/moreheads/</ModDataPath>
+	<Title>More Collector Trinkets</Title>
+	<Language>english</Language>
+	<UpdateDetails/>
+	<Visibility>public</Visibility>
+	<UploadMode>direct_upload</UploadMode>
+	<VersionMajor>1</VersionMajor>
+	<VersionMinor>3</VersionMinor>
+	<TargetBuild>0</TargetBuild>
+	<Tags>
+		<Tags>Trinkets</Tags>
+		<Tags>Collector</Tags>
+	</Tags>
+	<ItemDescription/>
+	<PublishedFileId>1261968836</PublishedFileId>
+</project>
+

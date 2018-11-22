@@ -1,0 +1,53 @@
+//Musketeer mod by Androu1
+//---
+//Aimed Shot
+effect: .name "Musket DMG 1".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 40%  .damage_high_multiply 40% .crit_chance_add 4%	 .on_hit true .on_miss false
+effect: .name "Musket DMG 2".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 50%  .damage_high_multiply 50% .crit_chance_add 5%	 .on_hit true .on_miss false
+effect: .name "Musket DMG 3".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 60%  .damage_high_multiply 60% .crit_chance_add 6%	 .on_hit true .on_miss false
+effect: .name "Musket DMG 4".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 75%  .damage_high_multiply 75% .crit_chance_add 7%	 .on_hit true .on_miss false
+effect: .name "Musket DMG 5".target "performer" .chance 100%	.curio_result_type "positive" .keyStatus "tagged"  .combat_stat_buff 1 .damage_low_multiply 90%  .damage_high_multiply 90% .crit_chance_add 9%	 .on_hit true .on_miss false
+
+//Marking Shot
+effect: .name "Musket Mark DBF 1" .target "target" .curio_result_type "negative" .chance 100% .combat_stat_buff 1 .defense_rating_add -10% .speed_rating_add -2  .on_hit true .on_miss false .queue true
+effect: .name "Musket Mark DBF 2" .target "target" .curio_result_type "negative" .chance 110% .combat_stat_buff 1 .defense_rating_add -12% .speed_rating_add -2  .on_hit true .on_miss false .queue true
+effect: .name "Musket Mark DBF 3" .target "target" .curio_result_type "negative" .chance 120% .combat_stat_buff 1 .defense_rating_add -15% .speed_rating_add -3  .on_hit true .on_miss false .queue true
+effect: .name "Musket Mark DBF 4" .target "target" .curio_result_type "negative" .chance 130% .combat_stat_buff 1 .defense_rating_add -17% .speed_rating_add -3  .on_hit true .on_miss false .queue true
+effect: .name "Musket Mark DBF 5" .target "target" .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .defense_rating_add -20% .speed_rating_add -4 .on_hit true .on_miss false .queue true
+
+//Buckshot
+effect: .name "Musk Buckshot Tooltip" .target "performer" .skill_instant true .chance 100% .buff_ids musk_buckshot_tooltip .on_hit true .on_miss false .apply_once true
+effect: .name "Musk Piercing 1" .target "performer" .chance 100% .curio_result_type "positive" .skill_instant true .buff_ids musk_armour_piercing_1 .on_hit true .on_miss false .apply_once true
+effect: .name "Musk Piercing 2" .target "performer" .chance 100% .curio_result_type "positive" .skill_instant true .buff_ids musk_armour_piercing_2 .on_hit true .on_miss false .apply_once true
+effect: .name "Musk Piercing 3" .target "performer" .chance 100% .curio_result_type "positive" .skill_instant true .buff_ids musk_armour_piercing_3 .on_hit true .on_miss false .apply_once true
+effect: .name "Musk Piercing 4" .target "performer" .chance 100% .curio_result_type "positive" .skill_instant true .buff_ids musk_armour_piercing_4 .on_hit true .on_miss false .apply_once true
+effect: .name "Musk Piercing 5" .target "performer" .chance 100% .curio_result_type "positive" .skill_instant true .buff_ids musk_armour_piercing_5 .on_hit true .on_miss false .apply_once true
+
+//Encourage
+effect: .name "Musket Encourage 1" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .healstress 6 .speed_rating_add 2 .damage_low_multiply 8% .damage_high_multiply 8% .on_hit true .on_miss true	.queue true
+effect: .name "Musket Encourage 2" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .healstress 7 .speed_rating_add 2 .damage_low_multiply 10% .damage_high_multiply 10% .on_hit true .on_miss true	.queue true
+effect: .name "Musket Encourage 3" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .healstress 8 .speed_rating_add 3 .damage_low_multiply 12% .damage_high_multiply 12% .on_hit true .on_miss true	.queue true
+effect: .name "Musket Encourage 4" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .healstress 9 .speed_rating_add 3 .damage_low_multiply 14% .damage_high_multiply 14% .on_hit true .on_miss true	.queue true
+effect: .name "Musket Encourage 5" .target "target" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .healstress 10 .speed_rating_add 4 .damage_low_multiply 15% .damage_high_multiply 15% .on_hit true .on_miss true	.queue true
+
+//Party SPD Buff
+effect: .name "MusSkeetClear"  .target "performer_group" .chance 100% .unstun 1 .untag 1 .on_hit true .on_miss true
+effect: .name "MusSkeet SPD 1" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss true .queue true
+effect: .name "MusSkeet SPD 2" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 3 .on_hit true .on_miss true .queue true
+effect: .name "MusSkeet SPD 3" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 4 .on_hit true .on_miss true .queue true
+effect: .name "MusSkeet SPD 4" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 5 .on_hit true .on_miss true .queue true
+effect: .name "MusSkeet SPD 5" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 6 .on_hit true .on_miss true .queue true
+
+//Smokescreen Debuff Accuracy and Stun
+effect: .name "Smokescreen Debuff 1" .target "target" .curio_result_type "negative" .chance 80% .stun 1 .combat_stat_buff 1 .attack_rating_add -6% .on_hit true .on_miss false .queue true
+effect: .name "Smokescreen Debuff 2" .target "target" .curio_result_type "negative" .chance 90% .stun 1 .combat_stat_buff 1 .attack_rating_add -7% .on_hit true .on_miss false .queue true
+effect: .name "Smokescreen Debuff 3" .target "target" .curio_result_type "negative" .chance 100% .stun 1 .combat_stat_buff 1 .attack_rating_add -8% .on_hit true .on_miss false .queue true
+effect: .name "Smokescreen Debuff 4" .target "target" .curio_result_type "negative" .chance 110% .stun 1 .combat_stat_buff 1 .attack_rating_add -9% .on_hit true .on_miss false .queue true
+effect: .name "Smokescreen Debuff 5" .target "target" .curio_result_type "negative" .chance 120% .stun 1 .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false .queue true
+
+//Sidearm Riposte
+effect: .name "Sidearm Riposte 1" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .attack_rating_multiply 0% .crit_chance_add 0% .riposte_effect "Move Back 1"
+effect: .name "Sidearm Riposte 2" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .attack_rating_multiply 5% .crit_chance_add 1% .riposte_effect "Move Back 1"
+effect: .name "Sidearm Riposte 3" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .attack_rating_multiply 10% .crit_chance_add 2% .riposte_effect "Move Back 1"
+effect: .name "Sidearm Riposte 4" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .attack_rating_multiply 15% .crit_chance_add 3% .riposte_effect "Move Back 1"
+effect: .name "Sidearm Riposte 5" .target "performer" .curio_result_type "positive" .chance 100% .riposte 1 .riposte_on_hit_chance_add 100% .riposte_on_miss_chance_add 100% .duration 2 .on_hit true .on_miss true .damage_low_multiply 0% .damage_high_multiply 0% .attack_rating_multiply 20% .crit_chance_add 4% .riposte_effect "Move Back 1"
+effect: .name "Move Back 1" .target "performer" .curio_result_type "positive" .push 1 .chance 300% .on_hit true .on_miss true .can_apply_on_death true 

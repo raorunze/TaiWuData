@@ -1,0 +1,16 @@
+//Trinket Effects
+
+//Cataphract Trinket
+effect: .name "Spectral Cubes Heal Party"  .target "performer_group" .curio_result_type "positive" .chance 100% .heal 2 .on_hit true .on_miss false .is_crit_valid false .queue true .source_heal_type hero_skill
+effect: .name "Spectral Cubes Immobilize Self" .target "performer" .chance 33% .immobilize 2 .on_hit true .on_miss false	.queue true .apply_once true
+effect: .name "Spectral Cubes Tooltip"   .target "performer"   .curio_result_type "positive" .buff_ids "CoM_scintillating_cubes_tooltip" .on_hit true .on_miss false .queue true .apply_once true
+
+
+//Omen Seeker Trinket
+effect: .name "Stopwatch Stun Other"     .target "target"   .curio_result_type "negative" .chance 130% .stun 1	.on_hit true .on_miss false .queue true .apply_once true
+effect: .name "Stopwatch Stun Self"     .target "performer"   .curio_result_type "negative" .chance 90% .stun 1	.on_hit true .on_miss true .queue true .apply_once true
+
+
+//Slayer Trinket
+
+effect: .name "Slayer Orb Hit Effects"   .target "performer"   .curio_result_type "negative" .buff_ids "slayer_trinket_crit_reduction" .on_hit true .on_miss false .queue true .apply_once true
