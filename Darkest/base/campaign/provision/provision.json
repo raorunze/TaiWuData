@@ -3,20 +3,8 @@
     [
         [ ],
         [
-            { "type": "supply", "id": "firewood", "amount": 0 },
-            { "type": "provision", "id": "", "amount": 0 },
-            { "type": "supply", "id": "shovel", "amount": 0 },
-            { "type": "supply", "id": "antivenom", "amount": 0 },
-            { "type": "supply", "id": "bandage", "amount": 0 },
-            { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
-            { "type": "supply", "id": "skeleton_key", "amount": 0 },
-            { "type": "supply", "id": "holy_water", "amount": 0 },
-            { "type": "supply", "id": "laudanum", "amount": 0 },
-            { "type": "supply", "id": "torch", "amount": 0 }
-        ],
-        [
             { "type": "supply", "id": "firewood", "amount": 1 },
-            { "type": "provision", "id": "", "amount": 0 },
+            { "type": "provision", "id": "", "amount": 16 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -28,7 +16,19 @@
         ],
         [
             { "type": "supply", "id": "firewood", "amount": 2 },
-            { "type": "provision", "id": "", "amount": 0 },
+            { "type": "provision", "id": "", "amount": 16 },
+            { "type": "supply", "id": "shovel", "amount": 0 },
+            { "type": "supply", "id": "antivenom", "amount": 0 },
+            { "type": "supply", "id": "bandage", "amount": 0 },
+            { "type": "supply", "id": "medicinal_herbs", "amount": 0 },
+            { "type": "supply", "id": "skeleton_key", "amount": 0 },
+            { "type": "supply", "id": "holy_water", "amount": 0 },
+            { "type": "supply", "id": "laudanum", "amount": 0 },
+            { "type": "supply", "id": "torch", "amount": 0 }
+        ],
+        [
+            { "type": "supply", "id": "firewood", "amount": 2 },
+            { "type": "provision", "id": "", "amount": 16 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },
@@ -39,8 +39,8 @@
             { "type": "supply", "id": "torch", "amount": 0 }
         ],
         [
-            { "type": "supply", "id": "firewood", "amount": 4 },
-            { "type": "provision", "id": "", "amount": 0 },
+            { "type": "supply", "id": "firewood", "amount": 3 },
+            { "type": "provision", "id": "", "amount": 16 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
             { "type": "supply", "id": "bandage", "amount": 0 },

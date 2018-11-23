@@ -161,7 +161,7 @@
                                     "loot_increase_gold": 5.0,
                                     "loot_increase_treasure_draws": 5.0,
                                     "player_crit_increase": 4.0,
-                                    "player_def_increase": 0.0,
+                                    "player_def_increase": 4.0,
                                     "player_scouting_increase": 2.5,
                                     "monsters_surprised_increase": 5.0,
                                     "heroes_surprised_increase": 35.0

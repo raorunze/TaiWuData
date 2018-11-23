@@ -6,7 +6,7 @@
     "player_crit_multiplier_table": [
         {
             "chance": 1,
-            "value": 1.5
+            "value": 2.0
         }
     ],
     "monster_crit_multiplier_table": [
@@ -23,16 +23,16 @@
     },
     "player_crit": {
         "relief_chance": 1.0,
-        "stress_relief": 3,
-        "companion_relief_chance": 0.25,
-        "companion_stress_relief": 3
+        "stress_relief": 5,
+        "companion_relief_chance": 0.75,
+        "companion_stress_relief": 5
     },
     "playerCritBarkChance": 0.75,
     "combat_retreat_chance": 0.70,
     "combat_retreat_bonus_chance_per_attempt": 0.05,
     "combat_retreat_stress": 25.0,
 
-    "passed_turn_stress_dmg": 7.0,
+    "passed_turn_stress_dmg": 10.0,
     "deaths_door_self_stress_chance": 1.0,
     "deaths_door_companion_stress_chance": 0.33,
     "deaths_door_self_stress_dmg": 9.0,
@@ -43,10 +43,10 @@
     "deaths_door_companion_stress_dmg_repeat": 3.0,
     "stress_dmg_buff_min": 0.2,
     "hallway_stress": {
-        "hallway_per_tile_stress_damage_fwd": 3.0,
-        "hallway_per_tile_stress_damage_chance_fwd": 0.33,
-        "hallway_per_tile_stress_damage_backing_up": 6.0,
-        "hallway_per_tile_stress_damage_chance_backing_up": 0.55
+        "hallway_per_tile_stress_damage_fwd": 5.0,
+        "hallway_per_tile_stress_damage_chance_fwd": 0.5,
+        "hallway_per_tile_stress_damage_backing_up": 10.0,
+        "hallway_per_tile_stress_damage_chance_backing_up": 0.75
     },
     "killing_blow_relief_chance": 0.5,
     "killing_blow_stress_relief": 3.0,
@@ -108,10 +108,10 @@
     "curioTriggerChance_med": 0.25,
     "curioTriggerChance_high": 0.50,
     "quirks_fated_miss2hitconvertchance": 0.10,
-    "quirks_max_positive": 5,
-    "quirks_max_negative": 5,
-    "quirks_max_diseases": 3,
-    "quirks_max_locked_positive": 3,
+    "quirks_max_positive": 6,
+    "quirks_max_negative": 3,
+    "quirks_max_diseases": 2,
+    "quirks_max_locked_positive": 6,
     "quirks_max_locked_negative": 3,
     "quirk_negative_locked_after_turn_count": 2,
     "quirk_chance_to_lock_negative": 0.25,
@@ -376,25 +376,25 @@
                     "monster_damage_increase": 30.0,
                     "monster_crit_increase": 6.0,
                     "loot_increase_gold": 30.0,
-                    "loot_increase_treasure_draws": 12.0,
+                    "loot_increase_treasure_draws": 15.0,
                     "player_crit_increase": 3.0,
-                    "player_def_increase": 0.0,
-                    "player_scouting_increase": 0.0,
+                    "player_def_increase": 3.0,
+                    "player_scouting_increase": 100.0,
                     "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 40.0
                 }
             }
         ]
     },
-    "provision_hp_heal": 0.05,
-    "hallway_hunger_HPrestore": 0.05,
+    "provision_hp_heal": 0.2,
+    "hallway_hunger_HPrestore": 0.2,
     "hallway_hunger_starve_HPdmg": 0.20,
     "meals_table": [
         {
             "type": "none",
             "rations_per": 0,
-            "healing": -0.20,
-            "stress": 15
+            "healing": 0,
+            "stress": 50
 
         },
         {
@@ -421,14 +421,14 @@
     "ambush_torch_reduction": -100,
     "camp_relieve_stress": 0,
     "max_number_of_camping_skills": 3,
-    "camp_start_camping_points": 12,
-    "camp_rest_point_threshold": 6,
+    "camp_start_camping_points": 18,
+    "camp_rest_point_threshold": 10,
     "camp_rest_number_of_hero_threshold": 1,
-    "scouting_enter_dungeon_scout_chance": 0.0,
+    "scouting_enter_dungeon_scout_chance": 100.0,
     "scouting_enter_dungeon_quest_item_scout_chance": 0.0,
     "scouting_chance_scout_treasure": 0.0,
-    "scouting_crit_success": 0.50,
-    "scouting_chance_base": 0.25,
+    "scouting_crit_success": 1.0,
+    "scouting_chance_base": 1.0,
     "death_party_stress_chance": 0.80,
     "death_party_stress_damage": 15,
     "deathblow_chance": 1.0,
@@ -481,8 +481,8 @@
             "stress_penalty": 20.0
         }
     ],
-    "new_game_plus_week_limit": 86,
-    "new_game_plus_hero_death_limit": 12,
+    "new_game_plus_week_limit": 96,
+    "new_game_plus_hero_death_limit": 16,
     "new_game_plus_monster_max_hp_modifier": 0.20,
     "new_game_plus_monster_crit_modifier": 0.030,
     "min_available_activity_slots_for_crier": 12,

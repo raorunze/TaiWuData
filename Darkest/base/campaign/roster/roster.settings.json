@@ -3,7 +3,7 @@
     [
         {
             "id" : "strict",
-            "darkest_dungeon_can_enter" : false,
+            "darkest_dungeon_can_enter" : true,
             "darkest_dungeon_buff_ids" : [],
             "darkest_duungeon_minimum_stress" : 0.0
         },
@@ -11,7 +11,7 @@
             "id" : "permissive",
             "darkest_dungeon_can_enter" : true,
             "darkest_dungeon_buff_ids" : ["never_again_affliction"],
-            "darkest_duungeon_minimum_stress" : 80.0
+            "darkest_duungeon_minimum_stress" : 100.0
         }
     ]
 }

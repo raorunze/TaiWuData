@@ -8,15 +8,15 @@
                 "type": "gold"
             },
             "1": {
-                "amount": 10,
+                "amount": 20,
                 "type": "bust"
             },
             "2": {
-                "amount": 10,
+                "amount": 20,
                 "type": "portrait"
             },
             "3": {
-                "amount": 10,
+                "amount": 20,
                 "type": "deed"
             },
             "4": {

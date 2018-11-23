@@ -1,4 +1,4 @@
-inventory_system_config:	.type "raid"						.max_slots 16				.use_stack_limits true
+inventory_system_config:	.type "raid"						.max_slots 24				.use_stack_limits true
 inventory_system_config:	.type "quest_rewards"				.max_slots 16				.use_stack_limits false
 inventory_system_config:	.type "provision"					.max_slots 14				.use_stack_limits false
 inventory_system_config:	.type "trinket_store"				.max_slots 16				.use_stack_limits true

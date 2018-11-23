@@ -23,20 +23,20 @@
                     "number_of_recruits_upgrades":
                     [
                         { "amount": 2 },
-                        { "amount": 3, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "a" },
-                        { "amount": 4, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "b" },
-                        { "amount": 5, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "c" },
-                        { "amount": 6, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "d" },
-                        { "amount": 7, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "e" }
+                        { "amount": 4, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "a" },
+                        { "amount": 6, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "b" },
+                        { "amount": 8, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "c" },
+                        { "amount": 10, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "d" },
+                        { "amount": 12, "upgrade_tree_id": "stage_coach.numrecruits", "upgrade_requirement_code": "e" }
                     ],
                     "roster_size_upgrades" : 
                     [
                         { "amount" : 9 },
-                        { "amount" : 12,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "a"  },
-                        { "amount" : 16,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "b"  },
-                        { "amount" : 20,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "c"  },
-                        { "amount" : 24,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "d"  },
-                        { "amount" : 28,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "e"  }
+                        { "amount" : 16,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "a"  },
+                        { "amount" : 20,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "b"  },
+                        { "amount" : 26,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "c"  },
+                        { "amount" : 32,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "d"  },
+                        { "amount" : 40,     "upgrade_tree_id" :  "stage_coach.rostersize", "upgrade_requirement_code" : "e"  }
                     ],
                     "upgraded_recruits_upgrades" :
                     [
