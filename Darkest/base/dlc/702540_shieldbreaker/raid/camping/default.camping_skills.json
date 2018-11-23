@@ -10,12 +10,12 @@
 
 			"id" : "encourage",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -43,12 +43,12 @@
 		{
 			"id" : "first_aid",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -56,7 +56,7 @@
 					"amount" :  0.15
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "remove_bleeding",
@@ -64,7 +64,7 @@
 					"amount" :  0
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "remove_poison",
@@ -97,7 +97,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -131,7 +131,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -164,7 +164,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 0.75 },
                     "type": "health_heal_max_health_percent",
@@ -172,7 +172,7 @@
 					"amount" :  0.35
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 0.25 },
                     "type": "health_heal_max_health_percent",
@@ -180,7 +180,7 @@
 					"amount" :  0.50
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "remove_bleeding",
@@ -214,7 +214,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -247,7 +247,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -255,7 +255,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -263,7 +263,7 @@
 					"amount" :  0.20
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -271,7 +271,7 @@
 					"amount" :  0.20
 				},						
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
@@ -279,7 +279,7 @@
 					"amount" :  0.08
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 }, 
 					"type" : "buff",
@@ -312,7 +312,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -320,7 +320,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -328,7 +328,7 @@
 					"amount" :  0.20
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -336,7 +336,7 @@
 					"amount" :  0.20
 				},						
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
@@ -344,7 +344,7 @@
 					"amount" :  0.08
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 }, 
 					"type" : "buff",
@@ -377,7 +377,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -411,7 +411,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -419,7 +419,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -452,7 +452,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -461,7 +461,7 @@
 
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -494,7 +494,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -502,7 +502,7 @@
 					"amount" :  0.25
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -510,7 +510,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -543,7 +543,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -576,7 +576,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -609,7 +609,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -617,7 +617,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "remove_deaths_door_recovery_buffs",
@@ -658,7 +658,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -691,7 +691,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -699,7 +699,7 @@
 					"amount" :  25
 				},				
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : ["afflicted"],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -707,7 +707,7 @@
 					"amount" :  15
 				},
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -735,22 +735,14 @@
 		{ 
 			"id" : "forage",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
-					"type": "remove_disease",
-					"sub_type": "",
-					"amount": 0
-				},
-				{
-					"selection" : "individual",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 1.0 },
 					"type": "remove_disease",
 					"sub_type": "",
 					"amount": 0
@@ -781,28 +773,20 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 1.0 },
-                    "type": "stress_heal_amount",
+					"chance" : { "code" : "b", "amount": 0.25 },
+                    "type": "stress_damage_amount",
                     "sub_type" : "",
-					"amount" :  25
+					"amount" :  15
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 0.75 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
 					"amount" :  20
-				},
-				{ 
-					"selection" : "party_other",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.25 },
-                    "type": "stress_damage_amount",
-                    "sub_type" : "",
-					"amount" :  10
 				}
 			],
 			"hero_classes" : ["grave_robber", "highwayman"],
@@ -830,7 +814,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -859,17 +843,17 @@
 			"id" : "pilfer",
 			"level" : 0,
 			"cost" : 1,
-			"use_limit" : 1,
+			"use_limit" : 6,
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
 					"sub_type": "S",
-					"amount": 1
-				}			
+					"amount": 2
+				}
 
 			],
 			"hero_classes" : ["grave_robber"],
@@ -883,7 +867,7 @@
 					],
 					"prerequisite_requirements" :
 					[
-						
+				
 					]
 				}
 			] 
@@ -897,7 +881,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type" : "buff",
@@ -905,7 +889,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
 					"type" : "buff",
@@ -913,7 +897,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 },
 					"type" : "buff",
@@ -921,7 +905,7 @@
 					"amount" :  -0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "f", "amount": 1.0 },
 					"type" : "buff",
@@ -1011,7 +995,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1019,7 +1003,7 @@
 					"amount" :  30
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -1027,7 +1011,7 @@
 					"amount" :  7
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -1060,7 +1044,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -1093,7 +1077,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1101,7 +1085,7 @@
 					"amount" :  0.1
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1109,7 +1093,7 @@
 					"amount" :  2
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1117,7 +1101,7 @@
 					"amount" :  0.2
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1125,7 +1109,7 @@
 					"amount" :  0.2
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1159,7 +1143,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1167,7 +1151,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1175,7 +1159,7 @@
 					"amount" :  0.20
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1183,7 +1167,7 @@
 					"amount" :  0.20
 				},						
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "D", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1216,7 +1200,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -1224,7 +1208,7 @@
 					"amount" : 1.0
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -1233,7 +1217,7 @@
 
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
@@ -1266,7 +1250,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1274,7 +1258,7 @@
 					"amount" :  0.15
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1282,7 +1266,7 @@
 					"amount" :  0.15
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1356,7 +1340,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1364,7 +1348,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1397,7 +1381,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1405,7 +1389,7 @@
 					"amount" :  0.10
 				},
                 { 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1413,7 +1397,7 @@
 					"amount" :  0.10
 				},						
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 0.75 }, 
 					"type" : "buff",
@@ -1446,7 +1430,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1454,7 +1438,7 @@
 					"amount" :  25
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 0.5 },
                     "type": "stress_damage_amount",
@@ -1462,7 +1446,7 @@
 					"amount" :  10
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 0.5 },
                     "type": "stress_damage_amount",
@@ -1495,7 +1479,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -1503,7 +1487,7 @@
 					"amount" :  0.50
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.00 },
                     "type": "reduce_torch",
@@ -1511,7 +1495,7 @@
 					"amount" :  100
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -1519,7 +1503,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "remove_deaths_door_recovery_buffs",
@@ -1552,7 +1536,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1560,7 +1544,7 @@
 					"amount" :  0.20
 				},
                 { 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1568,7 +1552,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.00 },
                     "type": "stress_damage_amount",
@@ -1602,7 +1586,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.00 },
                     "type": "stress_damage_amount",
@@ -1610,7 +1594,7 @@
 					"amount" :  7
 				},
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -1643,7 +1627,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -1651,7 +1635,7 @@
 					"amount" :  0.5
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -1684,7 +1668,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.00 },
                     "type": "health_heal_max_health_percent",
@@ -1692,7 +1676,7 @@
 					"amount" :  0.15
 				},			
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "remove_poison",
@@ -1700,7 +1684,7 @@
 					"amount" :  0
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.00 },
                     "type": "remove_disease",
@@ -1732,7 +1716,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "remove_disease",
@@ -1740,7 +1724,7 @@
 					"amount" :  0
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -1765,14 +1749,14 @@
 			] 
 		},
 		{ 
-			"id" : "self_medicate",
+			"id" : "party_medicate",
 			"level" : 0,
 			"cost" : 3,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1780,7 +1764,7 @@
 					"amount" :  10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -1788,7 +1772,7 @@
 					"amount" :  0.20
 				},		
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "remove_poison",
@@ -1796,7 +1780,7 @@
 					"amount" :  0
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "remove_bleeding",
@@ -1804,7 +1788,7 @@
 					"amount" :  0
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 },
                     "type": "buff",
@@ -1837,7 +1821,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -1845,7 +1829,7 @@
 					"amount" :  0.10					
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type" : "buff",
@@ -1878,7 +1862,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1886,7 +1870,7 @@
 					"amount" :  -0.20
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1894,7 +1878,7 @@
 					"amount" :  -0.10
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1902,7 +1886,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1935,7 +1919,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1943,7 +1927,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -1951,7 +1935,7 @@
 					"amount" :  5
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1959,7 +1943,7 @@
 					"amount" :  0.15
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
@@ -1992,7 +1976,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -2000,7 +1984,7 @@
 					"amount" : 1.0
 				},
 				{
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["has_deaths_door_recovery_buffs"],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -2008,7 +1992,7 @@
 					"amount" : 0.5
 				},
 				{
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["has_deaths_door_recovery_buffs"],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2041,7 +2025,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2049,7 +2033,7 @@
 					"amount" :  30
 				},
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : ["afflicted"],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2082,7 +2066,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2090,7 +2074,7 @@
 					"amount" :  15
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2122,7 +2106,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2130,7 +2114,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2162,7 +2146,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -2170,7 +2154,7 @@
 					"amount" :  20
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2202,7 +2186,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2210,7 +2194,7 @@
 					"amount" :  25
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -2242,7 +2226,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -2250,7 +2234,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -2258,7 +2242,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
@@ -2266,7 +2250,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "buff",
@@ -2298,7 +2282,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2306,7 +2290,7 @@
 					"amount" :  20
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2314,7 +2298,7 @@
 					"amount" :  0.10
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2346,7 +2330,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_damage_max_health_percent",
@@ -2354,7 +2338,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 0.50 },
                     "type": "stress_heal_amount",
@@ -2362,7 +2346,7 @@
 					"amount" :  20
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 0.50 },
                     "type": "stress_heal_amount",
@@ -2394,7 +2378,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -2403,7 +2387,7 @@
 
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -2411,7 +2395,7 @@
 					"amount" : 0.20
 				},
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -2444,7 +2428,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2452,7 +2436,7 @@
 					"amount" :  10
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2485,7 +2469,7 @@
 			"effects" : 
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2517,7 +2501,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -2549,7 +2533,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -2557,7 +2541,7 @@
 					"amount" :  20
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -2589,7 +2573,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -2597,7 +2581,7 @@
 					"amount" :  0.25
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type" : "buff",
@@ -2605,7 +2589,7 @@
 					"amount" :  0.25
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["not_religious"],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -2613,7 +2597,7 @@
 					"amount" :  10
 				},
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : ["religious"],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "stress_damage_amount",
@@ -2645,7 +2629,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -2677,7 +2661,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -2685,7 +2669,7 @@
 					"amount" :  0.40
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
 					"type" : "buff",
@@ -2693,7 +2677,7 @@
 					"amount" :  0.40
 				},
                 { 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
 					"type" : "buff",
@@ -2701,7 +2685,7 @@
 					"amount" :  0.40
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
@@ -2734,7 +2718,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
@@ -2768,7 +2752,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
@@ -2801,7 +2785,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -2809,7 +2793,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "buff",
@@ -2817,7 +2801,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
@@ -2825,7 +2809,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "buff",
@@ -2833,7 +2817,7 @@
 					"amount" :  0.20
 				},
 				{ 
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "e", "amount": 1.0 },
                     "type": "buff",
@@ -2866,7 +2850,7 @@
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",

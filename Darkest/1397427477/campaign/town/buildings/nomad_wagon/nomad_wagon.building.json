@@ -3,7 +3,7 @@
 
     "requirements":
     {
-        "number_of_quests_finished": 0,
+        "number_of_quests_finished": 4,
         "highest_dungeon_level": 0
     },
 
@@ -27,12 +27,12 @@
 
 					"trinket_cost_discount_upgrades" : 
 					[
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "a" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "b" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "c" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "d" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "e" },
-						{ "discount_percent" :  0.10, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "f" }
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "a" },
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "b" },
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "c" },
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "d" },
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "e" },
+						{ "discount_percent" :  0.15, "upgrade_tree_id" :  "nomad_wagon.cost", "upgrade_requirement_code" : "f" }
 					],
 					
 					"trinket_sell_value_discount_upgrades" :
@@ -42,10 +42,10 @@
 					
 					"rarity_generation_table" :
 					[
-						{ "rarity" : "very_common",        "chance" : 6.0 },
-						{ "rarity" : "common",             "chance" : 5.0 },
-						{ "rarity" : "uncommon",           "chance" : 4.0 },
-						{ "rarity" : "rare",               "chance" : 3.0 },
+						{ "rarity" : "very_common",        "chance" : 1.0 },
+						{ "rarity" : "common",             "chance" : 1.0 },
+						{ "rarity" : "uncommon",           "chance" : 1.0 },
+						{ "rarity" : "rare",               "chance" : 1.0 },
 						{ "rarity" : "very_rare",          "chance" : 1.5 },
                         { "rarity" : "crimson_court",      "chance" : 0.5 },
                         { "rarity" : "ancestral",          "chance" : 0.35},

@@ -9,12 +9,12 @@
 		{ 
 			"id" : "way_of_serpent",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "party_other",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -42,12 +42,12 @@
 		{ 
 			"id" : "way_of_scales",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
@@ -55,7 +55,7 @@
 					"amount" :  0.15
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
@@ -116,7 +116,7 @@
 		{ 
 			"id" : "way_of_adder",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[

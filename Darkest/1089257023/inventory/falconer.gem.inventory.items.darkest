@@ -1,2 +1,0 @@
-inventory_item:	.type "gem"		.id "falc_feather"	.base_stack_limit 20    .can_modify_stack_limit false	.purchase_gold_value 0			.sell_gold_value 250
-inventory_item:	.type "gem"		.id "falc_mother_feather"	.base_stack_limit 1    .can_modify_stack_limit false	.purchase_gold_value 0			.sell_gold_value 5000

@@ -8,8 +8,7 @@
 			"AB_BLEEDRESIST",
 			"AB_BLIGHTRESIST",
 			"AB_DEBUFFRESIST",
-			"AB_DISEASERESIST",
-            "HEAD_STRESSDMG_5"
+			"AB_DISEASERESIST"
          ],
          "hero_class_requirements":
          [
@@ -27,8 +26,7 @@
 			"AN_DMGH",
 			"AN_CRIT",
 			"AN_DEF",
-			"AN_SPD",
-            "HEAD_STRESSDMG_5"
+			"AN_SPD"
          ],
          "hero_class_requirements":
          [
@@ -44,8 +42,7 @@
          [
 			"AQ_DEF",
 			"AQ_DMG_L",
-			"AQ_DMG_H",
-            "HEAD_STRESSDMG_2"
+			"AQ_DMG_H"
          ],
          "hero_class_requirements":
          [
@@ -60,8 +57,7 @@
          "buffs" : 
          [
 			"AR_MARKED_DMGL",
-			"AR_MARKED_DMGH",
-            "HEAD_STRESSDMG_2"
+			"AR_MARKED_DMGH"
          ],
          "hero_class_requirements":
          [
@@ -77,8 +73,7 @@
          [
 			"BH_MANDMG_H",
 			"BH_MANDMG_L",
-			"BH_STUNSKILL",
-            "HEAD_STRESSDMG_2"
+			"BH_STUNSKILL"
          ],
          "hero_class_requirements":
          [
@@ -95,8 +90,7 @@
 			"CO_DMGL",
 			"CO_DMGH",
 			"CO_HEALDONE_BUFF",
-			"CO_PROT",
-            "HEAD_STRESSDMG_5"
+			"CO_PROT"
          ],
          "hero_class_requirements":
          [
@@ -112,8 +106,7 @@
          [
 			"CR_unholy_DMGL",
 			"CR_unholy_DMGH",
-			"CR_PROT",
-            "HEAD_STRESSDMG_2"
+			"CR_PROT"
          ],
          "hero_class_requirements":
          [
@@ -127,8 +120,7 @@
          "id" : "collector_GR",
          "buffs" : 
          [
-			"GR_SPD",
-            "HEAD_STRESSDMG_1"
+			"GR_SPD"
          ],
          "hero_class_requirements":
          [
@@ -144,8 +136,7 @@
          [
 			"HM_BEASTDMG_L",
 			"HM_BEASTDMG_H",
-			"HM_BLEEDSKILL",
-            "HEAD_STRESSDMG_2"
+			"HM_BLEEDSKILL"
          ],
          "hero_class_requirements":
          [
@@ -159,8 +150,7 @@
          "id" : "collector_JE",
          "buffs" : 
          [
-			"JE_STRESSHEALDONE_BUFF",
-            "HEAD_STRESSDMG_2"
+			"JE_STRESSHEALDONE_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -176,8 +166,7 @@
          [
 			"OC_ELDRITCHDMG_L",
 			"OC_ELDRITCHDMG_H",
-			"OC_ELDRITCHCRIT",
-            "HEAD_STRESSDMG_2"
+			"OC_ELDRITCHCRIT"
          ],
          "hero_class_requirements":
          [
@@ -191,8 +180,7 @@
          "id" : "collector_PD",
          "buffs" : 
          [
-			"PD_BLIGHTSKILL",
-            "HEAD_STRESSDMG_2"
+			"PD_BLIGHTSKILL"
          ],
          "hero_class_requirements":
          [
@@ -206,8 +194,7 @@
          "id" : "collector_SB",
          "buffs" : 
          [
-			"SB_PROTBREAK",
-            "HEAD_STRESSDMG_3"
+			"SB_PROTBREAK"
          ],
          "hero_class_requirements":
          [
@@ -221,8 +208,7 @@
          "id" : "collector_FL",
          "buffs" : 
          [
-			"FL_BLEEDSKILL",
-            "HEAD_STRESSDMG_2"
+			"FL_BLEEDSKILL"
          ],
          "hero_class_requirements":
          [
@@ -237,8 +223,7 @@
          "buffs" : 
          [
 			"HE_CRIT",
-			"HE_DEBUFFRESIST",
-            "HEAD_STRESSDMG_2"
+			"HE_DEBUFFRESIST"
          ],
          "hero_class_requirements":
          [
@@ -252,9 +237,8 @@
          "id" : "collector_LE",
          "buffs" : 
          [
-		    "LE_MAXHP",
-			"LE_ACC",
-			"HEAD_STRESSDMG_2"
+         "LE_MAXHP",
+			"LE_ACC"
          ],
          "hero_class_requirements":
          [
@@ -262,14 +246,13 @@
          "rarity" : "collector",
          "price" : 15000,
          "limit" : 1,
-         "origin_dungeon" : ""	  
+         "origin_dungeon" : ""
       },
 	  {
          "id" : "collector_MU",
          "buffs" : 
          [
-			"MU_ACC",
-            "HEAD_STRESSDMG_2"
+			"MU_ACC"
          ],
          "hero_class_requirements":
          [
