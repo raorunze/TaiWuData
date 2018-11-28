@@ -1,0 +1,13 @@
+
+omenseeker.sprite.throw_two.png
+size: 326,387
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_throweffecttwo
+  rotate: false
+  xy: 2, 2
+  size: 322, 383
+  orig: 443, 403
+  offset: 111, 13
+  index: -1

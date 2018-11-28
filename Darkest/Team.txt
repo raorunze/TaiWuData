@@ -1,10 +1,10 @@
-Melee precision_striker slugger lurker luminous hot_to_trot Corvid's Eye
-Ranged unerring eagle_eye lurker luminous hot_to_trot Corvid's Eye
+Melee precision_striker slugger lurker luminous hot_to_trot corvids_eye
+Ranged unerring eagle_eye lurker luminous hot_to_trot corvids_eye
 
 team 
 shieldbreaker : pierce,expose,adders_kiss,serpents_sway|way_of_scales way_of_serpent way_of_adder 回血 melee
-lordblade     : 
-musketeer     : 
+lordblade     : fast_roll,backstab,estus_tea,mutilate|lurker wisdom companionship 减压 melee
+omenseeker    : entangle,piercing_dagger,twin_boomerang,expunge|
 grave_robber  : pick,lunge,shadow_fade,toxin_trickery|gallows_humor forage pilfer 回血 melee
 
 964183745去除

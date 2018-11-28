@@ -1,0 +1,13 @@
+
+omenseeker.sprite.whip_lash.png
+size: 376,433
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_entangle_effect
+  rotate: false
+  xy: 2, 2
+  size: 372, 429
+  orig: 372, 429
+  offset: 0, 0
+  index: -1

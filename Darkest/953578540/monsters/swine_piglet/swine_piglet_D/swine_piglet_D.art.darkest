@@ -1,0 +1,6 @@
+commonfx: .deathfx death_medium
+skill: .id "squeal" .anim "attack_ranged" .fx "squeal" .targchestfx "blood_splatter" .area_pos_offset -150 0 .target_area_pos_offset 150 0
+skill: .id "wilbur_mark_1" .anim "attack_command" .fx "mark_one" .targchestfx "mark_target"
+skill: .id "wilbur_mark_2" .anim "attack_command" .fx "mark_one" .targchestfx "mark_target"
+skill: .id "squeal_single" .anim "attack_ranged" .fx "squeal" .targchestfx "blood_splatter"
+defending_area_pos_offset: .offset 0 35

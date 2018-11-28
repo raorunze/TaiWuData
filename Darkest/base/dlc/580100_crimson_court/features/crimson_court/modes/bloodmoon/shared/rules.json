@@ -24,7 +24,7 @@
     "player_crit": {
         "relief_chance": 1.0,
         "stress_relief": 5,
-        "companion_relief_chance": 0.5,
+        "companion_relief_chance": 0.50,
         "companion_stress_relief": 5
     },
     "playerCritBarkChance": 0.75,
@@ -43,9 +43,9 @@
     "deaths_door_companion_stress_dmg_repeat": 3.0,
     "stress_dmg_buff_min": 0.2,
     "hallway_stress": {
-        "hallway_per_tile_stress_damage_fwd": 5.0,
+        "hallway_per_tile_stress_damage_fwd": 3.0,
         "hallway_per_tile_stress_damage_chance_fwd": 0.33,
-        "hallway_per_tile_stress_damage_backing_up": 10.0,
+        "hallway_per_tile_stress_damage_backing_up": 6.0,
         "hallway_per_tile_stress_damage_chance_backing_up": 0.55
     },
     "killing_blow_relief_chance": 0.5,
@@ -109,7 +109,7 @@
     "curioTriggerChance_high": 0.50,
     "quirks_fated_miss2hitconvertchance": 0.10,
     "quirks_max_positive": 6,
-    "quirks_max_negative": 3,
+    "quirks_max_negative": 2,
     "quirks_max_diseases": 2,
     "quirks_max_locked_positive": 6,
     "quirks_max_locked_negative": 2,
@@ -376,25 +376,25 @@
                     "monster_damage_increase": 30.0,
                     "monster_crit_increase": 6.0,
                     "loot_increase_gold": 30.0,
-                    "loot_increase_treasure_draws": 15.0,
+                    "loot_increase_treasure_draws": 12.0,
                     "player_crit_increase": 3.0,
                     "player_def_increase": 3.0,
-                    "player_scouting_increase": 100.0,
+                    "player_scouting_increase": 50.0,
                     "monsters_surprised_increase": 0.0,
                     "heroes_surprised_increase": 40.0
                 }
             }
         ]
     },
-    "provision_hp_heal": 0.2,
-    "hallway_hunger_HPrestore": 0.2,
+    "provision_hp_heal": 0.20,
+    "hallway_hunger_HPrestore": 0.20,
     "hallway_hunger_starve_HPdmg": 0.20,
     "meals_table": [
         {
             "type": "none",
             "rations_per": 0,
-            "healing": 0,
-            "stress": 75
+            "healing": -0.20,
+            "stress": 15
 
         },
         {
@@ -421,14 +421,14 @@
     "ambush_torch_reduction": -100,
     "camp_relieve_stress": 0,
     "max_number_of_camping_skills": 3,
-    "camp_start_camping_points": 18,
-    "camp_rest_point_threshold": 10,
+    "camp_start_camping_points": 24,
+    "camp_rest_point_threshold": 12,
     "camp_rest_number_of_hero_threshold": 1,
-    "scouting_enter_dungeon_scout_chance": 100.0,
-    "scouting_enter_dungeon_quest_item_scout_chance": 100.0,
-    "scouting_chance_scout_treasure": 100.0,
-    "scouting_crit_success": 1.0,
-    "scouting_chance_base": 1.0,
+    "scouting_enter_dungeon_scout_chance": 0.0,
+    "scouting_enter_dungeon_quest_item_scout_chance": 0.0,
+    "scouting_chance_scout_treasure": 0.0,
+    "scouting_crit_success": 0.50,
+    "scouting_chance_base": 0.25,
     "death_party_stress_chance": 0.80,
     "death_party_stress_damage": 15,
     "deathblow_chance": 1.0,
@@ -481,7 +481,7 @@
             "stress_penalty": 20.0
         }
     ],
-    "new_game_plus_week_limit": 120,
+    "new_game_plus_week_limit": 1260,
     "new_game_plus_hero_death_limit": 16,
     "new_game_plus_monster_max_hp_modifier": 0.20,
     "new_game_plus_monster_crit_modifier": 0.030,

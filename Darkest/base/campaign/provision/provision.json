@@ -172,6 +172,7 @@
             { "type": "supply", "id": "torch", "amount": 42 }
         ],
         [
+        	{ "type": "supply", "id": "firewood", "amount": 4 },
             { "type": "provision", "id": "", "amount": 36 },
             { "type": "supply", "id": "shovel", "amount": 8 },
             { "type": "supply", "id": "antivenom", "amount": 12 },

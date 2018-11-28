@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large_boss
+skill: .id "cannon_boom" .anim "attack_ranged" .fx "boom" .targchestfx "blood_splatter" .area_pos_offset -100 -50 .target_area_pos_offset 50 0
+skill: .id "cannon_misfire" .anim "attack_ranged" .fx "misfire" .area_pos_offset -100 -50 .target_area_pos_offset 50 0
+skill: .id "cannon_summon" .anim "attack_summon" .fx "summon" .area_pos_offset 0 -35
+rendering: .sort_position_z_rank_override 4

@@ -1,0 +1,9 @@
+inventory_item:	.type "supply"		.id "vigorous_concoction2"		.base_stack_limit 10	.purchase_gold_value 450		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "heroism_draught2"			.base_stack_limit 10	.purchase_gold_value 350		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "provoked_protection2"		.base_stack_limit 10	.purchase_gold_value 450		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "eyesight_elixir2"			.base_stack_limit 10	.purchase_gold_value 350		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "corrupting_strength2"		.base_stack_limit 10	.purchase_gold_value 350		.sell_gold_value 25
+inventory_item:	.type "supply"		.id "eldritch_draught2"			.base_stack_limit 10	.purchase_gold_value 450		.sell_gold_value 25
+inventory_item:	.type "supply"	    .id "bronze_coin"				.base_stack_limit 12	.purchase_gold_value 2000		.sell_gold_value 1000
+inventory_item:	.type "supply"	    .id "silver_coin"				.base_stack_limit 12	.purchase_gold_value 5000		.sell_gold_value 2500
+inventory_item:	.type "supply"	    .id "gold_coin"					.base_stack_limit 12	.purchase_gold_value 10000		.sell_gold_value 5000

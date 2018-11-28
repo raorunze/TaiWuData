@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="czech">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="brazilian">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="italian">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="russian">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="polish">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="french">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="german">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+  <language id="spanish">
+    <entry id="buff_rule_tooltip_in_dungeon_false"><![CDATA[%s while not in Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_darkestdungeon"><![CDATA[Darkest Dungeon]]></entry>
+    <entry id="buff_rule_data_tooltip_sapper_detonate"><![CDATA[Sapper Detonate]]></entry>
+    <entry id="buff_rule_data_tooltip_zealous_accusation"><![CDATA[Zealous Accusation]]></entry>
+    <entry id="buff_rule_data_tooltip_judgement"><![CDATA[Judgement]]></entry>
+    <entry id="buff_rule_data_tooltip_inspiring_cry"><![CDATA[Inspiring Cry]]></entry>
+  </language>
+</root>
+

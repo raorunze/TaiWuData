@@ -126,11 +126,331 @@
                     "system_config_type": "hero_equipped_trinkets",
                     "items": {}
                 }
+            },
+            "3": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "Margaret",
+                    "current_hp": 21,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "omenseeker",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "unerring":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "eagle_eye":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "lurker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "luminous":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "hot_to_trot":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "corvids_eye":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "entangle": 0,
+                        "piercing_dagger": 0,
+                        "twin_boomerang": 0,
+                        "expunge": 0
+                    },
+                    "selected_camping_skills": {
+                        "everybody_in": 0,
+                        "monster_manual": 0,
+                        "second_course": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "4": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "Audrey",
+                    "current_hp": 16,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "grave_robber",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "precision_striker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "slugger":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "lurker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "luminous":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "hot_to_trot":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "corvids_eye":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "pick": 0,
+                        "lunge": 0,
+                        "shadow_fade": 0,
+                        "toxin_trickery": 0
+                    },
+                    "selected_camping_skills": {
+                        "gallows_humor": 0,
+                        "forage": 0,
+                        "pilfer": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "5": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "Boudica",
+                    "current_hp": 24,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "shieldbreaker",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "precision_striker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "slugger":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "lurker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "luminous":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "hot_to_trot":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "corvids_eye":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "pierce": 0,
+                        "expose": 0,
+                        "adders_kiss": 0,
+                        "serpents_sway": 0
+                    },
+                    "selected_camping_skills": {
+                        "way_of_scales": 0,
+                        "way_of_serpent": 0,
+                        "way_of_adder": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
+            },
+            "6": {
+                "roster.status": 1,
+                "roster.missing_duration": 0,
+                "roster.story_variation": 0,
+                "roster.missing_from": 0,
+                "roster.building_name": "",
+                "actor": {
+                    "name_id": "Missandei",
+                    "current_hp": 20,
+                    "stunned": 0,
+                    "ranks": 2,
+                    "combat_ready": false,
+                    "damage_source": "",
+                    "damage_source_type": 0,
+                    "damage_type": 0,
+                    "buff_group": {}
+                },
+                "heroClass": "lordblade",
+                "resolveXp": 0,
+                "stress": 10,
+                "weapon_rank": 0,
+                "armour_rank": 0,
+                "affliction_severity": 0,
+                "affliction_type_id": "",
+                "quirks": {
+                    "precision_striker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "slugger":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "lurker":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "luminous":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "hot_to_trot":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    },
+                    "corvids_eye":  
+                    {
+                        "is_new": false,
+                        "is_locked": true,
+                        "mission_count": 0
+                    }
+                },
+                "skills": {
+                    "selected_combat_skills": {
+                        "fast_roll": 0,
+                        "backstab": 0,
+                        "estus_tea": 0,
+                        "mutilate": 0
+                    },
+                    "selected_camping_skills": {
+                        "lurker": 0,
+                        "wisdom": 0,
+                        "companionship": 0
+                    }
+                },
+                "trinkets": {
+                    "system_config_type": "hero_equipped_trinkets",
+                    "items": {}
+                }
             }
         },
         "last_party":
         {
-            "last_party_guids": [-1,-1,2,1]
+            "last_party_guids": [3,4,5,6]
         }
     }
 }

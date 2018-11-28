@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "anchor_grapple" .anim "attack_melee" .targchestfx "blood_splatter" .area_pos_offset 0 30
+defending_area_pos_offset: .offset 0 30

@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "obliterate_marked_one" .anim "attack_melee" .fx "marked_one" .targchestfx "blood_splatter"
+skill: .id "obliterate_marked_two" .anim "attack_melee" .fx "marked_one" .targchestfx "blood_splatter"
+skill: .id "obliterate_enraged" .anim "attack_melee" .fx "enraged" .targchestfx "blood_splatter" .area_pos_offset -100 0 .target_area_pos_offset 150 0
+skill: .id "obliterate_blind" .anim "attack_claw" .fx "blind" .targchestfx "blood_splatter" .area_pos_offset 0 -30
+defending_area_pos_offset: .offset 0 -75

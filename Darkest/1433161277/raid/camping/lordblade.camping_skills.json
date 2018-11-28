@@ -9,12 +9,12 @@
 		{
 			"id" : "encourage",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
@@ -41,12 +41,12 @@
 		{
 			"id" : "first_aid",
 			"level" : 0,
-			"cost" : 2,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "health_heal_max_health_percent",
@@ -54,7 +54,7 @@
 					"amount" :  0.15
 				},
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "remove_bleeding",
@@ -62,7 +62,7 @@
 					"amount" :  0
 				},
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "remove_poison",
@@ -94,7 +94,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "individual",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
@@ -121,7 +121,7 @@
 		{
 			"id" : "envenom",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
@@ -162,34 +162,34 @@
 		{
 			"id" : "companionship",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 1,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type" : "buff",
 					"sub_type" : "campingACCBuff",
 					"amount" :  0.10
 				},
-				{
-					"selection" : "individual",
-					"requirements" : ["Abysswalker"],
+				{ 
+					"selection" : "party",
+					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "CAMP_ABYSSWALKER_RESPITE",
-					"amount" :  -0.20
+                    "type": "stress_damage_amount",
+                    "sub_type" : "",
+					"amount" :  30
 				},
-				{
-					"selection" : "individual",
-					"requirements" : ["Abysswalker"],
+				{ 
+					"selection" : "party",
+					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
-					"type" : "buff",
-					"sub_type" : "CAMP_ABYSSWALKER_INVIGORATION",
-					"amount" :  0.20
-				}
+                    "type": "remove_deaths_door_recovery_buffs",
+                    "sub_type" : "",
+					"amount" :  0
+				}	
 			],
 			"hero_classes" : ["lordblade"],
 			"upgrade_requirements" :
@@ -210,12 +210,12 @@
 		{
 			"id" : "lurker",
 			"level" : 0,
-			"cost" : 3,
+			"cost" : 2,
 			"use_limit" : 1,
 			"effects" :
 			[
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
@@ -224,7 +224,7 @@
 
 				},
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "b", "amount": 1.0 },
                     "type": "reduce_ambush_chance",
@@ -232,7 +232,7 @@
 					"amount" : 1.0
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "c", "amount": 1.0 },
                     "type": "buff",
@@ -241,7 +241,7 @@
 
 				},
 				{ 
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "d", "amount": 1.0 },
                     "type": "buff",
@@ -277,7 +277,7 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "a", "amount": 0.35 }, 
+					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingCRITBuff",					
 					"amount" :  0.10
@@ -285,7 +285,7 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.35 }, 
+					"chance" : { "code" : "b", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingACCBuff",					
 					"amount" :  0.10
@@ -293,7 +293,7 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "c", "amount": 0.35 }, 
+					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingDMGLowBuff",					
 					"amount" :  0.10
@@ -301,7 +301,7 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "d", "amount": 0.35 }, 
+					"chance" : { "code" : "d", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingDMGHighBuff",					
 					"amount" :  0.10
@@ -309,7 +309,7 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "e", "amount": 0.35 }, 
+					"chance" : { "code" : "e", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingSPDBuff",					
 					"amount" :  3.0

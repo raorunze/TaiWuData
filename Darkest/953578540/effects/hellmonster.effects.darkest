@@ -1,0 +1,3 @@
+
+effect: .name "Summon Anchor 5" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters drowned_anchor_E .summon_chances 1.0 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true
+effect: .name "Summon Anchor 4" .target "performer" .chance 100% .summon_count 1 .summon_can_spawn_loot true .summon_monsters drowned_anchor_D .summon_chances 1.0 .summon_does_roll_initiatives 1 .on_hit true .on_miss true .apply_once true

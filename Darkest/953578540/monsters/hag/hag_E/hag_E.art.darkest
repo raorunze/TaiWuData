@@ -1,0 +1,7 @@
+commonfx: .deathfx death_large_boss
+skill: .id "hag_tenderize" .anim "attack_tenderize" .fx "tenderize" .targchestfx "blood_splatter" .area_pos_offset -50 -50 .target_area_pos_offset 50 0
+skill: .id "hag_season" .anim "attack_season" .fx "season" .targchestfx "blood_splatter" .area_pos_offset 0 -75 .target_area_pos_offset 0 -25
+skill: .id "hag_grab" .anim "attack_spell" .targfx "grab_target" .area_pos_offset 0 -50
+skill: .id "hag_taste" .anim "attack_taste" .fx "taste" .targchestfx "blood_splatter" .area_pos_offset -50 -50 .target_area_pos_offset 50 0
+defending_area_pos_offset: .offset 0 -25
+

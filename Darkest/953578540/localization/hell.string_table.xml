@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="czech">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="brazilian">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="italian">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="russian">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="polish">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="french">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="german">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>
+  <language id="spanish">
+	<entry id="str_inventory_title_trinketheart_in_a_jar"><![CDATA[Valentines Heart-In-A-Jar]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlepercorn"><![CDATA[Patrick's Day Lepercorn]]></entry>
+	<entry id="str_inventory_title_trinketfour_leaf_clover"><![CDATA[Patrick's Day Four Leaf Clover]]></entry>
+	<entry id="str_inventory_title_trinketpint_of_ale"><![CDATA[Patrick's Day Pint of Ale]]></entry>
+	<entry id="str_inventory_title_trinketeaster_lilium"><![CDATA[Easter Lilium]]></entry>
+	<entry id="str_inventory_title_trinketholy_grail"><![CDATA[Easter Holy Grail]]></entry>
+	<entry id="str_inventory_title_trinketjewel_encrusted_cross"><![CDATA[Easter Jewel-encrusted Cross]]></entry>
+	<entry id="str_inventory_title_trinketjewelled_egg"><![CDATA[Easter Jewelled Egg]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketheads_abomination"><![CDATA[Bigby's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_antiquarian"><![CDATA[Katharine's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_arbalest"><![CDATA[Missandei's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_bountyhunter"><![CDATA[Tardif's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_crusader"><![CDATA[Reynauld's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_graverobber"><![CDATA[Audrey's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_hellion"><![CDATA[Boudica's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_houndmaster"><![CDATA[Shag and Scoob's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_jester"><![CDATA[Jingles' Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_leper"><![CDATA[Baldwin's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_occultist"><![CDATA[Alhazred's Head]]></entry>
+	<entry id="str_inventory_title_trinketheads_plaguedoctor"><![CDATA[Paracelsus's Head]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbone_femur"><![CDATA[Skeleton Femur]]></entry>
+	<entry id="str_inventory_title_trinketbone_knuckle"><![CDATA[Skeleton Knuckles]]></entry>
+	<entry id="str_inventory_title_trinketbone_ribs"><![CDATA[Skeleton Ribs]]></entry>
+	<entry id="str_inventory_title_trinketbone_skull"><![CDATA[Skeleton Skull]]></entry>
+	<entry id="str_inventory_title_trinketbone_spine"><![CDATA[Skeleton Spine]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinket00_tarot_fool"><![CDATA[The Fool]]></entry>
+	<entry id="str_inventory_title_trinket01_tarot_magician"><![CDATA[The Magician]]></entry>
+	<entry id="str_inventory_title_trinket02_tarot_priestess"><![CDATA[The High Priestess]]></entry>
+	<entry id="str_inventory_title_trinket03_tarot_empress"><![CDATA[The Empress]]></entry>
+	<entry id="str_inventory_title_trinket04_tarot_emperor"><![CDATA[The Emperor]]></entry>
+	<entry id="str_inventory_title_trinket05_tarot_hierophant"><![CDATA[The Hierophant]]></entry>
+	<entry id="str_inventory_title_trinket06_tarot_lovers"><![CDATA[The Lovers]]></entry>
+	<entry id="str_inventory_title_trinket07_tarot_chariot"><![CDATA[The Chariot]]></entry>
+	<entry id="str_inventory_title_trinket08_tarot_strength"><![CDATA[Strength]]></entry>
+	<entry id="str_inventory_title_trinket09_tarot_hermit"><![CDATA[The Hermit]]></entry>
+	<entry id="str_inventory_title_trinket10_tarot_wheel"><![CDATA[Wheel of Fortune]]></entry>
+	<entry id="str_inventory_title_trinket11_tarot_justice"><![CDATA[Justice]]></entry>
+	<entry id="str_inventory_title_trinket12_tarot_hanged"><![CDATA[The Hanged Man]]></entry>
+	<entry id="str_inventory_title_trinket13_tarot_death"><![CDATA[Death]]></entry>
+	<entry id="str_inventory_title_trinket14_tarot_temperance"><![CDATA[Temperance]]></entry>
+	<entry id="str_inventory_title_trinket15_tarot_devil"><![CDATA[The Devil]]></entry>
+	<entry id="str_inventory_title_trinket16_tarot_tower"><![CDATA[The Tower]]></entry>
+	<entry id="str_inventory_title_trinket17_tarot_star"><![CDATA[The Star]]></entry>
+	<entry id="str_inventory_title_trinket18_tarot_moon"><![CDATA[The Moon]]></entry>
+	<entry id="str_inventory_title_trinket19_tarot_sun"><![CDATA[The Sun]]></entry>
+	<entry id="str_inventory_title_trinket20_tarot_judgement"><![CDATA[Judgement]]></entry>
+	<entry id="str_inventory_title_trinket21_tarot_world"><![CDATA[The World]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketreaper_hourglass"><![CDATA[Reaper's Hourglass]]></entry>
+	<entry id="str_inventory_title_trinketvolatile_padlock"><![CDATA[Volatile Padlock]]></entry>
+	<entry id="str_inventory_title_trinketsoothing_mask"><![CDATA[Soothing Mask]]></entry>
+	<entry id="str_inventory_title_trinketexplosive_concoction"><![CDATA[Explosive Concoction]]></entry>
+	<entry id="str_inventory_title_trinketthe_joker"><![CDATA[The Joker]]></entry>
+	<entry id="str_inventory_title_trinkettorchbearer"><![CDATA[Torchbearer Quillon]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketsilvios_hat"><![CDATA[The Maester's Hat]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloating_vial"><![CDATA[Bloating Vial]]></entry>
+	<entry id="str_inventory_title_trinketorders_of_the_unworthy"><![CDATA[Orders of the Unworthy]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketlarge_fireworks"><![CDATA[Fourth Large Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketsmall_fireworks"><![CDATA[Fourth Small Box of Fireworks]]></entry>
+	<entry id="str_inventory_title_trinketancestors_standard"><![CDATA[Fourth Ancestor's Standard]]></entry>
+	<entry id="str_inventory_title_trinketredhook_standard"><![CDATA[Fourth Odd Tentacle Standard]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketwhite_mask"><![CDATA[Halloween White Mask]]></entry>
+	<entry id="str_inventory_title_trinketjack_o_lantern"><![CDATA[Halloween Jack-o'-Lantern]]></entry>
+	<entry id="str_inventory_title_trinketblack_cat_miniature"><![CDATA[Halloween Black Cat Miniature]]></entry>
+	<entry id="str_inventory_title_trinketgrave_candle"><![CDATA[Halloween Grave Candle]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketangel_tree_topper"><![CDATA[Christmas Angel Tree Topper]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cake"><![CDATA[Christmas Cake]]></entry>
+	<entry id="str_inventory_title_trinketchristmas_cracker"><![CDATA[Christmas Cracker]]></entry>
+	<entry id="str_inventory_title_trinketjesters_stocking"><![CDATA[Christmas Jester's Stocking]]></entry>
+	<entry id="str_inventory_title_trinketpresent"><![CDATA[Christmas Present]]></entry>
+	<entry id="str_inventory_title_trinketreindeer_head"><![CDATA[Christmas Reindeer Head]]></entry>
+	<entry id="str_inventory_title_trinketsnowball"><![CDATA[Christmas Snowball]]></entry>
+	<entry id="str_inventory_title_trinketyellow_snowball"><![CDATA[Christmas Yellow Snowball]]></entry>
+	<entry id="str_inventory_title_trinketheartless_gingerbread"><![CDATA[Christmas Heartless Gingerbread Man]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketancestors_coinage"><![CDATA[Ancestor's Golden Noble]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketshambler_tooth"><![CDATA[Shambler's Tooth]]></entry>
+	<entry id="str_inventory_title_trinketshambler_eye"><![CDATA[Shambler's Eye]]></entry>
+	<entry id="str_inventory_title_trinketshambler_tentacle"><![CDATA[Shambler's Tentacle]]></entry>
+	<entry id="str_inventory_title_trinketshambler_spore"><![CDATA[Shambler's Spore]]></entry>
+	<!-- -->
+	<entry id="str_inventory_title_trinketbloody_baer"><![CDATA[Bloody Baer]]></entry>
+	<entry id="trinket_rarity_valentines"><![CDATA[Valentines]]></entry>
+	<entry id="trinket_rarity_patricksday"><![CDATA[St. Patrick's Day]]></entry>
+	<entry id="trinket_rarity_easter"><![CDATA[Easter]]></entry>
+	<entry id="trinket_rarity_bone"><![CDATA[Bone]]></entry>
+	<entry id="trinket_rarity_tarot"><![CDATA[Tarot]]></entry>
+	<entry id="trinket_rarity_silvio"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_silvio_heart"><![CDATA[Unique]]></entry>
+	<entry id="trinket_rarity_fourth"><![CDATA[{colour_start|fourth_red}Fourth{colour_end} {colour_start|fourth_white}of{colour_end} {colour_start|fourth_blue}July{colour_end}]]></entry>
+	<entry id="trinket_rarity_christmas"><![CDATA[{colour_start|christmasred}Christ{colour_end}{colour_start|christmasgreen}mas{colour_end}]]></entry>
+	<entry id="trinket_rarity_halloween"><![CDATA[Halloween]]></entry>
+	<entry id="trinket_rarity_content_creator"><![CDATA[Community]]></entry>
+	<entry id="trinket_rarity_seasonal"><![CDATA[Seasonal]]></entry>
+	<entry id="trinket_rarity_ancestral_coin"><![CDATA[Ancestral Coin]]></entry>
+  </language>	
+</root>
+

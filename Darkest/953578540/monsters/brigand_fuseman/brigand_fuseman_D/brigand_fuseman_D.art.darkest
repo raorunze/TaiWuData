@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "light_fuse" .anim "attack_ignite" .fx "light_fuse" .targfx "light_fuse_target" .area_pos_offset 70 -40 .target_area_pos_offset 0 -25
+skill: .id "hot_shot" .anim "attack_burn" .fx "hot_shot" .targchestfx "blood_splatter" .area_pos_offset -50 0 .target_area_pos_offset 150 0

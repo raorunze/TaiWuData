@@ -1,0 +1,993 @@
+{
+  "entries": [
+    {
+      "id": "00_tarot_fool",
+      "buffs": [
+        "TRINKET_00_tarot_fool_DMGL_B1",
+        "TRINKET_00_tarot_fool_DMGH_B1",
+        "TRINKET_00_tarot_fool_DODGE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "01_tarot_magician",
+      "buffs": [
+        "TRINKET_01_tarot_magician_DEBUFFSKILL_B1",
+        "TRINKET_01_tarot_magician_SPD_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "02_tarot_priestess",
+      "buffs": [
+        "TRINKET_02_tarot_priestess_STRESSDMG_B1",
+        "TRINKET_02_tarot_priestess_RESOLVECHECK_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "03_tarot_empress",
+      "buffs": [
+        "TRINKET_03_tarot_empress_STRESSDMG_stressbelow_B1",
+        "TRINKET_03_tarot_empress_STRESSDMG_stressbelow_B2",
+        "TRINKET_03_tarot_empress_STRESSDMG_stressbelow_B3"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "04_tarot_emperor",
+      "buffs": [
+        "TRINKET_04_tarot_emperor_SPD_firstroundonly_B1",
+        "TRINKET_04_tarot_emperor_PROT_inrank_B1",
+        "TRINKET_04_tarot_emperor_MOVERESISTANCE_inrank_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "05_tarot_hierophant",
+      "buffs": [
+        "TRINKET_05_tarot_hierophant_STRESSRECOVERY_in_activity_B1",
+        "TRINKET_05_tarot_hierophant_STRESSRECOVERY_in_activity_B2",
+        "TRINKET_05_tarot_hierophant_STRESSRECOVERY_in_activity_B3"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "06_tarot_lovers",
+      "buffs": [
+        "TRINKET_06_tarot_lovers_STRESSRECOVERYDONE_camping_B1",
+        "TRINKET_06_tarot_lovers_STRESSDMGDONE_camping_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "07_tarot_chariot",
+      "buffs": [
+        "TRINKET_07_tarot_chariot_HEALINGRECEIVED_deathsdoor_B1",
+        "TRINKET_07_tarot_chariot_SPD_deathsdoor_B1",
+        "TRINKET_07_tarot_chariot_DEATHBLOWRESIST_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "08_tarot_strength",
+      "buffs": [
+        "TRINKET_08_tarot_strength_DMGL_B1",
+        "TRINKET_08_tarot_strength_DMGH_B1",
+        "TRINKET_08_tarot_strength_STRESSDMG_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "09_tarot_hermit",
+      "buffs": [
+        "TRINKET_09_tarot_hermit_MAXHP_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "10_tarot_wheel",
+      "buffs": [
+        "TRINKET_10_tarot_wheel_STRESSDMG_B1",
+        "TRINKET_10_tarot_wheel_STRESSDMG_indungeon_B1",
+        "TRINKET_10_tarot_wheel_RESOLVECHECK_B1",
+        "TRINKET_10_tarot_wheel_RESOLVECHECK_indungeon_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "11_tarot_justice",
+      "buffs": [
+        "TRINKET_11_tarot_justice_DMGL_monsterSize_B1",
+        "TRINKET_11_tarot_justice_DMGH_monsterSize_B1",
+        "TRINKET_11_tarot_justice_CRIT_monsterSize_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "12_tarot_hanged",
+      "buffs": [
+        "TRINKET_12_tarot_hanged_STRESSRECOVERY_afflicted_B1",
+        "TRINKET_12_tarot_hanged_STRESSDMGDONE_afflicted_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "13_tarot_death",
+      "buffs": [
+        "TRINKET_13_tarot_death_DMGL_afflicted_B1",
+        "TRINKET_13_tarot_death_DMGH_afflicted_B1",
+        "TRINKET_13_tarot_death_DMGL_deathsdoor_B1",
+        "TRINKET_13_tarot_death_DMGH_deathsdoor_B1",
+        "TRINKET_13_tarot_death_DEATHBLOWRESIST_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "14_tarot_temperance",
+      "buffs": [
+        "TRINKET_14_tarot_temperance_ACC_firstroundonly_B1",
+        "TRINKET_14_tarot_temperance_SPD_firstroundonly_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "15_tarot_devil",
+      "buffs": [
+        "TRINKET_15_tarot_devil_DMGL_man_B1",
+        "TRINKET_15_tarot_devil_DMGH_man_B1",
+        "TRINKET_15_tarot_devil_STRESSDMG_unholy_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "16_tarot_tower",
+      "buffs": [
+        "TRINKET_16_tarot_tower_DMGREC_hpbelow_B1",
+        "TRINKET_16_tarot_tower_DMGREC_hpbelow_B2",
+        "TRINKET_16_tarot_tower_DMGREC_hpbelow_B3",
+        "TRINKET_16_tarot_tower_DMGREC_hpbelow_B4"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "17_tarot_star",
+      "buffs": [
+        "TRINKET_17_tarot_star_STRESSRECOVERY_in_activity_B1",
+        "TRINKET_17_tarot_star_STRESSRECOVERY_in_activity_B2",
+        "TRINKET_17_tarot_star_STRESSRECOVERY_in_activity_B3"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "18_tarot_moon",
+      "buffs": [
+        "TRINKET_18_tarot_moon_SPD_lightbelow_B1",
+        "TRINKET_18_tarot_moon_CRIT_lightbelow_B1",
+        "TRINKET_18_tarot_moon_PARTYSURPRISE_lightbelow_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "19_tarot_sun",
+      "buffs": [
+        "TRINKET_19_tarot_sun_SPD_lightabove_B1",
+        "TRINKET_19_tarot_sun_CRIT_lightabove_B1",
+        "TRINKET_19_tarot_sun_PARTYSURPRISE_lightabove_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "20_tarot_judgement",
+      "buffs": [
+        "TRINKET_20_tarot_judgement_HPHEALDONE_B1",
+        "TRINKET_20_tarot_judgement_DODGE_B1",
+        "TRINKET_20_tarot_judgement_DEBUFFRESIST_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "21_tarot_world",
+      "buffs": [
+        "TRINKET_21_tarot_world_SCOUTCHANCE_B1",
+        "TRINKET_21_tarot_world_MONSTERSURPRISE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "tarot",
+      "price": 30000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_coinage",
+      "buffs": [
+        "TRINKET_ancestors_coinage_CRIT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_coin",
+      "price": 100000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "ancestors_standard",
+      "buffs": [
+        "TRINKET_ancestors_standard_STRESSDMG_notindungeon_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "angel_tree_topper",
+      "buffs": [
+        "TRINKET_angel_tree_topper_STRESSDMG_B1",
+        "TRINKET_angel_tree_topper_RESOLVECHECK_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "black_cat_miniature",
+      "buffs": [
+        "TRINKET_black_cat_miniature_CRIT_B1",
+        "TRINKET_black_cat_miniature_DODGE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloating_vial",
+      "buffs": [
+        "TRINKET_bloating_vial_EATSASHALF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bloody_baer",
+      "buffs": [
+        "TRINKET_bloody_baer_MAXHP_B1",
+        "TRINKET_bloody_baer_PROT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bone_femur",
+      "buffs": [
+        "TRINKET_bone_femur_meleeonly_DMGL_B1",
+        "TRINKET_bone_femur_meleeonly_DMGH_B1",
+        "TRINKET_bone_femur_meleeonly_ACC_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "bone",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bone_knuckle",
+      "buffs": [
+        "TRINKET_bone_knuckle_CRIT_B1",
+        "TRINKET_bone_knuckle_STUNSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "bone",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bone_ribs",
+      "buffs": [
+        "TRINKET_bone_ribs_PROT_B1",
+        "TRINKET_bone_ribs_DEBUFFRESISTANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "bone",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bone_skull",
+      "buffs": [
+        "TRINKET_bone_skull_STRESSDMG_B1",
+        "TRINKET_bone_skull_STUNRESISTANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "bone",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "bone_spine",
+      "buffs": [
+        "TRINKET_bone_spine_RESOLVECHECK_B1",
+        "TRINKET_bone_spine_MOVERESISTANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "bone",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "christmas_cake",
+      "buffs": [
+        "TRINKET_christmas_cake_EATSASHALF"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "christmas_cracker",
+      "buffs": [
+        "TRINKET_christmas_cracker_STUNSKILL_B1",
+        "TRINKET_christmas_cracker_MONSTERSURPRISECHANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "easter_lilium",
+      "buffs": [
+        "TRINKET_easter_lilium_STRESSDMG_B1",
+        "TRINKET_easter_lilium_STRESSRECOVERY_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "explosive_concoction",
+      "buffs": [
+        "TRINKET_explosive_concoction_DMGL_rangedonly_B1",
+        "TRINKET_explosive_concoction_DMGH_rangedonly_B1"
+      ],
+      "hero_class_requirements": [
+        "plague_doctor"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "four_leaf_clover",
+      "buffs": [
+        "TRINKET_four_leaf_clover_ACC_B1",
+        "TRINKET_four_leaf_clover_CRIT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "grave_candle",
+      "buffs": [
+        "TRINKET_grave_candle_PARTYSURPRISECHANCE_B1",
+        "TRINKET_grave_candle_STRESSRECOVERY_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_abomination",
+      "buffs": [
+        "TRINKET_heads_abomination_STRESSDMG_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_antiquarian",
+      "buffs": [
+        "TRINKET_heads_antiquarian_DEBUFFSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_arbalest",
+      "buffs": [
+        "TRINKET_heads_arbalest_ACC_Ranged_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_bountyhunter",
+      "buffs": [
+        "TRINKET_heads_bountyhunter_DMGL_Stunned_B1",
+        "TRINKET_heads_bountyhunter_DMGH_Stunned_B1",
+        "TRINKET_heads_bountyhunter_STUNSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_crusader",
+      "buffs": [
+        "TRINKET_heads_crusader_RESOLVECHECK_B1",
+        "TRINKET_heads_crusader_Virtued_DMGL_B1",
+        "TRINKET_heads_crusader_Virtued_DMGH_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_graverobber",
+      "buffs": [
+        "TRINKET_heads_graverobber_BLIGHTRESISTANCE_B1",
+        "TRINKET_heads_graverobber_DISEASERESISTANCE_B1",
+        "TRINKET_heads_graverobber_TRAPRESISTANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_hellion",
+      "buffs": [
+        "TRINKET_heads_hellion_MAXHP_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_houndmaster",
+      "buffs": [
+        "TRINKET_heads_houndmaster_Riposte_DMGL_B1",
+        "TRINKET_heads_houndmaster_Riposte_DMGH_B1",
+        "TRINKET_heads_houndmaster_DEF_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_jester",
+      "buffs": [
+        "TRINKET_heads_jester_STRESSHEALRECEIVED_B1",
+        "TRINKET_heads_jester_STRESSHEALDONE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_leper",
+      "buffs": [
+        "TRINKET_heads_leper_MOVERESISTANCE_B1",
+        "TRINKET_heads_leper_PROT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 10000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_occultist",
+      "buffs": [
+        "TRINKET_heads_occultist_SPD_B1",
+        "TRINKET_heads_occultist_STRESSDMGDONE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heads_plaguedoctor",
+      "buffs": [
+        "TRINKET_heads_plaguedoctor_BLIGHTSKILL_B1",
+        "TRINKET_heads_plaguedoctor_STUNSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "collector",
+      "price": 15000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heart_in_a_jar",
+      "buffs": [
+        "TRINKET_heart_in_a_jar_MAXHP_B1",
+        "TRINKET_heart_in_a_jar_HPHEALRECEIVED_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "heartless_gingerbread",
+      "buffs": [
+        "TRINKET_heartless_gingerbread_DEBUFFCHANCE_B1",
+        "TRINKET_heartless_gingerbread_STRESSDMG_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "holy_grail",
+      "buffs": [
+        "TRINKET_holy_grail_unholy_STRESSDMG_B1",
+        "TRINKET_holy_grail_unholy_ACC_B1",
+        "TRINKET_holy_grail_unholy_SPD_B1"
+      ],
+      "hero_class_requirements": [
+        "vestal"
+      ],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "jack_o_lantern",
+      "buffs": [
+        "TRINKET_jack_o_lantern_STRESSDMG_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "jesters_stocking",
+      "buffs": [
+        "TRINKET_jesters_stocking_DEF_B1",
+        "TRINKET_jesters_stocking_TRAPDISARM_B1",
+        "TRINKET_jesters_stocking_SPD_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "jewel_encrusted_cross",
+      "buffs": [
+        "TRINKET_jewel_encrusted_cross_ZEALOUSBUFFLOW_B1",
+        "TRINKET_jewel_encrusted_cross_ZEALOUSBUFFHIGH_B1",
+        "TRINKET_jewel_encrusted_cross_JUDGEMENTBUFFLOW_B1",
+        "TRINKET_jewel_encrusted_cross_JUDGEMENTBUFFHIGH_B1",
+        "TRINKET_jewel_encrusted_cross_PROT_D1"
+      ],
+      "hero_class_requirements": [
+        "crusader",
+        "vestal"
+      ],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "jewelled_egg",
+      "buffs": [
+        "TRINKET_jewelled_egg_EATSASZERO"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "large_fireworks",
+      "buffs": [
+        "TRINKET_large_fireworks_DMGL_rangedonly_B1",
+        "TRINKET_large_fireworks_DMGH_rangedonly_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "lepercorn",
+      "buffs": [
+        "TRINKET_lepercorn_PROT_B1",
+        "TRINKET_lepercorn_ACC_B1"
+      ],
+      "hero_class_requirements": [
+        "leper"
+      ],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "orders_of_the_unworthy",
+      "buffs": [
+        "TRINKET_orders_of_the_unworthy_RESOLVEXPBONUS_D1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "uncommon",
+      "price": 10000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "pint_of_ale",
+      "buffs": [
+        "TRINKET_pint_of_ale_STRESSDMG_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "present",
+      "buffs": [
+        "TRINKET_present_HEALINGDONECAMPING_B1",
+        "TRINKET_present_STRESSRECOVERYCAMPING_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "reaper_hourglass",
+      "buffs": [
+        "TRINKET_reapers_hourglass_SPD_hpabove_B1",
+        "TRINKET_reapers_hourglass_DODGE_hpabove_B1",
+        "TRINKET_reapers_hourglass_CRIT_hpabove_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "redhook_standard",
+      "buffs": [
+        "TRINKET_redhook_standard_STRESSDMG_stressabove_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "reindeer_head",
+      "buffs": [
+        "TRINKET_reindeer_head_PROT_INRANK_B1",
+        "TRINKET_reindeer_head_PROT_INRANK_B2",
+        "TRINKET_reindeer_head_MOVERES_INRANK_B1",
+        "TRINKET_reindeer_head_MOVERES_INRANK_B2"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shambler_eye",
+      "buffs": [
+        "TRINKET_shambler_eye_ACC_B1",
+        "TRINKET_shambler_eye_CRIT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shambler_spore",
+      "buffs": [
+        "TRINKET_shambler_spore_BLIGHTSKILL_B1",
+        "TRINKET_shambler_spore_DISEASERESIST_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shambler_tentacle",
+      "buffs": [
+        "TRINKET_shambler_tentacle_MOVESKILL_B1",
+        "TRINKET_shambler_tentacle_STUNSKILL_B1",
+        "TRINKET_shambler_tentacle_MOVERESIST_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "shambler_tooth",
+      "buffs": [
+        "TRINKET_shambler_tooth_DMG_L_STUNNED_B1",
+        "TRINKET_shambler_tooth_DMG_H_STUNNED_B1",
+        "TRINKET_shambler_tooth_DMG_L_BLIGHTED_B1",
+        "TRINKET_shambler_tooth_DMG_H_BLIGHTED_B1",
+        "TRINKET_shambler_tooth_DMG_L_BLEEDING_B1",
+        "TRINKET_shambler_tooth_DMG_H_BLEEDING_B1",
+        "TRINKET_shambler_tooth_DMG_L_MARKED_B1",
+        "TRINKET_shambler_tooth_DMG_H_MARKED_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "ancestral_shambler",
+      "price": 50000,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "silvios_hat",
+      "buffs": [
+        "TRINKET_silvios_hat_STRESSDMG_B1",
+        "TRINKET_silvios_hat_DODGE_B1",
+        "TRINKET_silvios_hat_PARTYSURPRISE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "small_fireworks",
+      "buffs": [
+        "TRINKET_small_fireworks_PROT_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "snowball",
+      "buffs": [
+        "TRINKET_snowball_STUNSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "soothing_mask",
+      "buffs": [
+        "TRINKET_soothing_mask_DEBUFFSKILL_B1",
+        "TRINKET_soothing_mask_MOVESKILL_B1",
+        "TRINKET_soothing_mask_SPD_B1"
+      ],
+      "hero_class_requirements": [
+        "leper"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "the_joker",
+      "buffs": [
+        "TRINKET_the_joker_DEBUFFSKILL_B1",
+        "TRINKET_the_joker_CRIT_inrank_B1"
+      ],
+      "hero_class_requirements": [
+        "jester"
+      ],
+      "rarity": "very_rare",
+      "price": 25000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "torchbearer",
+      "buffs": [
+        "TRINKET_torchbearer_DMGL_lightabove_B1",
+        "TRINKET_torchbearer_DMGH_lightabove_B1"
+      ],
+      "hero_class_requirements": [
+        "crusader"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "volatile_padlock",
+      "buffs": [
+        "TRINKET_volatile_padlock_DMGL_firstroundonly_B1",
+        "TRINKET_volatile_padlock_DMGH_firstroundonly_B1",
+        "TRINKET_volatile_padlock_SPD_B1"
+      ],
+      "hero_class_requirements": [
+        "abomination"
+      ],
+      "rarity": "rare",
+      "price": 15000,
+      "limit": 0,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "white_mask",
+      "buffs": [
+        "TRINKET_white_mask_MONSTERSURPRISECHANCE_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    },
+    {
+      "id": "yellow_snowball",
+      "buffs": [
+        "TRINKET_yellow_snowball_BLIGHTSKILL_B1"
+      ],
+      "hero_class_requirements": [],
+      "rarity": "seasonal",
+      "price": 1,
+      "limit": 1,
+      "origin_dungeon": ""
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+
+omenseeker.sprite.walk.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Boob Left
+  rotate: false
+  xy: 1686, 384
+  size: 159, 126
+  orig: 159, 126
+  offset: 0, 0
+  index: -1
+Boob Right
+  rotate: true
+  xy: 908, 317
+  size: 193, 251
+  orig: 193, 251
+  offset: 0, 0
+  index: -1
+Leg Left Lower
+  rotate: true
+  xy: 437, 31
+  size: 81, 133
+  orig: 81, 133
+  offset: 0, 0
+  index: -1
+Leg Left Upper
+  rotate: false
+  xy: 215, 34
+  size: 112, 184
+  orig: 112, 184
+  offset: 0, 0
+  index: -1
+Lower Arm Hand
+  rotate: false
+  xy: 1003, 246
+  size: 69, 69
+  orig: 69, 69
+  offset: 0, 0
+  index: -1
+Lower Arm Left
+  rotate: true
+  xy: 907, 226
+  size: 89, 94
+  orig: 89, 94
+  offset: 0, 0
+  index: -1
+Shadow
+  rotate: false
+  xy: 1161, 447
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+Upper Arm Left
+  rotate: true
+  xy: 329, 2
+  size: 110, 106
+  orig: 110, 106
+  offset: 0, 0
+  index: -1
+back thing
+  rotate: false
+  xy: 572, 21
+  size: 47, 47
+  orig: 47, 47
+  offset: 0, 0
+  index: -1
+boob strings
+  rotate: false
+  xy: 215, 6
+  size: 73, 26
+  orig: 73, 26
+  offset: 0, 0
+  index: -1
+earring
+  rotate: false
+  xy: 1816, 338
+  size: 41, 44
+  orig: 41, 44
+  offset: 0, 0
+  index: -1
+hair and hat
+  rotate: false
+  xy: 615, 335
+  size: 291, 175
+  orig: 291, 175
+  offset: 0, 0
+  index: -1
+hair backpart
+  rotate: false
+  xy: 330, 114
+  size: 223, 206
+  orig: 223, 206
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 330, 322
+  size: 283, 188
+  orig: 283, 188
+  offset: 0, 0
+  index: -1
+left leg foot
+  rotate: true
+  xy: 640, 121
+  size: 61, 64
+  orig: 61, 64
+  offset: 0, 0
+  index: -1
+leg right foot
+  rotate: false
+  xy: 1074, 253
+  size: 67, 62
+  orig: 67, 62
+  offset: 0, 0
+  index: -1
+leg right lower
+  rotate: true
+  xy: 1527, 257
+  size: 83, 138
+  orig: 83, 138
+  offset: 0, 0
+  index: -1
+leg right upper
+  rotate: false
+  xy: 1407, 260
+  size: 118, 185
+  orig: 118, 185
+  offset: 0, 0
+  index: -1
+right arm hand
+  rotate: false
+  xy: 572, 70
+  size: 50, 59
+  orig: 50, 59
+  offset: 0, 0
+  index: -1
+right arm lower
+  rotate: true
+  xy: 1686, 306
+  size: 76, 128
+  orig: 76, 128
+  offset: 0, 0
+  index: -1
+right arm upper
+  rotate: false
+  xy: 640, 184
+  size: 94, 149
+  orig: 94, 149
+  offset: 0, 0
+  index: -1
+skirt backpiece
+  rotate: false
+  xy: 2, 220
+  size: 326, 290
+  orig: 326, 290
+  offset: 0, 0
+  index: -1
+skirt flap front
+  rotate: false
+  xy: 1527, 342
+  size: 157, 168
+  orig: 157, 168
+  offset: 0, 0
+  index: -1
+skirt flap left
+  rotate: false
+  xy: 736, 204
+  size: 104, 129
+  orig: 104, 129
+  offset: 0, 0
+  index: -1
+skirt flap right
+  rotate: false
+  xy: 842, 229
+  size: 63, 104
+  orig: 63, 104
+  offset: 0, 0
+  index: -1
+skirt parts
+  rotate: true
+  xy: 1161, 270
+  size: 175, 244
+  orig: 175, 244
+  offset: 0, 0
+  index: -1
+torso
+  rotate: false
+  xy: 2, 2
+  size: 211, 216
+  orig: 211, 216
+  offset: 0, 0
+  index: -1
+upper skirt backpiece
+  rotate: true
+  xy: 555, 131
+  size: 189, 83
+  orig: 189, 83
+  offset: 0, 0
+  index: -1
+whip
+  rotate: true
+  xy: 1847, 385
+  size: 125, 160
+  orig: 125, 160
+  offset: 0, 0
+  index: -1

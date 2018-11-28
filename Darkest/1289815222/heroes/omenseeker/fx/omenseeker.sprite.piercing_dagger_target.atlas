@@ -1,0 +1,13 @@
+
+omenseeker.sprite.piercing_dagger_target.png
+size: 160,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_dagger
+  rotate: false
+  xy: 2, 2
+  size: 156, 105
+  orig: 156, 105
+  offset: 0, 0
+  index: -1

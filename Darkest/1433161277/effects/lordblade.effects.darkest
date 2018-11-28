@@ -49,10 +49,6 @@ effect: .name "LBPen 5" .target "performer" .chance 100% .skill_instant true .bu
 
 effect: .name "Info1" .target "performer" .chance 100% .skill_instant true .buff_ids "tooltips1" .on_hit true .on_miss false
 
-effect: .name "TRINKET_LLOYD_DAMAGE" .target "target" .chance 100% .skill_instant true .buff_ids "TRINKET_LLOYD_DAMAGE1" .on_hit true .on_miss false
-
-effect: .name "TRINKET_LLOYD_DEBUFF" .target "target" .chance 250% .buff_ids "TRINKET_LLOYD" .duration 4 .on_hit true .on_miss false
-
 
 //Golden Strike
 effect: .name "LB Bleed Debuff 1" .target "target" .chance 100% .buff_ids "lb_bleed_debuff_1" .duration 5 .on_hit true .on_miss false
@@ -75,13 +71,13 @@ effect: .name "Cripple Bleed 5" .target "target" .chance 140% .curio_result_type
 
 //Fast Roll
 
-effect: .name "stealth_self" .target "performer" .chance 100% .stealth 1 .on_hit true .on_miss false .duration 2
+effect: .name "stealth_self" .target "performer" .chance 100% .stealth 2 .on_hit true .on_miss false .duration 2
 
-effect: .name "LB Dodge 1" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "LB Dodge 2" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 12.5%	.on_hit true .on_miss true .queue true
-effect: .name "LB Dodge 3" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
-effect: .name "LB Dodge 4" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 17.5%	.on_hit true .on_miss true .queue true
-effect: .name "LB Dodge 5" .target "performer" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 20%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 1" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 2" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 12.5%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 3" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 4" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 17.5%	.on_hit true .on_miss true .queue true
+effect: .name "LB Dodge 5" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .duration 4 .defense_rating_add 20%	.on_hit true .on_miss true .queue true
 
 
 
@@ -116,13 +112,13 @@ effect: .name "Cripple Poison 4" .target "target" .curio_result_type "negative" 
 effect: .name "Cripple Poison 5" .target "target" .curio_result_type "negative" .chance 140% .duration 4 .combat_stat_buff 1 .speed_rating_add -5 .on_hit true .on_miss false .queue true
 
 //Estus Chug
-effect: .name "shadow_dance" .target "performer" .duration 1 .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true .queue true
+effect: .name "shadow_dance" .target "target" .duration 1 .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true .queue true
 
-effect: .name "Estus Recovery 1" .target "performer" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 2" .target "performer" .curio_result_type "positive" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 3" .target "performer" .curio_result_type "positive" .chance 100% .heal 9 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 4" .target "performer" .curio_result_type "positive" .chance 100% .heal 12 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 5" .target "performer" .curio_result_type "positive" .chance 100% .heal 15 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 1" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 2" .target "target" .curio_result_type "positive" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 3" .target "target" .curio_result_type "positive" .chance 100% .heal 9 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 4" .target "target" .curio_result_type "positive" .chance 100% .heal 12 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 5" .target "target" .curio_result_type "positive" .chance 100% .heal 15 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
 
 
 effect: .name "Powder1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false

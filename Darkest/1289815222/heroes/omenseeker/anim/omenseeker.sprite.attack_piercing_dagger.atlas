@@ -1,0 +1,20 @@
+
+omenseeker.sprite.attack_piercing_dagger.png
+size: 810,577
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_blackout.shadow
+  rotate: true
+  xy: 740, 218
+  size: 357, 68
+  orig: 366, 70
+  offset: 5, 2
+  index: -1
+omenseeker.sprite.attack_throwone_seeker
+  rotate: false
+  xy: 2, 2
+  size: 736, 573
+  orig: 746, 581
+  offset: 3, 2
+  index: -1

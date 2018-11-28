@@ -1,0 +1,7 @@
+commonfx: .deathfx death_large
+skill: .id "sapper_throw" .anim "attack_ranged" .fx "throw"
+skill: .id "sapper_detonate" .anim "defend" .targchestfx "detonate_target"
+skill: .id "sapper_summon" .anim "attack_shout" .fx "summon"
+skill: .id "sapper_guard" .anim "attack_guard" .fx "guard" .targchestfx "guard_target"
+skill: .id "sapper_stress" .anim "attack_shout" .fx "stress" .targchestfx "stress_cloud"
+rendering: .sort_position_z_rank_override -4

@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large_boss
+skill: .id "formless_weak_heal" .anim "attack_heal" .fx "heal" .targchestfx "heal_target"
+defending_area_pos_offset: .offset 0 20
+shape_shifter: .fx_name "fx/formless_mutate/formless_mutate.sprite.skel"

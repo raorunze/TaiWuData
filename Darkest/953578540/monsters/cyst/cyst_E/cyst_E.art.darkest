@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "beholder_gaze" .anim "attack_eye" .fx "gaze" .area_pos_offset -150 -50
+skill: .id "beholder_burn" .anim "attack_tongue" .fx "burn" .targchestfx "blood_splatter" .area_pos_offset -100 -25
+skill: .id "beholder_healself" .anim "attack_heal" .fx "heal" .area_pos_offset 0 -25
+skill: .id "beholder_summon" .anim "attack_summon" .fx "summon" .area_pos_offset 100 -50
+defending_area_pos_offset: .offset 0 -40

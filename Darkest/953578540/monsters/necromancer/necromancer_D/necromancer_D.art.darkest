@@ -1,0 +1,5 @@
+commonfx: .deathfx death_large_boss
+skill: .id "unholy_smite" .anim "attack_melee" .fx "smite" .targchestfx "blood_splatter" .area_pos_offset 0 -50
+skill: .id "unholy_judgement" .anim "attack_ranged" .fx "judgement" .targfx "judgement_target" .area_pos_offset 0 -50
+skill: .id "unholy_curse" .anim "attack_ranged" .fx "curse" .targfx "curse_target" .area_pos_offset -150 -50 .target_area_pos_offset 225 0
+defending_area_pos_offset: .offset 0 -50

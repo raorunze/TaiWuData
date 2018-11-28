@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+defending_area_pos_offset: .offset 0 30
+captor_full: .has_prisoner_overlay true

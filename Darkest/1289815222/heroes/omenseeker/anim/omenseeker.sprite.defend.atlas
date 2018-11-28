@@ -1,0 +1,20 @@
+
+omenseeker.sprite.defend.png
+size: 670,410
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_blackout.shadow
+  rotate: true
+  xy: 600, 51
+  size: 357, 68
+  orig: 366, 70
+  offset: 5, 2
+  index: -1
+omenseeker.sprite.defend
+  rotate: true
+  xy: 2, 2
+  size: 406, 596
+  orig: 406, 596
+  offset: 0, 0
+  index: -1

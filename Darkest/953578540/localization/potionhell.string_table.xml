@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <language id="english">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="czech">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="brazilian">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="polish">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="french">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="german">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+  <language id="spanish">
+	<entry id="str_inventory_title_supplybronze_coin"><![CDATA[Bronze Coin]]></entry>
+	<entry id="str_inventory_description_supplybronze_coin"><![CDATA[Will call upon past ennemies.]]></entry>
+	<entry id="str_inventory_title_supplysilver_coin"><![CDATA[Silver Coin]]></entry>
+	<entry id="str_inventory_description_supplysilver_coin"><![CDATA[Will call upon a strong foe.]]></entry>
+	<entry id="str_inventory_title_supplygold_coin"><![CDATA[Gold Coin]]></entry>
+	<entry id="str_inventory_description_supplygold_coin"><![CDATA[A surprising challenge is waiting for you!]]></entry>
+	<entry id="str_inventory_title_supplyvigorous_concoction2"><![CDATA[Vigorous Concoction]]></entry>
+    <entry id="str_inventory_description_supplyvigorous_concoction2"><![CDATA[{colour_start|healhp}HPMAX +15% {colour_end}
+	{colour_start|healhp}Healing Skills +20% {colour_end}
+	{colour_start|attacktype}PROT +5% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyheroism_draught2"><![CDATA[Concentrated Luck]]></entry>
+    <entry id="str_inventory_description_supplyheroism_draught2"><![CDATA[{colour_start|stun}Stun Chance +15% {colour_end}
+	{colour_start|blight}Blight Chance +15% {colour_end}{colour_start|bleed}Bleed Chance +15% {colour_end}
+	{colour_start|move}Move Chance +15% {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyprovoked_protection2"><![CDATA[Offensive Elixir]]></entry>
+    <entry id="str_inventory_description_supplyprovoked_protection2"><![CDATA[{colour_start|attacktype}All Damage +15% {colour_end}
+	{colour_start|attacktype}Crit +3 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeyesight_elixir2"><![CDATA[Evasive Solution]]></entry>
+    <entry id="str_inventory_description_supplyeyesight_elixir2"><![CDATA[{colour_start|attacktype}Dodge +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplycorrupting_strength2"><![CDATA[Precisive Solution]]></entry>
+    <entry id="str_inventory_description_supplycorrupting_strength2"><![CDATA[{colour_start|attacktype}Accuracy +8 {colour_end}
+	{colour_start|attacktype}Speed +2 {colour_end}
+	Last 3 Fights]]></entry>
+	<entry id="str_inventory_title_supplyeldritch_draught2"><![CDATA[Resistance Tonic]]></entry>
+    <entry id="str_inventory_description_supplyeldritch_draught2"><![CDATA[{colour_start|stun}Resist Stun +20% {colour_end} 
+	{colour_start|blight}Resist Blight +20% {colour_end}
+	{colour_start|bleed}Resist Bleed +20% {colour_end} 
+	{colour_start|disease}Resist Disease +20% {colour_end}{colour_start|move}Resist Move +20% {colour_end} 
+	Last 3 Fights]]></entry>
+  </language>
+</root>
+

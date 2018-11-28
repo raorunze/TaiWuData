@@ -1,0 +1,4 @@
+commonfx: .deathfx death_large_boss
+skill: .id "shuffler_eat" .anim "attack_tentacle" .fx "eat" .targchestfx "blood_splatter" .area_pos_offset -100 0
+skill: .id "shuffler_shuffle" .anim "attack_howl" .fx "shuffle" .area_pos_offset -200 0 .target_area_pos_offset 150 0
+skill: .id "shuffler_howl" .anim "attack_spores" .fx "howl" .targchestfx "stress_cloud" .area_pos_offset -150 -150 .target_area_pos_offset 150 0

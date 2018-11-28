@@ -1,0 +1,8 @@
+commonfx: .deathfx death_large_boss
+skill: .id "all_hands" .anim "attack_shout" .fx "all_hands" .area_pos_offset 0 -200
+skill: .id "gaffer_hook" .anim "attack_hook" .fx "gaffer_hook" .targchestfx "blood_splatter" .area_pos_offset 0 25
+skill: .id "captain_shout" .anim "attack_drink" .fx "drink" .targchestfx "stress_cloud" .area_pos_offset 0 -80
+skill: .id "captain_shout_debuff" .anim "attack_shout" .fx "shout" .targchestfx "shout_target" .area_pos_offset 0 -150
+defending_area_pos_offset: .offset 0 -100
+rendering: .sort_position_z_rank_override 4
+display_modifier: .use_centre_skill_announcement true

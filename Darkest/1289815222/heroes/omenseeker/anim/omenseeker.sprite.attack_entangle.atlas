@@ -1,0 +1,20 @@
+
+omenseeker.sprite.attack_entangle.png
+size: 1152,574
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_blackout.shadow
+  rotate: true
+  xy: 1082, 215
+  size: 357, 68
+  orig: 366, 70
+  offset: 5, 2
+  index: -1
+omenseeker.sprite.attack_entangle_attack_seeker
+  rotate: false
+  xy: 2, 2
+  size: 1078, 570
+  orig: 1100, 578
+  offset: 8, 4
+  index: -1

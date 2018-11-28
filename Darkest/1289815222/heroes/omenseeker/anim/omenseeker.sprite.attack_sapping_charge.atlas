@@ -1,0 +1,20 @@
+
+omenseeker.sprite.attack_sapping_charge.png
+size: 665,458
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Shadow
+  rotate: true
+  xy: 600, 99
+  size: 357, 63
+  orig: 357, 63
+  offset: 0, 0
+  index: -1
+explo_attack
+  rotate: true
+  xy: 2, 2
+  size: 454, 596
+  orig: 454, 596
+  offset: 0, 0
+  index: -1

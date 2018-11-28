@@ -1,0 +1,4 @@
+commonfx: .deathfx death_medium
+skill: .id "into_the_ranks" .anim "attack_dagger" .fx "into_the_ranks" .targchestfx "blood_splatter"
+skill: .id "wicked_surge" .anim "attack_horn" .fx "wicked_surge" .targheadfx "wicked_surge_target" .area_pos_offset 100 0 .target_area_pos_offset 0 0
+skill: .id "unholy_rally" .anim "attack_standard" .fx "unholy_rally"

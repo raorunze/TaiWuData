@@ -1,0 +1,3 @@
+commonfx: .deathfx death_large_boss
+skill: .id "formless_melee_attack" .anim "attack_melee" .targchestfx "blood_splatter"
+shape_shifter: .fx_name "fx/formless_mutate/formless_mutate.sprite.skel"

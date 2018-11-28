@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "prophet_mark" .anim "attack_melee" .fx "prognosticate" .area_pos_offset 0 -75
+skill: .id "prophet_attack" .anim "attack_debris" .targfx "debris" .misstargfx "debris" .target_area_pos_offset 150 0
+skill: .id "eye_on_you" .anim "attack_melee" .fx "eye_on_you" .area_pos_offset 0 -75
+skill: .id "fulminate" .anim "attack_gibber" .fx "fulminate" .targchestfx "fulminate_target" .area_pos_offset -150 0 .target_area_pos_offset 175 0
+rendering: .sort_position_z_rank_override -1

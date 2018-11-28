@@ -56,7 +56,7 @@
             "torchlight": 100,
             "IsMovingLeft()": false,
             "retreat_room": "rooA",
-            "heroes": [ 1, 2 ],
+            "heroes": [ 3,4,5,6 ],
             "start_heroes_size": 4,
             "scoutChance_all": 0.33,
             "scoutModifier_all": 0,
@@ -66,7 +66,12 @@
                     "0": {
                         "id": "",
                         "type": "provision",
-                        "amount": 2
+                        "amount": 4
+                    },
+                    "1": {
+                        "id": "berserk_charm",
+                        "type": "trinket",
+                        "amount": 4
                     }
                 },
                 "hunger_room_buffer": 2

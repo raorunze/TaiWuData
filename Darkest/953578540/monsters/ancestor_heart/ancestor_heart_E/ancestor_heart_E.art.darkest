@@ -1,0 +1,9 @@
+commonfx: .deathfx death_large_boss
+skill: .id "kill_pill" .anim "attack_scream" .fx "kill" .targfx "kill_target" .area_pos_offset -400 -100 .target_area_pos_offset 125 0
+skill: .id "heart_stress" .anim "attack_scream" .fx "stress" .targchestfx "stress_cloud" .area_pos_offset -300 0
+skill: .id "heart_pierce" .anim "attack_tentacle" .fx "pierce" .targchestfx "blood_splatter" .area_pos_offset -100 -50
+skill: .id "heart_stun" .anim "attack_spores" .fx "stun" .targchestfx "blood_splatter" .area_pos_offset -200 -100
+defending_area_pos_offset: .offset 100 -250
+battle_stage: .id heart_of_the_world
+display_modifier: .use_centre_skill_announcement true
+audio_modifier: .intensity 3

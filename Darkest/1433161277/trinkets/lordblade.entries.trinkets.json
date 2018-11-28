@@ -7,11 +7,7 @@
          [
 			"TRINKET_CRITDMG1",
 			"TRINKET_CRITDMG2",
-			"TRINKET_CRITDMG3",
-			"TRINKET_DOWNSIDE"
-			
-			
-			
+			"TRINKET_CRITDMG3"
          ],
          "hero_class_requirements":
          [
@@ -25,8 +21,7 @@
          "id" : "CORROSIVE_BREW",
          "buffs" : 
          [
-            "DEBUFF_FOR_BREW",
-			"TRINKET_DOWNSIDE"
+            "DEBUFF_FOR_BREW"
          ],
          "hero_class_requirements":
          [
@@ -49,8 +44,7 @@
          "id" : "AMBUSH_RING",
          "buffs" : 
          [
-            "TRINKET_AMBUSH_BUFF",
-			"TRINKET_DOWNSIDE"
+            "TRINKET_AMBUSH_BUFF"
          ],
          "hero_class_requirements":
          [
@@ -73,8 +67,7 @@
          "id" : "BARBED_WIRE",
          "buffs" : 
          [
-            "DEBUFF_FOR_BARBED",
-			"TRINKET_DOWNSIDE"
+            "DEBUFF_FOR_BARBED"
          ],
          "hero_class_requirements":
          [
@@ -98,20 +91,18 @@
          "buffs" : 
          [
             "LLOYD_RANGED_DAMAGE1",
-			"LLOYD_RANGED_DAMAGE2",
-			"TRINKET_DOWNSIDE"
+			   "LLOYD_RANGED_DAMAGE2"
          ],
          "hero_class_requirements":
          [
             "lordblade"
          ],
-         "rarity" : "rare",
-		 "price" : 15000,
-         "limit" : 0,
-		 "attack_skill_additional_effects":
+            "rarity" : "rare",
+            "price" : 15000,
+            "limit" : 0,
+            "attack_skill_additional_effects":
          [
-			"Lloyd's Crit",
-			"Lloyd's Antiheal"
+	        
          ],
          "friendly_skill_additional_effects":
          [

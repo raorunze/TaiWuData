@@ -1,0 +1,34 @@
+
+omenseeker.sprite.holywater_throw.png
+size: 1266,266
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bottle
+  rotate: true
+  xy: 1131, 138
+  size: 126, 133
+  orig: 126, 133
+  offset: 0, 0
+  index: -1
+cap
+  rotate: false
+  xy: 2, 24
+  size: 26, 30
+  orig: 26, 30
+  offset: 0, 0
+  index: -1
+full
+  rotate: false
+  xy: 2, 56
+  size: 718, 208
+  orig: 718, 208
+  offset: 0, 0
+  index: -1
+splash
+  rotate: false
+  xy: 722, 2
+  size: 407, 262
+  orig: 407, 262
+  offset: 0, 0
+  index: -1

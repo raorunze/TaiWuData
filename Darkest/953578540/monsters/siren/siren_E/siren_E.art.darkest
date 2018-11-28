@@ -1,0 +1,6 @@
+commonfx: .deathfx death_large_boss
+skill: .id "siren_song" .anim "attack_lure" .fx "song" .area_pos_offset 0 -40
+skill: .id "conch_horror" .anim "attack_conch" .fx "horror" .targchestfx "stress_cloud" .area_pos_offset 0 -20
+skill: .id "conch_summon" .anim "attack_conch" .fx "summon" .area_pos_offset 0 -20
+skill: .id "conch_celldisrupt" .anim "attack_conch" .fx "cell_disrupt" .targchestfx "blood_splatter" .area_pos_offset 0 -20
+defending_area_pos_offset: .offset 0 -40

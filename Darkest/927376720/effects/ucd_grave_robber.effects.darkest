@@ -3,11 +3,11 @@
 //Pick to the Face
 effect: .name "UcdGRCritBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .crit_chance_add 3% .on_hit true .on_miss false .queue true
 
-effect: .name "UcdGRPull1A" .target "target"  .pull 1 	.chance 100%	.on_hit true .on_miss false .can_apply_on_death true 
-effect: .name "UcdGRPull1B" .target "target"  .pull 1 	.chance 120%	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "UcdGRPull1C" .target "target"  .pull 1 	.chance 140%	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "UcdGRPull1D" .target "target"  .pull 1 	.chance 160%	.on_hit true .on_miss false .can_apply_on_death true
-effect: .name "UcdGRPull1E" .target "target"  .pull 1 	.chance 180%	.on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRPull 1A" .target "target" .pull 1 .chance 100% .on_hit true .on_miss false .can_apply_on_death true 
+effect: .name "UcdGRPull 1B" .target "target" .pull 1 .chance 120% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRPull 1C" .target "target" .pull 1 .chance 140% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRPull 1D" .target "target" .pull 1 .chance 160% .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "UcdGRPull 1E" .target "target" .pull 1 .chance 180% .on_hit true .on_miss false .can_apply_on_death true
 
 //Lunge
 effect: .name "UcdGRSpeedBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .speed_rating_add 2 .on_hit true .on_miss true .queue true
@@ -15,7 +15,7 @@ effect: .name "UcdGRSpeedBuff" .target "performer" .chance 100% .duration 1 .buf
 //Flashing Daggers
 effect: .name "UcdGRDmgBuff" .target "performer" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .on_hit true .on_miss false .apply_once true .queue true
 
-//Shadow Fade
+//UcdGRFade
 effect: .name "UcdgRStun 1" .target "target" .curio_result_type "negative" .chance 110% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "UcdgRStun 2" .target "target" .curio_result_type "negative" .chance 125% .stun 1	.on_hit true .on_miss false .queue true
 effect: .name "UcdgRStun 3" .target "target" .curio_result_type "negative" .chance 140% .stun 1	.on_hit true .on_miss false .queue true
@@ -39,3 +39,15 @@ effect: .name "UcdGRBlight 4" .target "target" .curio_result_type "negative" .ch
 effect: .name "UcdGRBlight 5" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 5 .duration 4	.on_hit true .on_miss false .can_apply_on_death true
 
 //Toxin Trickery
+
+effect: .name "UcdGRBlood 1" .target "target" .curio_result_type "positive" .cure 1 .healstress 3 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 9%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 2" .target "target" .curio_result_type "positive" .cure 1 .healstress 5 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 3" .target "target" .curio_result_type "positive" .cure 1 .healstress 8 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 4" .target "target" .curio_result_type "positive" .cure 1 .healstress 10 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 5" .target "target" .curio_result_type "positive" .cure 1 .healstress 13 .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
+
+effect: .name "UcdGRSpeed 1" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 1  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "UcdGRSpeed 2" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "UcdGRSpeed 3" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 3  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "UcdGRSpeed 4" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 4  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "UcdGRSpeed 5" .target "performer" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 5  .on_hit true .on_miss false .queue true .apply_once true

@@ -1,0 +1,3 @@
+commonfx: .deathfx death_medium
+skill: .id "blunderbuss_shot" .anim "attack_ranged" .fx "blunderbuss_shot" .targchestfx "blunderbuss_shot_target" .area_pos_offset -150 0 .target_area_pos_offset 150 0
+skill: .id "rushed_shot" .anim "attack_ranged" .fx "blunderbuss_shot" .targchestfx "blunderbuss_shot_target"

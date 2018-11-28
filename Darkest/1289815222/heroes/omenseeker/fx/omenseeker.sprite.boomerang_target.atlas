@@ -1,0 +1,20 @@
+
+omenseeker.sprite.boomerang_target.png
+size: 349,172
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+omenseeker.sprite.attack_boomerang
+  rotate: false
+  xy: 183, 5
+  size: 164, 165
+  orig: 165, 165
+  offset: 1, 0
+  index: -1
+omenseeker.sprite.attack_boomerang_effect
+  rotate: false
+  xy: 2, 2
+  size: 179, 168
+  orig: 180, 180
+  offset: 1, 7
+  index: -1
