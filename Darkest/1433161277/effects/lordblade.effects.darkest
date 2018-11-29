@@ -5,7 +5,7 @@
 
 //Crit Effect
 
-effect: .name "on_crit_LORDBLADE"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit .buff_ids "CRIT_LORDBLADE1" "CRIT_LORDBLADE2" "CRIT_LORDBLADE3"  .on_hit true .on_miss false .apply_once true
+effect: .name "on_crit_LORDBLADE"    .target "performer" .curio_result_type "positive" .chance 100% .buff_source_type bsrc_crit  .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .on_hit true .on_miss false .apply_once true
 
 //Mutilate
 
@@ -114,11 +114,11 @@ effect: .name "Cripple Poison 5" .target "target" .curio_result_type "negative" 
 //Estus Chug
 effect: .name "shadow_dance" .target "target" .duration 1 .chance 100% .initiative_change 1 .on_hit true .on_miss true .apply_once true .queue true
 
-effect: .name "Estus Recovery 1" .target "target" .curio_result_type "positive" .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 2" .target "target" .curio_result_type "positive" .chance 100% .heal 6 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 3" .target "target" .curio_result_type "positive" .chance 100% .heal 9 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 4" .target "target" .curio_result_type "positive" .chance 100% .heal 12 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
-effect: .name "Estus Recovery 5" .target "target" .curio_result_type "positive" .chance 100% .heal 15 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 1" .target "target" .curio_result_type "positive" .cure 1 .healstress 3 .chance 100% .heal 3 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 2" .target "target" .curio_result_type "positive" .cure 1 .healstress 6 .chance 100% .heal 6 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 3" .target "target" .curio_result_type "positive" .cure 1 .healstress 9 .chance 100% .heal 9 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 4" .target "target" .curio_result_type "positive" .cure 1 .healstress 12 .chance 100% .heal 12 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
+effect: .name "Estus Recovery 5" .target "target" .curio_result_type "positive" .cure 1 .healstress 15 .chance 100% .heal 15 .on_hit true .on_miss false .queue true .source_heal_type hero_skill
 
 
 effect: .name "Powder1" .target "target" .curio_result_type "negative" .chance 100%  .combat_stat_buff 1 .attack_rating_add -10% .on_hit true .on_miss false

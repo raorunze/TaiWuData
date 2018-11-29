@@ -1,18 +1,18 @@
-resistances: .stun 40% .poison 50% .bleed 50% .disease 40% .move 40% .debuff 40% .death_blow 87% .trap 50%
+resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 40% .debuff 40% .death_blow 87% .trap 50%
 
 crit: .effects "on_crit_def"
 
-weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 5 9  .crit 7%   .spd 7
-weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 6 11 .crit 8% .spd 8 .upgradeRequirementCode 0
-weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 7 13 .crit 9%   .spd 9 .upgradeRequirementCode 1
-weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 8 15 .crit 10% .spd 10 .upgradeRequirementCode 2
-weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 9 16 .crit 12%  .spd 11 .upgradeRequirementCode 3
+weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 7  .crit 7%   .spd 7
+weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 9 .crit 8% .spd 8 .upgradeRequirementCode 0
+weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 9%   .spd 9 .upgradeRequirementCode 1
+weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 7 13 .crit 10% .spd 10 .upgradeRequirementCode 2
+weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 8 15 .crit 12%  .spd 11 .upgradeRequirementCode 3
 
 armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 16 .spd 0
-armour: .name "grave_robber_armour_1" .def 15% .prot 0 .hp 22 .spd 0 .upgradeRequirementCode 0
-armour: .name "grave_robber_armour_2" .def 20% .prot 0 .hp 27 .spd 0 .upgradeRequirementCode 1
-armour: .name "grave_robber_armour_3" .def 25% .prot 0 .hp 33 .spd 0 .upgradeRequirementCode 2
-armour: .name "grave_robber_armour_4" .def 30% .prot 0 .hp 38 .spd 0 .upgradeRequirementCode 3
+armour: .name "grave_robber_armour_1" .def 15% .prot 0.05 .hp 22 .spd 0 .upgradeRequirementCode 0
+armour: .name "grave_robber_armour_2" .def 20% .prot 0.10 .hp 27 .spd 0 .upgradeRequirementCode 1
+armour: .name "grave_robber_armour_3" .def 25% .prot 0.15 .hp 33 .spd 0 .upgradeRequirementCode 2
+armour: .name "grave_robber_armour_4" .def 30% .prot 0.20 .hp 38 .spd 0 .upgradeRequirementCode 3
 
 combat_skill: .id "pick" .level 0 .type "melee" .atk 95%  .dmg 10% .crit 4% .launch 321 .target 123 .is_crit_valid True .effect "UcdGRCritBuff" "UcdGRPull 1A"
 combat_skill: .id "pick" .level 1 .type "melee" .atk 100% .dmg 10% .crit 5% .launch 321 .target 123 .is_crit_valid True .effect "UcdGRCritBuff" "UcdGRPull 1B"

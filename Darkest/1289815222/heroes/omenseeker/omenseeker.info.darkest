@@ -4,20 +4,19 @@ resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 50% .debuff 50%
 //On Crit
 crit: .effects "omen_seeker_on_crit_debuffchance"
 
-
 //Weapon Information
-weapon: .name "omenseeker_weapon_0" .atk 0% .dmg 5 9 .crit 7% .spd 6
-weapon: .name "omenseeker_weapon_1" .atk 0% .dmg 6 11  .crit 8% .spd 7 .upgradeRequirementCode 0
-weapon: .name "omenseeker_weapon_2" .atk 0% .dmg 7 14 .crit 9% .spd 8 .upgradeRequirementCode 1
-weapon: .name "omenseeker_weapon_3" .atk 0% .dmg 8 16 .crit 10% .spd 9 .upgradeRequirementCode 2
-weapon: .name "omenseeker_weapon_4" .atk 0% .dmg 9 19 .crit 11% .spd 10 .upgradeRequirementCode 3
+weapon: .name "omenseeker_weapon_0" .atk 0% .dmg 5 9 .crit 7% .spd 5
+weapon: .name "omenseeker_weapon_1" .atk 0% .dmg 6 11  .crit 8% .spd 6 .upgradeRequirementCode 0
+weapon: .name "omenseeker_weapon_2" .atk 0% .dmg 7 12 .crit 9% .spd 7 .upgradeRequirementCode 1
+weapon: .name "omenseeker_weapon_3" .atk 0% .dmg 8 14 .crit 10% .spd 8 .upgradeRequirementCode 2
+weapon: .name "omenseeker_weapon_4" .atk 0% .dmg 9 15 .crit 11% .spd 9 .upgradeRequirementCode 3
 
 //Armor Information
-armour: .name "omenseeker_armour_0" .def 20% .prot 0 .hp 21 .spd 0
-armour: .name "omenseeker_armour_1" .def 25% .prot 0 .hp 25 .spd 0 .upgradeRequirementCode 0
-armour: .name "omenseeker_armour_2" .def 30% .prot 0 .hp 30 .spd 0 .upgradeRequirementCode 1
-armour: .name "omenseeker_armour_3" .def 35% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "omenseeker_armour_4" .def 40% .prot 0 .hp 39 .spd 0 .upgradeRequirementCode 3
+armour: .name "omenseeker_armour_0" .def 20% .prot 0.05 .hp 21 .spd 0
+armour: .name "omenseeker_armour_1" .def 25% .prot 0.15 .hp 25 .spd 0 .upgradeRequirementCode 0
+armour: .name "omenseeker_armour_2" .def 30% .prot 0.20 .hp 30 .spd 0 .upgradeRequirementCode 1
+armour: .name "omenseeker_armour_3" .def 35% .prot 0.30 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "omenseeker_armour_4" .def 40% .prot 0.35 .hp 39 .spd 0 .upgradeRequirementCode 3
 
 //Pull/Debuff skill (and secret stun tech!)
 combat_skill: .id "entangle" .level 0 .type "ranged" .atk 95% .dmg -20% .crit 5% .launch 4321 .target 234 .is_crit_valid True .effect "Pull 1B" "entangle debuff 1" .generation_guaranteed true

@@ -2,17 +2,17 @@ resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 40% .debuff 50%
 
 crit: .effects "on_crit_LORDBLADE"
 
-weapon: .name "lordblade_weapon_0" .atk 0% .dmg 6 11 .crit 6% .spd 6
-weapon: .name "lordblade_weapon_1" .atk 0% .dmg 7 13 .crit 7% .spd 7 .upgradeRequirementCode 0
-weapon: .name "lordblade_weapon_2" .atk 0% .dmg 8 15 .crit 8% .spd 8 .upgradeRequirementCode 1
-weapon: .name "lordblade_weapon_3" .atk 0% .dmg 9 17 .crit 9% .spd 9 .upgradeRequirementCode 2
-weapon: .name "lordblade_weapon_4" .atk 0% .dmg 10 19 .crit 10% .spd 10 .upgradeRequirementCode 3
+weapon: .name "lordblade_weapon_0" .atk 0% .dmg 4 9 .crit 6% .spd 6
+weapon: .name "lordblade_weapon_1" .atk 0% .dmg 5 11 .crit 7% .spd 7 .upgradeRequirementCode 0
+weapon: .name "lordblade_weapon_2" .atk 0% .dmg 6 13 .crit 8% .spd 8 .upgradeRequirementCode 1
+weapon: .name "lordblade_weapon_3" .atk 0% .dmg 7 15 .crit 9% .spd 9 .upgradeRequirementCode 2
+weapon: .name "lordblade_weapon_4" .atk 0% .dmg 8 17 .crit 10% .spd 10 .upgradeRequirementCode 3
 
-armour: .name "lordblade_armour_0" .def 20% .prot 0 .hp 16 .spd 0
-armour: .name "lordblade_armour_1" .def 25% .prot 0 .hp 22 .spd 0 .upgradeRequirementCode 0
-armour: .name "lordblade_armour_2" .def 30% .prot 0 .hp 28 .spd 0 .upgradeRequirementCode 1
-armour: .name "lordblade_armour_3" .def 35% .prot 0 .hp 34 .spd 0 .upgradeRequirementCode 2
-armour: .name "lordblade_armour_4" .def 40% .prot 0 .hp 40 .spd 0 .upgradeRequirementCode 3
+armour: .name "lordblade_armour_0" .def 20% .prot 0.10 .hp 16 .spd 0
+armour: .name "lordblade_armour_1" .def 25% .prot 0.15 .hp 22 .spd 0 .upgradeRequirementCode 0
+armour: .name "lordblade_armour_2" .def 30% .prot 0.20 .hp 28 .spd 0 .upgradeRequirementCode 1
+armour: .name "lordblade_armour_3" .def 35% .prot 0.25 .hp 34 .spd 0 .upgradeRequirementCode 2
+armour: .name "lordblade_armour_4" .def 40% .prot 0.30 .hp 40 .spd 0 .upgradeRequirementCode 3
 
 combat_skill: .id "mutilate" .level 0 .type "melee" .atk 95% .dmg -20% .crit 1% .move 0 1 .launch 321 .target 123 .is_crit_valid True .effect "Envenom 1" "Rupture 1"  .generation_guaranteed true
 combat_skill: .id "mutilate" .level 1 .type "melee" .atk 100% .dmg -20% .crit 2% .move 0 1 .launch 321 .target 123 .is_crit_valid True  .effect "Envenom 2" "Rupture 2" 

@@ -71,7 +71,7 @@ effect: .name "SB Dmg Marked 5"	.target "performer" .chance 100% .curio_result_t
 
 
 // serpents_sway
-effect: .name "SB Aegis" .target "performer_group" .chance 100% .health_damage_blocks 3 .on_hit true .on_miss false .queue true
+effect: .name "SB Aegis" .target "performer_group" .chance 100% .health_damage_blocks 2 .on_hit true .on_miss false .queue true
 
 effect: .name "SB Serpent Speed 1" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 1	.on_hit true .on_miss false .queue true .apply_once true
 effect: .name "SB Serpent Speed 2" .target "performer_group" .curio_result_type "positive" .chance 100% .combat_stat_buff 1 .speed_rating_add 2	.on_hit true .on_miss false .queue true .apply_once true
