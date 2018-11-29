@@ -819,7 +819,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "buff",
                     "sub_type" : "campingScoutingBuff",
-					"amount" :  0.20
+					"amount" :  0.25
 				}
 			],
 			"hero_classes" : ["grave_robber"],

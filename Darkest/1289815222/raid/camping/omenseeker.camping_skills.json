@@ -129,7 +129,7 @@
 			"effects" :
 			[
 				{
-					"selection" : "self",
+					"selection" : "party",
 					"requirements" : [],
 					"chance" : { "code" : "a", "amount": 1.0 },
 					"type": "loot",
