@@ -775,18 +775,10 @@
 				{ 
 					"selection" : "party",
 					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.25 },
-                    "type": "stress_damage_amount",
-                    "sub_type" : "",
-					"amount" :  15
-				},
-				{ 
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "b", "amount": 0.75 },
+					"chance" : { "code" : "a", "amount": 1.0 },
                     "type": "stress_heal_amount",
                     "sub_type" : "",
-					"amount" :  20
+					"amount" :  25
 				}
 			],
 			"hero_classes" : ["grave_robber", "highwayman"],

@@ -2,11 +2,11 @@ resistances: .stun 40% .poison 50% .bleed 50% .disease 30% .move 40% .debuff 40%
 
 crit: .effects "on_crit_def"
 
-weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 4 7  .crit 7%   .spd 7
-weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 5 9 .crit 8% .spd 8 .upgradeRequirementCode 0
-weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 6 11 .crit 9%   .spd 9 .upgradeRequirementCode 1
-weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 7 13 .crit 10% .spd 10 .upgradeRequirementCode 2
-weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 8 15 .crit 12%  .spd 11 .upgradeRequirementCode 3
+weapon: .name "grave_robber_weapon_0" .atk 0% .dmg 5 8  .crit 7%   .spd 7
+weapon: .name "grave_robber_weapon_1" .atk 0% .dmg 6 11 .crit 8% .spd 8 .upgradeRequirementCode 0
+weapon: .name "grave_robber_weapon_2" .atk 0% .dmg 7 13 .crit 9%   .spd 9 .upgradeRequirementCode 1
+weapon: .name "grave_robber_weapon_3" .atk 0% .dmg 8 16 .crit 10% .spd 10 .upgradeRequirementCode 2
+weapon: .name "grave_robber_weapon_4" .atk 0% .dmg 9 18 .crit 12%  .spd 11 .upgradeRequirementCode 3
 
 armour: .name "grave_robber_armour_0" .def 10% .prot 0 .hp 16 .spd 0
 armour: .name "grave_robber_armour_1" .def 15% .prot 0.05 .hp 22 .spd 0 .upgradeRequirementCode 0
@@ -52,10 +52,11 @@ combat_skill: .id "poison_dart" .level 2 .type "ranged" .atk 105% .dmg -90% .cri
 combat_skill: .id "poison_dart" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 6% .launch 43 .target 1234 .is_crit_valid True  .effect "UcdGRBlight 4" "GR Blight Debuff 4"
 combat_skill: .id "poison_dart" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 7% .launch 43 .target 1234 .is_crit_valid True  .effect "UcdGRBlight 5" "GR Blight Debuff 5"
 
-combat_skill: .id "toxin_trickery" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .is_crit_valid True  .effect "UcdGRBlood 1" "UcdGRSpeed 1" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .is_crit_valid True  .effect "UcdGRBlood 2" "UcdGRSpeed 2" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .is_crit_valid True  .effect "UcdGRBlood 3" "UcdGRSpeed 3" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @1234 .is_crit_valid True  .effect "UcdGRBlood 4" "UcdGRSpeed 4" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 1" "UcdGRSpeed 1" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 2" "UcdGRSpeed 2" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 3" "UcdGRSpeed 3" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 4" "UcdGRSpeed 4" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 5" "UcdGRSpeed 5" "UcdGRDmgBuff"
 
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 3

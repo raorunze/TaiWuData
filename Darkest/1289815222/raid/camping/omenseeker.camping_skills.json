@@ -208,7 +208,7 @@
 					"chance" : { "code" : "a", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingACCbuff",
-					"amount" :  0.1
+					"amount" :  0.2
 				},
                 { 
 					"selection" : "party",
@@ -224,7 +224,7 @@
 					"chance" : { "code" : "c", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingCRITbuff",
-					"amount" :  0.05
+					"amount" :  0.15
 				},
                 { 
 					"selection" : "party",
@@ -240,15 +240,7 @@
 					"chance" : { "code" : "e", "amount": 1.0 }, 
 					"type" : "buff",
 					"sub_type" : "campingDODGEbuff",
-					"amount" :  0.1
-				},
-                { 
-					"selection" : "party",
-					"requirements" : [],
-					"chance" : { "code" : "f", "amount": 1.0 }, 
-					"type" : "buff",
-					"sub_type" : "campingSTUNbuff",
-					"amount" :  0.15
+					"amount" :  0.2
 				}
 			],
 			"hero_classes" : ["omenseeker"],

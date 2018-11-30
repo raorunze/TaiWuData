@@ -6,10 +6,10 @@ crit: .effects "omen_seeker_on_crit_debuffchance"
 
 //Weapon Information
 weapon: .name "omenseeker_weapon_0" .atk 0% .dmg 5 9 .crit 7% .spd 5
-weapon: .name "omenseeker_weapon_1" .atk 0% .dmg 6 11  .crit 8% .spd 6 .upgradeRequirementCode 0
-weapon: .name "omenseeker_weapon_2" .atk 0% .dmg 7 12 .crit 9% .spd 7 .upgradeRequirementCode 1
-weapon: .name "omenseeker_weapon_3" .atk 0% .dmg 8 14 .crit 10% .spd 8 .upgradeRequirementCode 2
-weapon: .name "omenseeker_weapon_4" .atk 0% .dmg 9 15 .crit 11% .spd 9 .upgradeRequirementCode 3
+weapon: .name "omenseeker_weapon_1" .atk 0% .dmg 6 12  .crit 8% .spd 6 .upgradeRequirementCode 0
+weapon: .name "omenseeker_weapon_2" .atk 0% .dmg 7 14 .crit 9% .spd 7 .upgradeRequirementCode 1
+weapon: .name "omenseeker_weapon_3" .atk 0% .dmg 8 17 .crit 10% .spd 8 .upgradeRequirementCode 2
+weapon: .name "omenseeker_weapon_4" .atk 0% .dmg 9 19 .crit 11% .spd 9 .upgradeRequirementCode 3
 
 //Armor Information
 armour: .name "omenseeker_armour_0" .def 20% .prot 0.05 .hp 21 .spd 0
@@ -54,11 +54,11 @@ combat_skill: .id "blackout" .level 3 .type "ranged" .atk 105% .dmg -100% .crit 
 combat_skill: .id "blackout" .level 4 .type "ranged" .atk 110% .dmg -100% .crit 0% .launch 43 .target ~23 .is_crit_valid false .effect "Stun 5"
 
 //Stealth Revealing Boomerang (there's only one??)
-combat_skill: .id "twin_boomerang" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 4% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 1" "Destealth"
-combat_skill: .id "twin_boomerang" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 5% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 2" "Destealth"
-combat_skill: .id "twin_boomerang" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 6% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 3" "Destealth"
-combat_skill: .id "twin_boomerang" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 7% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 4" "Destealth"
-combat_skill: .id "twin_boomerang" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 8% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 5" "Destealth"
+combat_skill: .id "twin_boomerang" .level 0 .type "ranged" .atk 95% .dmg 0% .crit 5% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 1" "Destealth"
+combat_skill: .id "twin_boomerang" .level 1 .type "ranged" .atk 100% .dmg 0% .crit 6.5% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 2" "Destealth"
+combat_skill: .id "twin_boomerang" .level 2 .type "ranged" .atk 105% .dmg 0% .crit 8% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 3" "Destealth"
+combat_skill: .id "twin_boomerang" .level 3 .type "ranged" .atk 110% .dmg 0% .crit 9.5% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 4" "Destealth"
+combat_skill: .id "twin_boomerang" .level 4 .type "ranged" .atk 115% .dmg 0% .crit 11% .launch 432 .target 234 .is_crit_valid True .ignore_stealth true .effect "twin_boomerang combat debuff 5" "Destealth"
 
 //Spend three actions to deal 400% damage on one target
 combat_skill: .id "expunge" .level 0 .type "ranged" .atk 90% .dmg -30% .crit 0% .launch 43 .target 1234 .is_crit_valid true .effect "Expunge Crit" "Expunge ArPen" "Cure"
