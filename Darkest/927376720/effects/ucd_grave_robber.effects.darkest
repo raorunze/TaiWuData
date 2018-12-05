@@ -40,16 +40,8 @@ effect: .name "UcdGRBlight 5" .target "target" .curio_result_type "negative" .ch
 
 //Toxin Trickery
 
-effect: .name "UcdGRBlood 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 9%	.on_hit true .on_miss true .queue true
-effect: .name "UcdGRBlood 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
-effect: .name "UcdGRBlood 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
-effect: .name "UcdGRBlood 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
-effect: .name "UcdGRBlood 5" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .defense_rating_add 15%	.on_hit true .on_miss true .queue true
-
-effect: .name "UcdGRDmgBuff" .target "target" .chance 100% .duration 1 .buff_duration_type combat_end .curio_result_type "positive" .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .on_hit true .on_miss false .apply_once true .queue true
-
-effect: .name "UcdGRSpeed 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 1  .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "UcdGRSpeed 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 2  .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "UcdGRSpeed 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 3  .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "UcdGRSpeed 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 4  .on_hit true .on_miss false .queue true .apply_once true
-effect: .name "UcdGRSpeed 5" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .speed_rating_add 5  .on_hit true .on_miss false .queue true .apply_once true
+effect: .name "UcdGRBlood 1" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .speed_rating_add 1 .defense_rating_add 9%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 2" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .speed_rating_add 2 .defense_rating_add 10%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 3" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .speed_rating_add 3 .defense_rating_add 12%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 4" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .speed_rating_add 4 .defense_rating_add 13%	.on_hit true .on_miss true .queue true
+effect: .name "UcdGRBlood 5" .target "target" .curio_result_type "positive" .chance 100% .duration 1 .buff_duration_type combat_end .combat_stat_buff 1 .damage_low_multiply 5% .damage_high_multiply 5% .speed_rating_add 5 .defense_rating_add 15%	.on_hit true .on_miss true .queue true

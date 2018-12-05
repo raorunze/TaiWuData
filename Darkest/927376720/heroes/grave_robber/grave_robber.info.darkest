@@ -52,11 +52,11 @@ combat_skill: .id "poison_dart" .level 2 .type "ranged" .atk 105% .dmg -90% .cri
 combat_skill: .id "poison_dart" .level 3 .type "ranged" .atk 110% .dmg -90% .crit 6% .launch 43 .target 1234 .is_crit_valid True  .effect "UcdGRBlight 4" "GR Blight Debuff 4"
 combat_skill: .id "poison_dart" .level 4 .type "ranged" .atk 115% .dmg -90% .crit 7% .launch 43 .target 1234 .is_crit_valid True  .effect "UcdGRBlight 5" "GR Blight Debuff 5"
 
-combat_skill: .id "toxin_trickery" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 1" "UcdGRSpeed 1" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 2" "UcdGRSpeed 2" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 3" "UcdGRSpeed 3" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 4" "UcdGRSpeed 4" "UcdGRDmgBuff"
-combat_skill: .id "toxin_trickery" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 5" "UcdGRSpeed 5" "UcdGRDmgBuff"
+combat_skill: .id "toxin_trickery" .level 0 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 1"
+combat_skill: .id "toxin_trickery" .level 1 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 2"
+combat_skill: .id "toxin_trickery" .level 2 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 3"
+combat_skill: .id "toxin_trickery" .level 3 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 4"
+combat_skill: .id "toxin_trickery" .level 4 .type "melee" .atk 0% .dmg 0% .crit 0% .launch 4321 .target @~1234 .is_crit_valid True  .effect "UcdGRBlood 5"
 
 deaths_door: .buffs deathsdoorACCDebuff deathsdoorDMGLowDebuff deathsdoorDMGHighDebuff deathsdoorSPDDebuff deathsdoorSRDebuff .recovery_buffs mortalityACCDebuff mortalityDMGLowDebuff mortalityDMGHighDebuff mortalitySPDDebuff mortalitySRDebuff .recovery_heart_attack_buffs heartattackACCDebuff heartattackDMGLowDebuff heartattackDMGHighDebuff heartattackSPDDebuff heartattackSRDebuff
 controlled: .target_rank 3

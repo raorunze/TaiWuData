@@ -24,17 +24,17 @@ effect: .name "Undercut Slow 4" .target "target" .chance 100% .curio_result_type
 effect: .name "Undercut Slow 5" .target "target" .chance 100% .curio_result_type "negative" .chance 140% .combat_stat_buff 1 .speed_rating_add -4 .defense_rating_add -10% .on_hit true .on_miss false
 
 //Piercing Dagger Trinket Poison
-effect: .name "PDagger Blight 1" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 1 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true .has_description false
-effect: .name "PDagger Blight 2" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 2 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true .has_description false
-effect: .name "PDagger Blight 3" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 2 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true .has_description false
-effect: .name "PDagger Blight 4" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 3 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true .has_description false
-effect: .name "PDagger Blight 5" .target "target" .curio_result_type "negative" .chance 0%  .dotPoison 4 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true .has_description false
+effect: .name "OmenPDBlight 1" .target "target" .curio_result_type "negative" .chance 100%  .dotPoison 1 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true
+effect: .name "OmenPDBlight 2" .target "target" .curio_result_type "negative" .chance 120%  .dotPoison 2 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true
+effect: .name "OmenPDBlight 3" .target "target" .curio_result_type "negative" .chance 140%  .dotPoison 2 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true
+effect: .name "OmenPDBlight 4" .target "target" .curio_result_type "negative" .chance 160%  .dotPoison 3 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true
+effect: .name "OmenPDBlight 5" .target "target" .curio_result_type "negative" .chance 180%  .dotPoison 4 .duration 3 .on_hit true .on_miss false	.can_apply_on_death true
 
-effect: .name "PDagger Bleed 1" .target "target" .curio_result_type "negative" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PDagger Bleed 2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PDagger Bleed 3" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PDagger Bleed 4" .target "target" .curio_result_type "negative" .chance 160% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
-effect: .name "PDagger Bleed 5" .target "target" .curio_result_type "negative" .chance 180% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "OmenPDBleed 1" .target "target" .curio_result_type "negative" .chance 100% .dotBleed 1 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "OmenPDBleed 2" .target "target" .curio_result_type "negative" .chance 120% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "OmenPDBleed 3" .target "target" .curio_result_type "negative" .chance 140% .dotBleed 2 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "OmenPDBleed 4" .target "target" .curio_result_type "negative" .chance 160% .dotBleed 3 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
+effect: .name "OmenPDBleed 5" .target "target" .curio_result_type "negative" .chance 180% .dotBleed 4 .duration 3 .on_hit true .on_miss false .can_apply_on_death true
 
 //Stress Testing
 effect: .name "StressMe 5" .target "performer" .curio_result_type "negative" .chance 100% .stress 100	.on_hit true .on_miss false	.queue true
