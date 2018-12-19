@@ -3,7 +3,7 @@
     [
         [ ],
         [
-            { "type": "supply", "id": "firewood", "amount": 1 },
+            { "type": "supply", "id": "firewood", "amount": 2 },
             { "type": "provision", "id": "", "amount": 12 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
@@ -23,7 +23,7 @@
             { "type": "supply", "id": "silver_coin", "amount": 0 }
         ],
         [
-            { "type": "supply", "id": "firewood", "amount": 1 },
+            { "type": "supply", "id": "firewood", "amount": 2 },
             { "type": "provision", "id": "", "amount": 12 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
@@ -83,7 +83,7 @@
             { "type": "supply", "id": "silver_coin", "amount": 0 }
         ],
         [
-            { "type": "supply", "id": "firewood", "amount": 0 },
+            { "type": "supply", "id": "firewood", "amount": 2 },
             { "type": "provision", "id": "", "amount": 0 },
             { "type": "supply", "id": "shovel", "amount": 0 },
             { "type": "supply", "id": "antivenom", "amount": 0 },
