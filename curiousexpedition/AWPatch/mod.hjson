@@ -1,0 +1,314 @@
+{
+  modInfo:
+    {
+      id: AWPatch-JZMod
+      name: AnimalWhisperer
+      authors: Just Z
+      version: "0.5"
+      preview: mod_preview
+      enabled: true
+      defaultLang: zh-CN
+      mail: 36784999@qq.com
+      steamID: 76561198844138185
+      description: "Animal Whisperer patch! You can choose to switch it. (on/off)"
+	}
+  imageData: [
+	{
+	  id: mod_preview
+	  file: AWPatch-JZMod/mod_preview.png
+	}
+	{
+	  id: AW-Brick
+	  file: AWPatch-JZMod/img/it-AW-Brick.png
+	}
+	{
+	  id: Ag-Crowbar
+	  file: AWPatch-JZMod/img/it-Silver-Crowbar.png
+	}
+	{
+	  id: BK-pSilver
+	  file: AWPatch-JZMod/img/it-PSilver-bk.png
+	}
+	{
+	  id: map-InterestingSlate
+	  file: AWPatch-JZMod/img/it-interesting-Slate.png
+	}
+             ]
+  modEntries: [
+	{
+      id: it-JZMod-AWBrick
+      name: txt-it-JZMod-AWBrick
+      description: txt-it-JZMod-AWBrick-description
+      debugCategory: JZMod
+      sprite: AW-Brick
+      maxStack: 1
+	  bonus: {mapScore: 0.7}
+	  isWeapon: true
+	  dice: dc-JZMod-BrickA dc-support-2 dc-defend-2 dc-shaman-2
+      value: {base: 100, village: 80, shamanHut: 160}
+      useEvents: evt-useItem-AWBrick
+	}
+	{
+      id: evt-useItem-AWBrick
+      text: txt-evt-useItem-AWBrick
+      partyEvents: {ref: evt-setImage-nightCamp}
+      playMusic: thm_nature_night_campfire
+      debugCategory: JZMod
+      charEvents: [
+		{
+          count: any
+          optional: true
+          reqSanity: 30..
+          reqCharFlags: +special
+          actions: [
+			{
+			  alwaysShown: true
+		      reqStatus: -animalWhisperer
+		      setStatus: +animalWhisperer +JZMod-viewingLoss
+			  actionText: txt-AWBrick-add
+		      text: txt-evt-AWBrick-add
+			  health: -2
+			}
+				   ]
+		}
+		{
+		  count: any
+		  optional: true
+		  reqSanity: 30..
+		  reqCharFlags: +special
+		  actions: [
+			{
+			  alwaysShown: true
+		      reqStatus: +animalWhisperer
+		      setStatus: -animalWhisperer +JZMod-viewingLoss
+			  actionText: txt-AWBrick-rem
+		      text: txt-evt-AWBrick-rem
+			  health: -2
+			}
+				   ]
+		}
+				  ]
+	  actions: evt-leave
+	}
+	{
+	  id: dc-JZMod-BrickA
+	  sprite: hud_dice_bg_ammo_1.png
+	  faces: sword_11 sword_11 sword_11 sword_11 sword_11 sword_11
+	}
+	{
+	  id: df-sword_11
+	  sprite: hud_dice_symbol_sword_2.png
+	  bgSprite: hud_dice_bg_attack_1.png
+	}
+	{
+	  id: dp-JZMod-BrickA
+	  name: txt-JZMod-BrickA
+	  faces: sword_11
+	  damage: 2
+	  sound: combat_attack_1
+	}
+	{
+	  id: dp-JZMod-BrickA-1
+	  name: txt-JZMod-BrickA-1
+	  faces: sword_11 stability mind
+	  damage: 2
+	  multiAttack: true
+	  sound: combat_attack_1
+	  targetBuff: buf-bleeding-strong
+	}
+	{
+	  id: dp-JZMod-BrickA-2
+	  name: txt-JZMod-BrickA-2
+	  faces: sword_11 stability awarenes
+	  damage: 3
+	  sound: combat_attack_1
+	  targetBuff: buf-stun-2
+	}
+	{
+	  id: dp-JZMod-BrickA-3
+	  name: txt-JZMod-BrickA-3
+	  faces: sword_11 shield agility
+	  damage: 4
+	  shield: 4
+	  multiAttack: true
+	  sound: combat_shieldActivate
+	}
+	{
+	  id: dp-JZMod-BrickA-4
+	  name: txt-JZMod-BrickA-4
+	  faces: sword_11 magic
+	  multiHeal: 4
+	  damage: 2
+	  sound: sfx_combat_heal_1
+	}
+	{
+	  id: dp-JZMod-BrickA-5
+	  name: txt-JZMod-BrickA-5
+	  faces: sword_11 shield agility stability awarenes mind
+	  damage: 20
+	  shield: 10
+	  multiHeal: 10
+	  multiAttack: true
+	  sound: combat_attack_1
+	  targetBuff: buf-bleeding-strong
+	}
+	{
+	  id: st-JZMod-viewingLoss
+	  title: txt-st-JZmod-viewingLoss
+	  sprite: res_status_viewingLoss.png
+	  flags: +ailment
+	  important: true
+	  autoRemove: true
+	  bonus: {viewDist: -0.3}
+	  buffDays: 20..30
+	  buffEndEvents: {chat: cl-feelingBetter}
+	  debugCategory: JZMod
+	}
+	{
+	  targetId: +evt-harbor-quest-offer::actions
+	  optional: true
+	  ref: evt-harbor-JZMod-AWBrickM
+	}	
+	{
+	  id: evt-harbor-JZMod-AWBrickM
+	  reqPartyFlags: -JZAWPS
+	  reqWorld: 0..
+	  actionText: txt-evt-harbor-JZMod-AWBrickM-action
+	  text: txt-evt-harbor-JZMod-AWBrickM
+	  charEvents: {
+		setPartyFlags: +JZAWPS
+		select:[				
+		  {
+			loot: {
+			  items: {it-JZMod-SlateMap: 1 , it-JZmod-AgCrowbar: 3}
+			  closeEvents: evt-harbor-quest-offer
+				  }
+		  }
+			   ]
+				  }
+    }
+	{
+	  id: loc-JZMod-AWBrickL
+	  mapScore: 0
+	  showHint: false
+	  flags: +burriedAWBrick
+	  hideParty: false
+	  setTile: [
+		{ref: tl-dry-jungle-thick, reqBiomeFlags: +dry}
+		{ref: tl-desert, reqBiomeFlags: +desert}
+		{ref: tl-deepSnow, reqBiomeFlags: +arctic}
+		{ref: tl-jungle-thick}
+			   ]
+	}
+	{
+	  id: it-JZMod-SlateMap
+	  name: txt-it-JZMod-SlateMap
+	  description: txt-it-JZMod-SlatekMap-description
+	  debugCategory: JZMod
+	  sprite: map-InterestingSlate
+	  value: 20
+	  maxStack: 1
+	  autoRemove: true
+	  noWeight: true
+	  losable: false
+	  miniMap: {
+		width: 150
+		height: 150
+		coverage: 1
+		   initEvents: {
+			 addLocation: {ref: loc-JZMod-AWBrickL, range: world}
+					   }
+			   }
+	}
+	{
+	  id: loc-JZMod-shownTreasure
+	  mapScore: 0
+	  showHint: false
+	  flags: +burriedAWBrick
+	  hideParty: false
+	  sprite: res_fxt_treasureLocation.png
+	}
+	{
+	  id: it-JZmod-AgCrowbar
+	  name: txt-it-JZmod-AgCrowbar
+	  description: txt-it-JZmod-AgCrowbar-description
+	  sprite: Ag-Crowbar
+	  debugCategory: JZMod
+	  value: {base: 50, trader: 80, village: 30, shaman: 30}
+	  fame: 50
+	  funds: 120
+	  maxStack: 3
+	  dowsing: +burriedAWBrick
+	  noWeight: true
+	  dayEvents: {
+	  replaceLocations: {range: ..2, oldFlags: +burriedAWBrick, new: loc-JZMod-shownTreasure}
+				 }
+	  useEvents: {
+		items: {it-JZmod-AgCrowbar: -1 , it-JZmod-pSilver: 1}
+		select: evt-JZmod-AWBrickDig
+				 }
+	}
+	{
+	  id: it-JZmod-pSilver
+	  name: txt-it-JZmod-pSilver
+	  description: txt-it-JZmod-pSilver-description
+	  sprite: BK-pSilver
+	  debugCategory: JZMod
+	  value: {base: 30, trader: 50, village: 20, shaman: 20}
+	  maxStack: 3
+	  useEvents: {
+		funds: 50
+		removeItem: true
+		playSound:{}
+				 }
+	}
+	{
+      id: evt-JZmod-AWBrickDig
+      partyEvents: {
+		optional: true
+		reqLocation: {flags: +hiddenTreasure}
+				   }
+      showImage: {src: evt_fxt_empty.png, type: day}
+      select: [
+		{
+          reqLocation: {flags: +burriedAWBrick}
+          text: txt-JZmod-AWBrickDig
+          chat: cl-generic
+          replaceLocations: {}
+          loot: {
+            closeEvents: {}
+            items: {it-JZMod-AWBrick: 1}
+				}
+		}
+		{
+		  prio: 1
+		  chat: cl-generic
+		  text: txt-JZmod-AWBrickDig-none
+		}
+			  ]
+	}
+	{
+	  targetId: *sp-neel
+	  levels: [
+		{statuses: st-animalWhisperer st-JZMod-animalhealer, dice: dc-defend-2 dc-defend-1}
+			  ]
+	}
+	{
+	  id: st-JZMod-animalhealer
+	  title: txt-pk-JZMod-animalhealer
+	  description: txt-pk-JZMod-animalhealer-description
+	  debugCategory: JZMod
+	  sprite: res_status_healer.png
+	  tripEvents: {
+		charEvents: {count: any, reqCharFlags: -humanoid, setStatus: +JZMod-ATreatment}
+				  }
+	}
+	{
+	  id: st-JZMod-ATreatment
+	  title: txt-pk-JZMod-ATreatment
+	  debugCategory: JZMod
+	  sprite: res_status_regeneration.png
+	  bonus: {healthRegen: 0.9}
+	}
+			  ]
+}
