@@ -44,6 +44,7 @@
       maxStack: 1
 	  bonus: {mapScore: 0.7}
 	  isWeapon: true
+	  noWeight: true
 	  dice: dc-JZMod-BrickA dc-support-2 dc-defend-2 dc-shaman-2 dc-support-2 dc-defend-2 dc-shaman-2 dc-attack-2 dc-attack-2
       value: {base: 100, village: 80, shamanHut: 160}
       useEvents: evt-useItem-AWBrick
@@ -58,7 +59,6 @@
 		{
           count: any
           optional: true
-          reqSanity: 30..
           reqCharFlags: +special
           actions: [
 			{
@@ -74,13 +74,12 @@
 		{
 		  count: any
 		  optional: true
-		  reqSanity: 30..
 		  reqCharFlags: +special
 		  actions: [
 			{
 			  alwaysShown: true
 		      reqStatus: +animalWhisperer
-		      setStatus: -animalWhisperer -impetus -biomeInfo -polymath -combatSanity-4 -cookSanity-4 -bartering-4 +JZMod-viewingLoss
+		      setStatus: -animalWhisperer
 			  actionText: txt-AWBrick-rem
 		      text: txt-evt-AWBrick-rem
 			  sanity: 50
@@ -121,6 +120,7 @@
 	  name: txt-JZMod-BrickA-2
 	  faces: sword_11 stability awarenes
 	  damage: 3
+	  multiAttack: true
 	  sound: combat_attack_1
 	  targetBuff: buf-stun-2
 	}
@@ -139,6 +139,7 @@
 	  faces: sword_11 magic
 	  multiHeal: 4
 	  damage: 2
+	  multiAttack: true
 	  sound: sfx_combat_heal_1
 	}
 	{
@@ -180,7 +181,7 @@
 		select:[				
 		  {
 			loot: {
-			  items: {it-JZMod-SlateMap: 1 , it-JZmod-AgCrowbar: 3}
+			  items: {it-JZMod-SlateMap: 1 , it-JZmod-AgCrowbar: 5}
 			  closeEvents: evt-harbor-quest-offer
 				  }
 		  }
@@ -234,10 +235,10 @@
 	  description: txt-it-JZmod-AgCrowbar-description
 	  sprite: Ag-Crowbar
 	  debugCategory: JZMod
-	  value: {base: 50, trader: 80, village: 30, shaman: 30}
+	  value: {base: 80, trader: 50, village: 100, shaman: 200}
 	  fame: 50
 	  funds: 120
-	  maxStack: 3
+	  maxStack: 5
 	  dowsing: +burriedAWBrick
 	  noWeight: true
 	  dayEvents: {
@@ -257,7 +258,7 @@
 	  value: {base: 30, trader: 50, village: 20, shaman: 20}
 	  maxStack: 3
 	  useEvents: {
-		funds: 2000
+		funds: 1000
 		removeItem: true
 		playSound:{}
 				 }
@@ -277,7 +278,7 @@
           replaceLocations: {}
           loot: {
             closeEvents: {}
-            items: {it-JZMod-AWBrick: 1}
+            items: {it-JZMod-AWBrick: 1 , it-mushroom-view: 2 , it-mushroom-status: 2}
 				}
 		}
 		{
