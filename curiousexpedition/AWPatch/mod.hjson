@@ -45,7 +45,7 @@
 	  bonus: {mapScore: 0.7}
 	  isWeapon: true
 	  noWeight: true
-	  dice: dc-JZMod-BrickA dc-support-2 dc-defend-2 dc-shaman-2 dc-support-2 dc-defend-2 dc-shaman-2 dc-attack-2 dc-attack-2
+	  dice: dc-JZMod-BrickA dc-support-2 dc-defend-2 dc-shaman-2 dc-attack-2
       value: {base: 100, village: 80, shamanHut: 160}
       useEvents: evt-useItem-AWBrick
 	}
@@ -181,7 +181,7 @@
 		select:[				
 		  {
 			loot: {
-			  items: {it-JZMod-SlateMap: 1 , it-JZmod-AgCrowbar: 5}
+			  items: {it-JZMod-SlateMap: 1 , it-JZmod-AgCrowbar: 4}
 			  closeEvents: evt-harbor-quest-offer
 				  }
 		  }
@@ -256,9 +256,10 @@
 	  sprite: BK-pSilver
 	  debugCategory: JZMod
 	  value: {base: 30, trader: 50, village: 20, shaman: 20}
-	  maxStack: 3
+	  maxStack: 4
 	  useEvents: {
-		funds: 1000
+		funds: 1500
+		sanity: 50
 		removeItem: true
 		playSound:{}
 				 }
@@ -278,7 +279,7 @@
           replaceLocations: {}
           loot: {
             closeEvents: {}
-            items: {it-JZMod-AWBrick: 1 , it-mushroom-view: 2 , it-mushroom-status: 2}
+            items: {it-JZMod-AWBrick: 1 , it-mushroom-view: 2 , it-mushroom-status: 1 , it-hornFlute: 3 , it-metalCube: 1}
 				}
 		}
 		{
