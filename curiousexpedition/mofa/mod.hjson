@@ -42,7 +42,7 @@
 		        name: txt-it-SJ-name
         		description: txt-it-SJ
 	        	sprite: SJ.png
-                        maxStack: 1
+            maxStack: 1
         		dice: dc-SJ
         		value: 40
         		fame: 70
@@ -52,10 +52,10 @@
 	        {
 	        	id: dc-SJ
 	        	sprite: hud_dice_bg_weapon_1.png
-        		faces: sword sword magic magic blank blank
+        		faces: sword sword magic magic magic AB
         	}
 	        {
-   	                targetId: +il-treasure-highValue::items
+   	                targetId: +//0-treasure-highValue::items
 	        	slots: 1
 	        	it-SJ: 1
          	}
@@ -85,9 +85,8 @@
 	        	id: dp-mofa-die
 	        	name: txt-dp-mofa-die-name
 		        faces: AB	
-	        	damage: 6
-                        selfDamage: 10
-                        targetBuff: buf-poison
+	        	damage: 9
+	        	multiAttack: true
 		        sound: sfx_combat_teslagun_1
 	        }
                 {
@@ -268,6 +267,7 @@
                         name: txt-dp-atk-23-name
                         faces: magic whip_1
                         damage: 4
+                        multiAttack: true
                         targetBuff: buf-stun
                         sound: sfx_whipCrack
                 }
@@ -275,8 +275,7 @@
                         id: dp-atk-24
                         name: txt-dp-atk-24-name
                         faces: magic whip_2 stability
-                        damage: 1
-                        selfBuff: buf-bleeding-strong
+                        damage: 2 
                         targetBuff: buf-stun-2
                         multiAttack: true
                         sound: sfx_combat_tail_1
@@ -286,7 +285,7 @@
                         name: txt-dp-atk-25-name
                         faces: magic whip_2 sword
                         damage: 8
-                        selfBuff: buf-poison
+                        multiAttack: true
                         targetBuff: buf-stun-2
                         sound: sfx_whipCrack
                 }
