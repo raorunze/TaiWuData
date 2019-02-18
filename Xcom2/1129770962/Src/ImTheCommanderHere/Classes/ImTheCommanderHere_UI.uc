@@ -34,7 +34,7 @@ simulated function InitScreen(XcomPlayerController InitController, UIMovie InitM
 	iVisibleWidth = 700 - 2 * EDGE_PADDING;
 	iVisibleHeight = 200 + 2 * EDGE_PADDING; //175
 	
-	if(iRespecAPCost < 1) iRespecAPCost = 1;
+	if(iRespecAPCost < 1) iRespecAPCost = 0;
 	
 	//Sets the abilities to choose from
 	SetAbilities();
