@@ -1,0 +1,293 @@
+{
+    modInfo:
+        {
+            id: mofa
+            name: "mofa"
+            authors: su yuan yi
+            version: "0.6"
+            enabled: true
+		    defaultLang: en
+		    preview: mofapng
+			description: "The new shaman dice combination."
+        }
+    imageData:[
+		{
+			id:mofapng
+			file: mofa/mofapng.png
+		}
+		{
+			id: mofa-dice-A
+			type: slotted
+			file: mofa/D1.png
+		}
+		{
+			id: L1
+			file: mofa/L1.png
+		}
+		{
+			id: SJ.png
+			file: mofa/SJ.png
+		}
+    ]
+    configSettings: {
+        sounds: {
+                  dianMusic: /mofa/dian
+                  xdianMusic: /mofa/xdian
+                  duMusic: /mofa/du
+                    }
+                  }
+    modEntries:[
+        	{
+	        	id: it-SJ
+		        name: txt-it-SJ-name
+        		description: txt-it-SJ
+	        	sprite: SJ.png
+            maxStack: 1
+        		dice: dc-SJ
+        		value: 40
+        		fame: 70
+        		funds: 60
+                        isWeapon: true
+        	}
+	        {
+	        	id: dc-SJ
+	        	sprite: hud_dice_bg_weapon_1.png
+        		faces: sword sword magic magic magic AB
+        	}
+	        {
+   	                targetId: +//0-treasure-highValue::items
+	        	slots: 1
+	        	it-SJ: 1
+         	}
+                {
+		        id: st-mofa-dice-A
+		        title: txt-st-mofa-dice-A-title
+                        description: txt-st-mofa-dice-A
+                        debugCategory: mofa
+                        isPerk: true
+                        sprite: mofa-dice-A
+                        bonus: { 
+			               dice : dc-mofa-die
+			               capacity: -1
+		                }
+	        }
+	        {
+	        	id: dc-mofa-die
+	        	sprite: hud_dice_bg_mystic_2.png
+	        	faces: magic magic magic magic magic AB
+	        }
+	        {
+		        id: df-AB	
+		        sprite:	L1
+		        bgSprite: hud_dice_bg_emy_1.png
+	        }
+	        {
+	        	id: dp-mofa-die
+	        	name: txt-dp-mofa-die-name
+		        faces: AB	
+	        	damage: 9
+	        	multiAttack: true
+		        sound: sfx_combat_teslagun_1
+	        }
+                {
+                        id: dp-atk-1
+                        name: txt-dp-atk-1-name
+                        faces: magic sword agility
+                        damage: 3
+                        multiAttack: true
+                        targetBuff: buf-poison
+                        sound: duMusic
+                }
+                {
+                        id: dp-atk-2
+                        name: txt-dp-atk-2-name
+                        faces: magic agility
+                        damage: 3
+                        sound: sfx_combat_teslagun_1
+                }
+                {
+                        id: dp-atk-3
+                        name: txt-dp-atk-3-name
+                        faces: magic awarenes
+                        damage: 4
+                        sound: xdianMusic
+                }
+                {
+                        id: dp-atk-4
+                        name: txt-dp-atk-4-name
+                        faces: magic awarenes awarenes
+                        damage: 9
+                        sound: dianMusic
+                }
+                {
+                        id: dp-atk-5
+                        name: txt-dp-atk-5-name
+                        faces: magic shield
+                        shield: 3
+                        sound: sfx_combat_heal_1
+                }
+                {
+                        id: dp-atk-6
+                        name: txt-dp-atk-6-name
+                        faces: magic shield stability
+                        multiHeal: 1
+                        shield: 7
+                        sound: sfx_combat_heal_1
+                }
+                {
+                        id: dp-atk-7
+                        name: txt-dp-atk-x-name
+                        faces: magic shotgun
+                        damage: {base: 3, bonus: gunDamage}
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-8
+                        name: txt-dp-atk-x-name
+                        faces: magic rifle
+                        damage: {base: 3, bonus: gunDamage}
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-9
+                        name: txt-dp-atk-x-name
+                        faces: magic pistol
+                        damage: {base: 3, bonus: gunDamage}
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-10
+                        name: txt-dp-atk-10-name
+                        faces: magic shotgun sword
+                        damage: {base: 4, bonus: gunDamage}
+                        multiAttack: true
+                        targetBuff: buf-poison
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-11
+                        name: txt-dp-atk-11-name
+                        faces: magic shotgun agility
+                        damage: {base: 7, bonus: gunDamage}
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-12
+                        name: txt-dp-atk-12-name
+                        faces: magic shotgun sword agility
+                        damage: {base: 6, bonus: gunDamage}
+                        multiAttack: true
+                        targetBuff: buf-poison
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-13
+                        name: txt-dp-atk-13-name
+                        faces: magic rifle awarenes
+                        damage: {base: 4, bonus: gunDamage}
+                        targetBuff: buf-stun
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-14
+                        name: txt-dp-atk-14-name
+                        faces: magic rifle awarenes mind
+                        damage: {base: 8, bonus: gunDamage}
+                        multiHeal: 3
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-15
+                        name: txt-dp-atk-15-name
+                        faces: magic rifle awarenes awarenes
+                        damage: {base: 10, bonus: gunDamage}
+                        targetBuff: buf-stun-2
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-16
+                        name: txt-dp-atk-16-name
+                        faces: magic pistol stability
+                        damage: {base: 3, bonus: gunDamage}
+                        targetBuff: buf-bleeding-normal
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-17
+                        name: txt-dp-atk-17-name
+                        faces: magic pistol shield
+                        damage: {base: 3, bonus: gunDamage}
+                        shield: 3
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-18
+                        name: txt-dp-atk-18-name
+                        faces: magic pistol stability stability
+                        damage: {base: 6, bonus: gunDamage}
+                        targetBuff: buf-bleeding-strong
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-19
+                        name: txt-dp-atk-19-name
+                        faces: magic pistol shield shield
+                        damage: {base: 5, bonus: gunDamage}
+                        shield: 6
+                        sound: sfx_combat_shot_1
+                }
+                {
+                        id: dp-atk-20
+                        name: txt-dp-atk-20-name
+                        faces: magic dynamite
+                        damage: 8
+                        multiAttack: true
+                        sound: sfx_explosion_1
+                }
+                {
+                        id: dp-atk-21
+                        name: txt-dp-atk-21-name
+                        faces: magic AB mind stability agility
+                        damage: 99
+                        groupDamage: 99
+                        multiHeal: 1
+                        multiAttack: true
+                        sound: sfx_combat_teslagun_1
+                }
+                {
+                        id: dp-atk-22
+                        name: txt-dp-atk-22-name
+                        faces: magic AB
+                        damage: 8
+                        multiAttack: true
+                        sound: sfx_explosion_1
+                }
+                {
+                        id: dp-atk-23
+                        name: txt-dp-atk-23-name
+                        faces: magic whip_1
+                        damage: 4
+                        multiAttack: true
+                        targetBuff: buf-stun
+                        sound: sfx_whipCrack
+                }
+                {
+                        id: dp-atk-24
+                        name: txt-dp-atk-24-name
+                        faces: magic whip_2 stability
+                        damage: 2 
+                        targetBuff: buf-stun-2
+                        multiAttack: true
+                        sound: sfx_combat_tail_1
+                }
+                {
+                        id: dp-atk-25
+                        name: txt-dp-atk-25-name
+                        faces: magic whip_2 sword
+                        damage: 8
+                        multiAttack: true
+                        targetBuff: buf-stun-2
+                        sound: sfx_whipCrack
+                }
+	]
+}

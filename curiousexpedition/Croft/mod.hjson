@@ -1,0 +1,79 @@
+{
+  modInfo:
+  {
+    id: Croft
+    name: Lara Croft: Tomb Raider
+    authors: James009
+    version: "1.0"
+    # set enabled to true to activate this mod
+    enabled: true
+    defaultLang: en
+    preview: CroftmodPreview
+    description: Join reknown beautiful English adventurer and archaeologist Lara Croft she races against time and villains to recover powerful ancient artifacts.
+  }
+
+  imageData:[
+    {
+      id: CroftmodPreview
+      file: Croft/CroftmodPreview.png
+    }
+  imageData:[
+    {
+      id: Croftface.png
+      file: Croft/Croftface.png
+    }
+  imageData:[
+    {
+      id: Croftface_end.png
+      type: slotted
+      file: Croft/Croftface_end.png
+    }
+  imageData:[
+    {
+      id: Croftface_small.png
+      file: Croft/Croftface_small.png
+    }
+  imageData:[
+    {
+      id: Croftsprite.png
+      file: Croft/Croftsprite.png
+    }
+  imageData:[
+    {
+      id: Croftspritemini.png
+      file: Croft/Croftspritemini.png
+    }
+  imageData:[
+    {
+      id: Croftsprite_mounted.png
+      type: slotted
+      file: Croft/Croftsprite_mounted.png
+    }
+  ],
+  modEntries:[
+{
+      id: sp-Croft
+      extends: sp-base
+      debugCategory: Modding
+      alwaysUnlocked: true
+      name: "Lara Croft"
+      title: "Reknown English Archaeologist"
+      description: "Beautiful English adventurer and archaeologist Lara Croft sets out on adventure."
+      characters:
+      health: 8
+	  capacity: 10
+      items: {it-pistol-improved:1, it-metalCube: 1, it-whisky: 6, it-egg-tortoise:1, it-rope: 8, it-machete: 20, it-torch: 3, it-climbingGear: 3}
+      levels: [
+        {statuses: [st-viewDistance-1, st-animalWhisperer, st-polyglot], dice: dc-attack-2 dc-support-1 dc-defend-2}
+		{statuses: [st-viewDistance-2, st-animalWhisperer, st-loneSurvivor, st-polyglot], dice: dc-attack-2 dc-support-2 dc-defend-2}
+		{statuses: [st-viewDistance-3, st-animalWhisperer, st-loneSurvivor, st-polyglot], dice: dc-attack-2 dc-support-2 dc-defend-1 dc-defend-2}
+		{statuses: [st-viewDistance-4, st-animalWhisperer, st-loneSurvivor, st-polyglot], dice: dc-attack-2 dc-support-2 dc-defend-2 dc-defend-2}
+      ]
+	  flags: +special +humanoid +british +english +scout
+      variations: [
+        {gender: female, sprite: Croftsprite.png, portrait: Croftface.png}
+      ]
+      miniSprite: Croftspritemini.png
+    }
+  ]
+}

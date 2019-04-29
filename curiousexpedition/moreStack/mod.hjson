@@ -1,0 +1,258 @@
+{
+  modInfo:
+  {
+    id: moreStack
+    name: 100Stack
+    authors: 不姓夏的夏洛克
+    version: "1.1"
+    enabled: true
+    defaultLang: zh-CN
+	preview:bg.png
+	weblink: https://weibo.com/201288216
+    mail: 179408436@qq.com
+    description: "Now you can stack to 100. New better version !Please give good raiting and thumb up :)"
+},
+  imageData:[
+        {
+            id: bg.png
+            file: moreStack/bg.png
+      }
+    ],
+  modEntries:[
+ #铲子 
+{
+ targetId: *it-shovel
+ maxStack: 100
+
+} 
+ #雪地靴 
+{
+ targetId: *it-snowshoe
+ maxStack: 100
+
+}   
+#算盘 
+{
+ targetId: *it-abacus
+ maxStack: 100
+
+}
+#蜘蛛腿 
+{
+ targetId: *it-spiderLeg
+ maxStack: 100
+
+}
+#攀登装备
+{
+ targetId: *it-climbingGear
+ maxStack: 100
+
+}
+#信号弹
+{
+ targetId: *it-costonFlare
+ maxStack: 100
+
+}
+#水晶球
+{
+ targetId: *it-crystalBall
+ maxStack: 100
+
+}
+
+#炸药
+{
+ targetId: *it-dynamite
+ maxStack: 100
+
+}
+#象牙
+{
+ targetId: *it-elephantTusk
+ maxStack: 100
+
+}
+#珠宝
+{
+ targetId: *it-jewels
+ maxStack: 100
+
+}
+#弯刀
+{
+ targetId: *it-machete
+ maxStack: 100
+
+}
+#猛犸象牙
+{
+ targetId: *it-mammothTusk
+ maxStack: 100
+
+}
+#弹珠
+{
+ targetId: *it-marbles
+ maxStack: 100
+
+}
+#煮熟的肉
+{
+ targetId: *it-meat-animal-cooked-burnt
+ maxStack: 100
+
+}
+#动物肉
+{
+ targetId: *it-meat-animal-cooked-charcoal
+ maxStack: 100
+
+}
+#煮过头的肉
+{
+ targetId: *it-meat-animal-cooked-overcooked
+ maxStack: 100
+
+}
+#完美煮熟的肉
+{
+ targetId: *it-meat-animal-cooked-perfect
+ maxStack: 100
+
+}
+#生肉
+{
+ targetId: *it-meat-raw
+ maxStack: 100
+
+}
+#月亮石
+{
+targetId: *it-moonStone
+ maxStack: 100
+
+}
+#木乃伊
+{
+targetId: *it-mummy
+ maxStack: 100
+
+}
+#天然饰品
+{
+targetId: *it-nativeTrinket
+ maxStack: 100
+
+}
+#绳
+{
+targetId: *it-rope
+ maxStack: 100
+
+}
+#六分仪
+{
+targetId: *it-sextant
+ maxStack: 10
+}
+#望远镜
+{
+targetId: *it-telescope
+ maxStack: 10
+}
+#火炬
+{
+targetId: *it-torch
+ maxStack: 100
+
+}
+#三角龙的角
+{
+targetId: *it-triceratopsHorn
+ maxStack: 100
+ 
+}
+#巫毒娃娃
+{
+targetId: *it-voodooDoll
+ maxStack: 100
+
+}
+#水
+{
+targetId: *it-water
+ maxStack: 100
+
+}
+#气象气球
+{
+targetId: *it-weatherBalloon
+ maxStack: 100
+
+ }
+ 
+ #-------------------------可食用
+#巧克力	
+{
+targetId: *it-chocolate		
+ maxStack: 100
+
+}
+#芒果	
+{
+targetId: *it-mango		
+ maxStack: 100
+
+}
+#红色的浆果	
+{
+targetId: *it-redBerries		
+ maxStack: 100
+
+}
+#古柯叶	
+{
+targetId: *it-cocaLeaves		
+ maxStack: 100
+
+}
+#威士忌酒	
+{
+targetId: *it-whisky		
+ maxStack: 100
+
+}
+#罐头盒	
+{
+targetId: *it-tinCans		
+ maxStack: 100
+
+}
+#鲸鱼皮	
+{
+targetId: *it-muktuk		
+ maxStack: 100
+
+}
+#急救包	
+{
+targetId: *it-firstAid		
+ maxStack: 100
+
+}
+#兽牙	
+{
+targetId: *it-animalTooth		
+ maxStack: 100
+
+}
+#画布	
+{
+targetId: *it-canvas		
+ maxStack: 100
+
+}
+        ]
+}
