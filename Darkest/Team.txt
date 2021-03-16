@@ -1,10 +1,23 @@
-Melee precision_striker slugger lurker luminous hot_to_trot corvids_eye
-Ranged unerring eagle_eye lurker luminous hot_to_trot corvids_eye
+Melee precision_striker slugger lurker luminous hot_to_trot 
+Ranged unerring eagle_eye lurker luminous hot_to_trot 
+Assist Hippocratic
+
 
 team 
-shieldbreaker : pierce,expose,adders_kiss,serpents_sway|way_of_scales way_of_serpent way_of_adder 回血 melee
-lordblade     : fast_roll,backstab,estus_tea,mutilate|lurker wisdom companionship 减压 melee
-omenseeker    : entangle,piercing_dagger,twin_boomerang,expunge|
-grave_robber  : pick,lunge,shadow_fade,toxin_trickery|gallows_humor forage pilfer 回血 melee
+shieldbreaker : pierce,expose,adders_kiss,serpents_sway|way_of_scales way_of_serpent way_of_adder 减压 melee
+lordblade     : fast_roll,backstab,estus_tea,mutilate|lurker wisdom companionship 回血,melee
+omenseeker    : entangle,piercing_dagger,twin_boomerang,expunge| 终结输出/状态施加,Ranged,扎营回血
+grave_robber  : Flashing Daggers,Lunge,shadow_fade,toxin_trickery|gallows_humor forage pilfer 解状态,melee
 
-964183745去除
+bounty_hunter : collect_bounty,target_tag(添加增加受暴击率),flashbang,finish_him
+houndmaster   : hounds_rush,whistle,howl,blackjack (备选guard_dog)
+
+musketeer     ： aimed_shot,call_the_shot,sidearm,smokescreen
+
+
+
+标记队:Musketeer(增伤,对标记输出,后排),赏金(控制,对标记输出,减防受暴击标记,前排),狗(减压,对标记输出,二排),阿三(治疗与标记提供,三排)
+跳舞队:空洞(清dot,流血dot给予,终结,铁后排),盗墓(跳舞,控速),基亚兰(跳舞,dot增伤,控速),破盾者(跳舞,腐蚀dot给予,格挡,控速) 
+反击Hot队:Twilight(刷压,压力控制,前排),Paladin(美德扎营,饰品,美德后伤害治疗,前排),Dragonslayer(美德饰品,后排)
+            
+            

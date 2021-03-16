@@ -1,7 +1,0 @@
-effect: .name "vigorous_concoction2" .target "performer" .item 1 .chance 100% .buff_ids POTION_MAXHP15 POTION_PROT5 POTION_PERCENT_HEAL20 .on_hit true .on_miss true .queue true
-effect: .name "heroism_draught2" .target "performer" .item 1 .chance 100% .buff_ids POTION_SKL_BLIGHT15 POTION_SKL_BLEED15 POTION_SKL_STUN15 POTION_SKL_MOVE15 .on_hit true .on_miss true .queue true
-effect: .name "provoked_protection2" .target "performer" .item 1 .chance 100% .buff_ids POTION_DMGL15 POTION_DMGH15 POTION_CRIT3 .on_hit true .on_miss true .queue true
-effect: .name "eyesight_elixir2" .target "performer" .item 1 .chance 100% .buff_ids POTION_SPD2 POTION_DODGE8 .on_hit true .on_miss true .queue true
-effect: .name "corrupting_strength2" .target "performer" .item 1 .chance 100% .buff_ids POTION_ACC8 POTION_SPD2 .on_hit true .on_miss true .queue true
-effect: .name "eldritch_draught2" .target "performer" .item 1 .chance 100% .buff_ids POTION_RES_STUN20 POTION_RES_BLIGHT20 POTION_RES_BLEED20 POTION_RES_DISEASE20 POTION_RES_MOVE20 .on_hit true .on_miss true .queue true
-effect: .name "curio_virtue_hell" .target "performer_group" .curio_result_type "positive" .chance 100% .buff_ids CURIO_VIRTUE_HELL .on_hit true .on_miss true .queue true
